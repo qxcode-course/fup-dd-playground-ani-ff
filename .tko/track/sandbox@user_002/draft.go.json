@@ -1,0 +1,74 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-10_17-13-22",
+            "content": "@@ -54,13 +54,14 @@\n ln(%22\n-cuida\n+qxcode\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-14-47",
+            "content": "@@ -62,31 +62,6 @@\n a%22)%0A\n-    fmt.Println(%22papai%22)%0A\n %7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-20-03",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -36,25 +36,8 @@\n () %7B\n- // func - fun%C3%A7%C3%A3o\n %0A   \n@@ -87,73 +87,6 @@\n i%22)%0A\n-    fmt.Println(%22Hello World%22) // println (ln) %C3%A9 pq quebra a linha%0A\n %7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-03-10_17-31-45",
+            "content": "@@ -60,38 +60,53 @@\n     \n-var num1, num2 int // variavel\n+fmt.Println(%22cuida%22)%0A    fmt.Println(%22papai%22)\n %0A   \n@@ -128,28 +128,15 @@\n ello\n-0\n  World%22\n-, num1, num2\n ) //\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-10_17-40-12",
+            "content": "@@ -91,36 +91,8 @@\n vel%0A\n-    num1 = 20%0A    num2 = 30%0A\n     \n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-40-43",
+            "content": "@@ -75,15 +75,11 @@\n um2 \n-float64\n+int\n  // \n@@ -104,16 +104,8 @@\n = 20\n-.5678490\n %0A   \n@@ -118,15 +118,8 @@\n = 30\n-.657849\n %0A   \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-41-21",
+            "content": "@@ -138,74 +138,8 @@\n 849%0A\n-    fmt.Scan(&num1) // scan ler e quer saber onde colocar o valor%0A\n     \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-43-11",
+            "content": "@@ -160,58 +160,8 @@\n ) //\n- lendo e escrevendo em num1%0A    fmt.Scan(&num2) //\n  sca\n@@ -230,16 +230,28 @@\n 0 World%22\n+, num1, num2\n ) // pri\n@@ -284,34 +284,6 @@\n nha%0A\n-    fmt.Println(num1, num2)%0A\n %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-10_17-52-52",
+            "content": "@@ -91,16 +91,59 @@\n ariavel%0A\n+    num1 = 20.5678490%0A    num2 = 30.657849%0A\n     fmt.\n@@ -272,16 +272,17 @@\n n(%22Hello\n+0\n  World%22)\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-10_17-54-22",
+            "content": "@@ -113,15 +113,8 @@\n num1\n-, &num2\n ) //\n@@ -140,16 +140,36 @@\n  em num1\n+%0A    fmt.Scan(&num2)\n  // scan\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-10_17-55-42",
+            "content": "@@ -214,19 +214,21 @@\n tln(\n-num1 + num2\n+%22Hello World%22\n ) //\n@@ -261,10 +261,38 @@\n a linha%0A\n+    fmt.Println(num1, num2)%0A\n %7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-57-09",
+            "content": "@@ -225,11 +225,8 @@\n num2\n-, 1\n ) //\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-10_17-57-18",
+            "content": "@@ -222,16 +222,18 @@\n  + num2,\n+ 1\n ) // pri\n@@ -266,25 +266,6 @@\n nha%0A\n-    fmt.Println(1)%0A\n %7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-10_17-57-45",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() { // func - fun\u00e7\u00e3o\n    var num1, num2 float64 // variavel\n    fmt.Scan(&num1, &num2) // lendo e escrevendo em num1 // scan ler e quer saber onde colocar o valor\n    fmt.Println(num1 + num2,) // println (ln) \u00e9 pq quebra a linha\n    fmt.Println(1)\n}\n",
+            "lines": "10"
+        }
+    ]
+}
