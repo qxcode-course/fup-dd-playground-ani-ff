@@ -22,7 +22,102 @@
         },
         {
             "label": "2026-03-10_18-22-04",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var bombons, criancas int\n    fmt.Scan(&bombons, &criancas)\n    fmt.Println(bombons / criancas % criancas)\n}\n",
+            "content": "@@ -136,10 +136,9 @@\n cas \n-==\n+%25\n  cri\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-33-45",
+            "content": "@@ -136,9 +136,10 @@\n cas \n-%25\n+==\n  cri\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-33-55",
+            "content": "@@ -134,19 +134,20 @@\n ancas %25 \n-bombon\n+crianca\n s)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-35-17",
+            "content": "@@ -123,22 +123,23 @@\n mbons / \n-bombon\n+crianca\n s %25 bomb\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-35-28",
+            "content": "@@ -123,23 +123,22 @@\n mbons / \n-crianca\n+bombon\n s %25 bomb\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-35-38",
+            "content": "@@ -117,25 +117,25 @@\n tln(\n-criancas / bombon\n+bombons / crianca\n s %25 \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-35-55",
+            "content": "@@ -113,22 +113,23 @@\n Println(\n-bombon\n+crianca\n s / bomb\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-36-01",
+            "content": "@@ -123,23 +123,22 @@\n mbons / \n-crianca\n+bombon\n s %25 bomb\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-36-10",
+            "content": "@@ -134,20 +134,19 @@\n ancas %25 \n-crianca\n+bombon\n s)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-36-16",
+            "content": "@@ -134,19 +134,20 @@\n ancas %25 \n-bombon\n+crianca\n s)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_16-38-13",
+            "content": "@@ -145,19 +145,8 @@\n bons\n- %25 criancas\n )%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_17-50-30",
+            "content": "@@ -144,19 +144,20 @@\n mbons %25 \n-bombon\n+crianca\n s)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_17-50-38",
+            "content": "@@ -134,18 +134,23 @@\n ancas %25 \n-cr\n+bombons\n  %25 bombo\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_17-50-44",
+            "content": "@@ -136,22 +136,16 @@\n cas %25 cr\n-iancas\n  %25 bombo\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_17-50-52",
+            "content": "@@ -145,20 +145,19 @@\n ancas %25 \n-crianca\n+bombon\n s)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_17-51-04",
+            "content": "@@ -133,16 +133,27 @@\n iancas %25\n+ criancas %25\n  crianca\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_17-51-11",
+            "content": "@@ -134,19 +134,20 @@\n ancas %25 \n-bombon\n+crianca\n s)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_17-57-09",
+            "content": "@@ -134,20 +134,19 @@\n ancas %25 \n-crianca\n+bombon\n s)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_17-58-30",
+            "content": "@@ -124,17 +124,19 @@\n bons\n-/\n+ / \n criancas\n , bo\n@@ -135,18 +135,11 @@\n ncas\n-, bombons%25\n+ %25 \n cria\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-16_18-02-15",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var bombons, criancas int\n    fmt.Scan(&bombons, &criancas)\n    fmt.Println(bombons/criancas, bombons%criancas)\n}\n",
             "lines": "7"
         }
     ]
