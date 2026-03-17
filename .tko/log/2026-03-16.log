@@ -51,3 +51,6 @@
 2026-03-16 18:17:33, EXEC, v:1, k:fub@media, mode:FULL, rate:100
 2026-03-16 18:17:35, MOVE, v:1, k:fub@media, mode:BACK
 2026-03-16 18:18:14, SELF, v:1, k:fub@media, self:1, rate:100, study:5, code:1, debug:1
+2026-03-16 18:19:59, MOVE, v:1, k:fub@sobrou, mode:DOWN
+2026-03-16 18:20:08, MOVE, v:1, k:fub@sobrou, mode:PICK
+2026-03-16 18:20:09, EXEC, v:1, k:fub@sobrou, mode:FULL, rate:0, size:5
