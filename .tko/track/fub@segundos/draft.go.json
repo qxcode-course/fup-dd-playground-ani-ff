@@ -1,0 +1,94 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-30_13-14-47",
+            "content": "@@ -41,26 +41,35 @@\n     \n-var tempo int%0A    %0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-30_13-22-05",
+            "content": "@@ -55,54 +55,12 @@\n int%0A\n-%0A\n     \n-hora := tempo / 3600%0A%0A    println(tempo)%0A\n %0A%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-30_13-22-56",
+            "content": "@@ -76,20 +76,16 @@\n o / 3600\n- int\n %0A%0A    pr\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-30_13-23-09",
+            "content": "@@ -55,58 +55,8 @@\n int%0A\n-    var hora int%0A    %0A    fmt.Scan(&tempo, &hora)%0A\n %0A   \n@@ -61,16 +61,17 @@\n    hora \n+:\n = tempo \n@@ -81,23 +81,24 @@\n 600 \n+int\n %0A%0A    \n-fmt.P\n+p\n rint\n+ln\n (tem\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-30_13-27-01",
+            "content": "@@ -142,18 +142,19 @@\n t.Print(\n-hora\n+tempo\n )%0A%0A%0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-30_13-27-19",
+            "content": "@@ -72,46 +72,8 @@\n int%0A\n-    var resto int%0A    var minutos int%0A\n     \n@@ -103,26 +103,8 @@\n hora\n-, &resto, &minutos\n )%0A%0A \n@@ -129,58 +129,9 @@\n 3600\n-%0A    resto = tempo %25 3600%0A    minutos = resto / 60\n+ \n %0A%0A  \n@@ -150,17 +150,8 @@\n hora\n-, minutos\n )%0A%0A%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-30_13-36-39",
+            "content": "@@ -110,48 +110,8 @@\n int%0A\n-    var resto2 int%0A    var segundos int%0A\n     \n@@ -159,28 +159,8 @@\n utos\n-, &resto2, &segundos\n )%0A%0A \n@@ -237,31 +237,8 @@\n 60%0A%0A\n-    segundos = resto2%0A%0A\n     \n@@ -256,23 +256,16 @@\n ora,\n-%22:%22,\n+ \n minutos\n-,%22:%22\n )%0A%0A%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-30_13-39-27",
+            "content": "@@ -102,24 +102,43 @@\n minutos int%0A\n+    var resto2 int%0A\n     var segu\n@@ -196,16 +196,25 @@\n minutos,\n+ &resto2,\n  &segund\n@@ -292,16 +292,17 @@\n to / 60%0A\n+%0A\n     segu\n@@ -312,20 +312,14 @@\n s = \n-minutos / 60\n+resto2\n %0A%0A  \n@@ -354,17 +354,8 @@\n ,%22:%22\n-,segundos\n )%0A%0A%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-30_13-40-25",
+            "content": "@@ -110,27 +110,8 @@\n int%0A\n-    var resto2 int%0A\n     \n@@ -181,17 +181,8 @@\n tos,\n- &resto2,\n  &se\n@@ -268,32 +268,8 @@\n  60%0A\n-    resto2 = resto %25 60%0A\n     \n@@ -283,14 +283,15 @@\n s = \n-resto2\n+minutos\n  / 6\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-03-30_13-41-45",
+            "content": "@@ -305,23 +305,21 @@\n esto2 = \n-minu\n+res\n to\n-s\n  %25 60%0A  \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-30_13-42-17",
+            "content": "@@ -339,16 +339,21 @@\n = resto2\n+ / 60\n %0A%0A    fm\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-30_13-42-34",
+            "content": "@@ -305,21 +305,23 @@\n esto2 = \n-res\n+minu\n to\n+s\n  %25 60%0A  \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-30_13-42-54",
+            "content": "@@ -361,17 +361,25 @@\n hora\n-:\n+,%22:%22,\n minutos\n-:\n+,%22:%22,\n segu\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-30_13-43-39",
+            "content": "@@ -353,17 +353,16 @@\n t.Print(\n-%22\n hora:min\n@@ -374,15 +374,14 @@\n segundos\n-%22\n )%0A%0A%0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-30_13-43-47",
+            "content": "@@ -358,23 +358,21 @@\n nt(%22\n-&\n hora:\n-&\n minutos:\n &seg\n@@ -367,17 +367,16 @@\n minutos:\n-&\n segundos\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-30_13-44-00",
+            "content": "@@ -358,44 +358,32 @@\n nt(%22\n-%25d:%25d:%25d%5Cn%22, \n+&\n hora\n-, \n+:&\n minutos\n-, \n+:&\n segundos\n )%0A%0A%0A\n@@ -378,14 +378,15 @@\n segundos\n+%22\n )%0A%0A%0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-30_13-45-03",
+            "content": "@@ -352,17 +352,16 @@\n mt.Print\n-f\n (%22%25d:%25d:\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-30_13-45-11",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var tempo int\n    var hora int\n    var resto int\n    var minutos int\n    var resto2 int\n    var segundos int\n    \n    fmt.Scan(&tempo, &hora, &resto, &minutos, &resto2, &segundos)\n\n    hora = tempo / 3600\n    resto = tempo % 3600\n    minutos = resto / 60\n    resto2 = resto % 60\n    segundos = resto2\n\n    fmt.Printf(\"%d:%d:%d\\n\", hora, minutos, segundos)\n\n\n}\n",
+            "lines": "22"
+        }
+    ]
+}
