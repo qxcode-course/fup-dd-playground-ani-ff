@@ -46,3 +46,9 @@
 2026-03-30 15:42:01, EXEC, v:1, k:fub@celsius, mode:FULL, rate:100
 2026-03-30 15:42:06, MOVE, v:1, k:fub@celsius, mode:BACK
 2026-03-30 15:42:19, SELF, v:1, k:fub@celsius, self:1, rate:100
+2026-03-30 15:43:24, MOVE, v:1, k:fub@pintando, mode:DOWN
+2026-03-30 15:43:25, MOVE, v:1, k:fub@pintando, mode:PICK
+2026-03-30 15:43:26, EXEC, v:1, k:fub@pintando, mode:FULL, rate:0, size:5
+2026-03-30 16:10:49, EXEC, v:1, k:fub@pintando, mode:FULL, rate:100, size:13
+2026-03-30 16:11:02, MOVE, v:1, k:fub@pintando, mode:BACK
+2026-03-30 16:11:45, SELF, v:1, k:fub@pintando, self:1, rate:100, code:1
