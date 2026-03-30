@@ -36,3 +36,13 @@
 2026-03-30 13:45:25, EXEC, v:1, k:fub@segundos, mode:FULL, rate:100
 2026-03-30 13:45:26, MOVE, v:1, k:fub@segundos, mode:BACK
 2026-03-30 13:45:53, SELF, v:1, k:fub@segundos, self:1, rate:100, debug:1
+2026-03-30 15:35:03, MOVE, v:1, k:fub@celsius, mode:DOWN
+2026-03-30 15:35:05, MOVE, v:1, k:fub@celsius, mode:PICK
+2026-03-30 15:35:09, EXEC, v:1, k:fub@celsius, mode:FULL, rate:0, size:5
+2026-03-30 15:38:21, EXEC, v:1, k:fub@celsius, mode:FULL, rate:0, size:8
+2026-03-30 15:39:15, EXEC, v:1, k:fub@celsius, mode:FULL, rate:0, size:12
+2026-03-30 15:41:34, EXEC, v:1, k:fub@celsius, mode:FULL, rate:0, size:12
+2026-03-30 15:41:44, EXEC, v:1, k:fub@celsius, mode:FULL, rate:100, size:12
+2026-03-30 15:42:01, EXEC, v:1, k:fub@celsius, mode:FULL, rate:100
+2026-03-30 15:42:06, MOVE, v:1, k:fub@celsius, mode:BACK
+2026-03-30 15:42:19, SELF, v:1, k:fub@celsius, self:1, rate:100

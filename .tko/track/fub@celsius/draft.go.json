@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-30_15-35-09",
+            "content": "@@ -41,76 +41,35 @@\n     \n-var celsius float64%0A    var fah float64%0A%0A    fmt.Scan(&celsius, &fah\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-30_15-38-21",
+            "content": "@@ -110,59 +110,7 @@\n fah)\n-%0A%0A    fah = 1.8 * celsius + 32%0A%0A    fmt.Println(fah)\n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-30_15-39-15",
+            "content": "@@ -155,21 +155,11 @@\n rint\n-f(%22%25.10f%5Cn%22, \n+ln(\n fah)\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-30_15-41-34",
+            "content": "@@ -156,17 +156,18 @@\n intf(%22%25.\n-6\n+10\n f%5Cn%22, fa\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-30_15-41-44",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var celsius float64\n    var fah float64\n\n    fmt.Scan(&celsius, &fah)\n\n    fah = 1.8 * celsius + 32\n\n    fmt.Printf(\"%.6f\\n\", fah)\n}\n",
+            "lines": "12"
+        }
+    ]
+}
