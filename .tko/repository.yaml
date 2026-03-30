@@ -27,6 +27,7 @@ tasks:
   fub@pintando: '{self:1, rate:100, code:1}'
   fub@bala: '{self:1, rate:100, debug:1}'
   fub@quebrada: '{self:1, rate:100, debug:1}'
+  fub@operacoes: '{self:1, rate:100}'
 flags:
   panel: 2
   inbox: 1
