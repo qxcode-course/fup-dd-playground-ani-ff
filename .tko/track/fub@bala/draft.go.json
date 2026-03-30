@@ -1,0 +1,114 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-30_16-51-50",
+            "content": "@@ -23,22 +23,8 @@\n mt%22%0A\n-import %22math%22%0A\n func\n@@ -41,222 +41,35 @@\n     \n-var x1, y1 float64%0A    var x2, y2 float64%0A    var dist float64%0A%0A    fmt.Scan(&x1, &y1)%0A    fmt.Scan(&x2, &y2)%0A    fmt.Scan(&dist)%0A%0A    dist = math.Sqrt((x2 - x1) * 2 + (y2 - y1) * 2)%0A%0A    fmt.Printf(%22%25.2f%5Cn%22, dist)%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-30_17-06-31",
+            "content": "@@ -248,17 +248,28 @@\n mt.Print\n-(\n+f(%22%25.2f%5Cn%22, \n dist)%0A%0A%7D\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-06-59",
+            "content": "@@ -252,20 +252,9 @@\n rint\n-f(%22%25.2f%5Cn%22, \n+(\n dist\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-09-15",
+            "content": "@@ -168,11 +168,8 @@\n %0A   \n- //\n  fmt\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-09-31",
+            "content": "@@ -160,24 +160,27 @@\n x2, &y2)%0A   \n+ //\n  fmt.Scan(&d\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-12-00",
+            "content": "@@ -252,11 +252,24 @@\n rint\n-ln(\n+f(%22%25.2f%5Cn%22, dist\n )%0A%0A%7D\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-12-15",
+            "content": "@@ -251,15 +251,13 @@\n Println(\n-x2\n )%0A%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-12-18",
+            "content": "@@ -62,19 +62,23 @@\n  x1, y1 \n-int\n+float64\n %0A    var\n@@ -85,19 +85,23 @@\n  x2, y2 \n-int\n+float64\n %0A    var\n@@ -252,14 +252,14 @@\n rintln(x\n-1\n+2\n )%0A%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-12-37",
+            "content": "@@ -62,23 +62,19 @@\n  x1, y1 \n-float64\n+int\n %0A    var\n@@ -81,23 +81,19 @@\n  x2, y2 \n-float64\n+int\n %0A    var\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-12-50",
+            "content": "@@ -252,14 +252,14 @@\n rintln(x\n-2\n+1\n )%0A%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-13-04",
+            "content": "@@ -256,20 +256,8 @@\n ln(x\n-1, x2, y1, y\n 2)%0A%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-13-25",
+            "content": "@@ -251,17 +251,27 @@\n Println(\n-dist\n+x1, x2, y1, y2\n )%0A%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-14-25",
+            "content": "@@ -106,19 +106,23 @@\n ar dist \n-int\n+float64\n %0A%0A    fm\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-14-35",
+            "content": "@@ -106,23 +106,19 @@\n ar dist \n-float64\n+int\n %0A%0A    fm\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-14-42",
+            "content": "@@ -92,16 +92,37 @@\n  float64\n+%0A    var dist float64\n %0A%0A    fm\n@@ -160,16 +160,36 @@\n x2, &y2)\n+%0A    fmt.Scan(&dist)\n %0A%0A    di\n@@ -195,9 +195,8 @@\n ist \n-:\n = ma\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-30_17-15-27",
+            "content": "@@ -215,18 +215,8 @@\n tln(\n-%22%25.2f%5Cn%22, \n dist\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_17-17-49",
+            "content": "@@ -208,17 +208,18 @@\n mt.Print\n-f\n+ln\n (%22%25.2f%5Cn\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_17-18-01",
+            "content": "@@ -172,16 +172,20 @@\n x2 - x1)\n+ * 2\n  + (y2 -\n@@ -188,16 +188,20 @@\n y2 - y1)\n+ * 2\n )%0A%0A    f\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_17-19-37",
+            "content": "@@ -172,20 +172,16 @@\n x2 - x1)\n- * 2\n  + (y2 -\n@@ -188,12 +188,8 @@\n  y1)\n- * 2\n )%0A%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_17-19-51",
+            "content": "@@ -170,38 +170,34 @@\n ((x2\n-*x2\n  - x1\n-*x1)\n+) * 2\n  + (y2\n-*y2\n  - y1\n-*y1)\n+) * 2\n )%0A%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_17-25-51",
+            "content": "@@ -167,50 +167,40 @@\n qrt(\n-math.Pow(\n+(x2*\n x2 - x1\n-, 2\n+*x1\n ) + \n-math.Pow(\n+(y2*\n y2 - y1\n-, 2\n+*y1\n ))%0A%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_17-27-18",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\nfunc main() {\n    var x1, y1 float64\n    var x2, y2 float64\n\n    fmt.Scan(&x1, &y1)\n    fmt.Scan(&x2, &y2)\n\n    dist := math.Sqrt(math.Pow(x2 - x1, 2) + math.Pow(y2 - y1, 2))\n\n    fmt.Printf(\"%.2f\\n\", dist)\n\n}\n",
+            "lines": "15"
+        }
+    ]
+}

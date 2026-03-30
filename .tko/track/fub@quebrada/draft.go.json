@@ -1,0 +1,69 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-30_17-27-56",
+            "content": "@@ -41,99 +41,35 @@\n     \n-var n1, n2 int%0A%0A    fmt.Scan(&n1, &n2)%0A%0A    divisao := n1 / n2%0A    %0A    fmt.Println(divisao\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-30_17-33-34",
+            "content": "@@ -52,16 +52,17 @@\n  n2 int%0A\n+%0A\n     fmt.\n@@ -108,81 +108,31 @@\n     \n-resto := n1/n2, n1&n2%0A%0A    %0A    fmt.Println(divisao)%0A    fmt.Println(rest\n+%0A    fmt.Println(divisa\n o)%0A%7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-30_17-35-00",
+            "content": "@@ -112,16 +112,22 @@\n esto := \n+n1/n2,\n  n1&n2%0A%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-30_17-35-12",
+            "content": "@@ -116,18 +116,14 @@\n  := \n-divisao%25n1\n+ n1&n2\n %0A%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-30_17-38-25",
+            "content": "@@ -116,13 +116,18 @@\n  := \n-n1%25n2\n+divisao%25n1\n %0A%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-30_17-38-58",
+            "content": "@@ -176,41 +176,6 @@\n to)%0A\n-    fmt.Println(%22%25.2f%5Cn%22, divisao)%0A\n %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-30_17-39-56",
+            "content": "@@ -185,17 +185,18 @@\n mt.Print\n-f\n+ln\n (%22%25.2f%5Cn\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-30_17-40-05",
+            "content": "@@ -177,30 +177,39 @@\n o)%0A    fmt.Print\n-ln(\n+f(%22%25.2f%5Cn%22, \n divisao)%0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-30_17-41-36",
+            "content": "@@ -121,41 +121,8 @@\n 1%25n2\n-%0A    divisao2 := float64(divisao)\n %0A%0A  \n@@ -195,13 +195,12 @@\n (divisao\n-2\n )%0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-30_17-45-23",
+            "content": "@@ -225,16 +225,8 @@\n tln(\n-%22%25.2f%5Cn%22\n divi\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_17-45-35",
+            "content": "@@ -218,17 +218,18 @@\n mt.Print\n-f\n+ln\n (%22%25.2f%5Cn\n@@ -229,18 +229,16 @@\n %22%25.2f%5Cn%22\n-, \n divisao2\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_17-45-42",
+            "content": "@@ -146,24 +146,15 @@\n t64(\n-n1) / float64(n2\n+divisao\n )%0A%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_17-47-18",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n1, n2 int\n    fmt.Scan(&n1, &n2)\n\n    divisao := n1 / n2\n    resto := n1%n2\n    divisao2 := float64(n1) / float64(n2)\n\n    \n    fmt.Println(divisao)\n    fmt.Println(resto)\n    fmt.Printf(\"%.2f\\n\", divisao2)\n}\n",
+            "lines": "15"
+        }
+    ]
+}

@@ -13,6 +13,7 @@ sources:
   quests: null
   tasks: null
 expanded:
+- fub@base
 - fub@if1
 tasks:
   sandbox@user_001: '{self:1, guided:1}'
@@ -24,11 +25,13 @@ tasks:
   fub@segundos: '{self:1, rate:100, debug:1}'
   fub@celsius: '{self:1, rate:100}'
   fub@pintando: '{self:1, rate:100, code:1}'
+  fub@bala: '{self:1, rate:100, debug:1}'
+  fub@quebrada: '{self:1, rate:100, debug:1}'
 flags:
   panel: 2
-  inbox: 0
+  inbox: 1
   show_panel: 0
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fub@if1
+selected: fub@operacoes
