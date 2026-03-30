@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-24_17-45-02",
+            "content": "@@ -1,87 +0,0 @@\n-package main%0A%0Aimport %22fmt%22%0A%0Afunc main() %7B%0A%09x := 0%0A%09for %7B%0A%09%09fmt.Println(x)%0A%09%09x += 1%0A%09%7D%0A%7D\n",
+            "lines": "0"
+        },
+        {
+            "label": "2026-03-24_17-46-40",
+            "content": "@@ -53,48 +53,9 @@\n or %7B\n- // loop infinito%0A%09%09if x %25 1000 == 0 %7B%0A%09\n+%0A\n %09%09fm\n@@ -71,12 +71,8 @@\n (x)%0A\n-%09%09%7D%0A\n %09%09x \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-24_17-48-42",
+            "content": "@@ -71,57 +71,28 @@\n ito%0A\n-%09%09x += 1%0A%09%09fmt.Println(x)%0A\n %09%09if x \n-%3E 10 %7B%0A%09%09%09x += 1\n+%25 1000 == 0 %7B\n %0A%09%09%09\n@@ -110,13 +110,21 @@\n (x)%0A%09%09%7D%0A\n+%09%09x += 1\n %0A%09%7D%0A%7D\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-24_17-51-00",
+            "content": "@@ -40,19 +40,16 @@\n  %7B%0A%09\n-// \n x := 0%0A%09\n // f\n@@ -44,19 +44,16 @@\n x := 0%0A%09\n-// \n for %7B //\n@@ -68,19 +68,16 @@\n finito%0A%09\n-// \n %09x += 1%0A\n@@ -77,19 +77,16 @@\n x += 1%0A%09\n-// \n %09fmt.Pri\n@@ -94,19 +94,16 @@\n tln(x)%0A%09\n-// \n %09if x %3E \n@@ -108,19 +108,16 @@\n %3E 10 %7B%0A%09\n-// \n %09%09x += 1\n@@ -118,19 +118,16 @@\n x += 1%0A%09\n-// \n %09%09fmt.Pr\n@@ -140,67 +140,11 @@\n x)%0A%09\n-// %09%7D%0A%09// %7D%0A%0A%09for x := 0; x %3C 10; x += 1 %7B%0A%09%09fmt.Println(x)\n+%09%7D%0A\n %0A%09%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-03-24_17-56-36",
+            "content": "@@ -171,19 +171,16 @@\n %09// %7D%0A%0A%09\n-// \n for x :=\n@@ -203,89 +203,8 @@\n  1 %7B\n- // do 0 ao 9%0A%09// %09fmt.Println(x)%0A%09// %7D%0A%0A%09%09for x := 20; x %3E= 0; x--%7B // do 0 ao 9\n %0A%09%09f\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-03-24_17-59-30",
+            "content": "@@ -244,19 +244,16 @@\n %09// %7D%0A%0A%09\n-// \n %09for x :\n@@ -281,87 +281,14 @@\n  do \n-2\n 0 ao \n-0%0A%09// %09fmt.Println(x)%0A%09// %7D%0A%0A%09%09for x := 20; x %3E= 0; x -= 2%7B // do 20 ao 0\n+9\n %0A%09%09f\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-03-24_18-00-26",
+            "content": "@@ -166,25 +166,24 @@\n / %09%7D%0A%09// %7D%0A%0A\n-%0A\n %09// for x :=\n@@ -235,33 +235,32 @@\n intln(x)%0A%09// %7D%0A%0A\n-%0A\n %09// %09for x := 20\n@@ -315,21 +315,17 @@\n %0A%09// %7D%0A%0A\n-%0A%09// \n+%09\n %09for x :\n@@ -344,17 +344,16 @@\n ; x -= 2\n- \n %7B // do \n@@ -363,92 +363,8 @@\n ao 0\n- de 2 em 2%0A%09// %09fmt.Println(x)%0A%09// %7D%0A%0A%09%09%09for x := range 10 %7B // do 20 ao 0 de 2 em 2\n %0A%09%09f\n@@ -381,10 +381,8 @@\n (x)%0A\n+\n %09%7D%0A\n-%0A%0A\n %7D\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-03-24_18-01-13",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\t// x := 0\n\t// for { // loop infinito\n\t// \tx += 1\n\t// \tfmt.Println(x)\n\t// \tif x > 10 {\n\t// \t\tx += 1\n\t// \t\tfmt.Println(x)\n\t// \t}\n\t// }\n\n\n\t// for x := 0; x < 10; x += 1 { // do 0 ao 9\n\t// \tfmt.Println(x)\n\t// }\n\n\n\t// \tfor x := 20; x >= 0; x--{ // do 20 ao 0\n\t// \tfmt.Println(x)\n\t// }\n\n\n\t// \tfor x := 20; x >= 0; x -= 2 { // do 20 ao 0 de 2 em 2\n\t// \tfmt.Println(x)\n\t// }\n\n\t\t\tfor x := range 10 { // do 20 ao 0 de 2 em 2\n\t\tfmt.Println(x)\n\t}\n\n\n}",
+            "lines": "36"
+        }
+    ]
+}

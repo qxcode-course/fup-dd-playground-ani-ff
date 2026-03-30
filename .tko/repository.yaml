@@ -13,21 +13,19 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fub@campanha-principal
-- sandbox@sandbox
-- fub@repositorio-de-problemas
-- fub@missão-operações
-- sandbox@sandbox:00_rascunhos
+- fub@games
+- fub@base
 tasks:
-  sandbox@user_002: '{rate:100}'
+  sandbox@user_001: '{self:1, guided:1}'
+  sandbox@user_002: '{self:1, rate:100, guided:1}'
   fub@tres: '{self:1, rate:100, guided:1}'
   fub@resto: '{self:1, rate:100, guided:1, code:1, debug:1}'
   fub@media: '{self:1, rate:100, study:5, code:1, debug:1}'
+  fub@sobrou: '{self:1, rate:100, concept:1, code:1}'
 flags:
-  painel: 1
-  quests: 2
-  tracks: 0
-  tasks: 0
+  panel: 2
+  inbox: 0
+  show_panel: 0
   task_graph_mode: 0
   show_time: 0
 lang: go

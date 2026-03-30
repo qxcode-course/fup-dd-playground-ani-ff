@@ -2,8 +2,93 @@
     "patches": [
         {
             "label": "2026-03-16_18-20-09",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"qxcode\")\n}\n",
+            "content": "@@ -37,36 +37,8 @@\n ) %7B%0A\n-    var p1, p2, p3 int%0A    %0A\n     \n",
             "lines": "5"
+        },
+        {
+            "label": "2026-03-17_17-19-50",
+            "content": "@@ -1,70 +1,82 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A%0A%0A    fmt.Println(%22qxcode%22)%0A%7D\n+@@ -33,17 +33,43 @@%0A ain() %257B%250A%0A-%250A%0A+    var p1, p2, p3 int%250A    %0A %250A    fmt\n %0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-24_16-51-27",
+            "content": "@@ -37,36 +37,8 @@\n ) %7B%0A\n-    var p1%0A    fmt.Scan(p1)%0A\n %0A%0A  \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-24_16-58-08",
+            "content": "@@ -47,12 +47,8 @@\n r p1\n- int\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-24_16-58-47",
+            "content": "@@ -84,15 +84,19 @@\n rintln(%22\n-p1\n+qxcode\n %22)%0A%7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-24_16-59-01",
+            "content": "@@ -65,13 +65,14 @@\n can(\n-&\n p1)%0A\n+%0A%0A\n     \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-24_17-00-14",
+            "content": "@@ -48,15 +48,11 @@\n  p1 \n-float64\n+int\n %0A   \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-24_17-00-41",
+            "content": "@@ -91,16 +91,10 @@\n ln(%22\n+p\n 1\n-4208.87\n %22)%0A%7D\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-24_17-01-05",
+            "content": "@@ -88,17 +88,17 @@\n intln(%221\n-6\n+4\n 208.87%22)\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-24_17-01-13",
+            "content": "@@ -87,14 +87,21 @@\n rintln(%22\n-k\n+16208.87\n %22)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-24_17-01-23",
+            "content": "@@ -86,14 +86,15 @@\n Println(\n-p1\n+%22k%22\n )%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-24_17-04-59",
+            "content": "@@ -56,46 +56,8 @@\n t64%0A\n-    var p2 float64%0A    var p3 float64%0A\n     \n@@ -72,18 +72,8 @@\n (&p1\n-, &p2, &p3\n )%0A  \n@@ -92,16 +92,8 @@\n n(p1\n-, p2, p3\n )%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-24_17-10-36",
+            "content": "@@ -41,17 +41,16 @@\n     var \n-q\n p1 float\n@@ -60,17 +60,16 @@\n     var \n-q\n p2 float\n@@ -79,17 +79,16 @@\n     var \n-q\n p3 float\n@@ -108,21 +108,18 @@\n an(&\n-q\n p1, &\n-q\n p2, &\n-q\n p3)%0A\n@@ -138,19 +138,16 @@\n tln(\n-q\n p1, \n-q\n p2, \n-q\n p3)%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-24_17-12-21",
+            "content": "@@ -128,158 +128,35 @@\n p3)%0A\n-%0A    var vp1 float64%0A    var vp2 float64%0A    var vp3 float64%0A    fmt.Scan(&vp2, &vp2, &vp3)%0A    fmt.Println(qp1, qp2, qp3)%0A    fmt.Println(vp1, vp2, v\n+    fmt.Println(qp1, qp2, q\n p3)%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-24_17-13-38",
+            "content": "@@ -44,22 +44,52 @@\n  var qp1\n-, qp2,\n+ float64%0A    var qp2 float64%0A    var\n  qp3 flo\n@@ -277,17 +277,11 @@\n p2, vp3)\n-%0A%0A    \n %0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-24_17-19-54",
+            "content": "@@ -46,40 +46,72 @@\n ar q\n+p\n 1, q\n+p\n 2, q\n+p\n 3 \n-int%0A    var \n+float64%0A    fmt.Scan(&q\n p1, \n+&q\n p2, \n-p3\n+&qp3)%0A%0A    var vp1\n  flo\n@@ -123,24 +123,19 @@\n     var \n-dinheiro\n+vp2\n  float64\n@@ -139,63 +139,27 @@\n t64%0A\n-%0A\n     \n-fmt.Scan(&q1, &q2, &q3) // Entrada das quantidades\n+var vp3 float64\n %0A   \n@@ -173,270 +173,85 @@\n an(&\n-p1,&\n+vp2, &v\n p2, &\n+v\n p3)\n- // Entrada dos pre%C3%A7os%0A    fmt.Scan(&dinheiro) // Entrada do dinheiro%0A%0A    ctotal := float64(q1)*p1 + float64(q2)*p2 + float64(q3)*p3 // Calculo do custo total%0A%0A    troco := dinheiro - ctotal // Calculo do troco%0A%0A    fmt.Printf(%22Troco: %25.2f%5Cn%22, troco\n+%0A    fmt.Println(qp1, qp2, qp3)%0A    fmt.Println(vp1, vp2, vp3\n )%0A%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-30_13-04-54",
+            "content": "@@ -419,16 +419,23 @@\n Printf(%22\n+Troco: \n %25.2f%5Cn%22,\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-03-30_13-05-41",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var q1, q2, q3 int\n    var p1, p2, p3 float64\n    var dinheiro float64\n\n    fmt.Scan(&q1, &q2, &q3) // Entrada das quantidades\n    fmt.Scan(&p1,&p2, &p3) // Entrada dos pre\u00e7os\n    fmt.Scan(&dinheiro) // Entrada do dinheiro\n\n    ctotal := float64(q1)*p1 + float64(q2)*p2 + float64(q3)*p3 // Calculo do custo total\n\n    troco := dinheiro - ctotal // Calculo do troco\n\n    fmt.Printf(\"%.2f\\n\", troco)\n\n    \n}\n",
+            "lines": "19"
         }
     ]
 }
