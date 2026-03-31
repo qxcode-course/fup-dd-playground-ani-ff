@@ -2,8 +2,73 @@
     "patches": [
         {
             "label": "2026-03-31_16-51-24",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -37,15 +37,8 @@\n ) %7B%0A\n-    %0A%0A%0A\n     \n",
             "lines": "5"
+        },
+        {
+            "label": "2026-03-31_16-56-15",
+            "content": "@@ -41,165 +41,42 @@\n     \n-var velocidade int%0A    var tempo int%0A    var combustivel int%0A%0A    fmt.Scan(velocidade, tempo, combustivel)%0A%0A%0A%0A%0A    fmt.Println(velocidade, tempo, combustivel\n+%0A%0A%0A    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-31_16-58-01",
+            "content": "@@ -149,50 +149,27 @@\n l)%0A%0A\n+%0A%0A%0A\n     \n-tempoh := tempo / 60%0A    distancia := \n+fmt.Println(\n velo\n@@ -178,100 +178,28 @@\n dade\n- *\n+,\n  tempo\n-h%0A    desempenho := distancia / combustivel%0A%0A%0A%0A%0A    fmt.Println(%22%25.2f%5Cn%22, desempenho\n+, combustivel\n )%0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-31_17-02-09",
+            "content": "@@ -266,17 +266,18 @@\n mt.Print\n-f\n+ln\n (%22%25.2f%5Cn\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-31_17-02-19",
+            "content": "@@ -52,23 +52,19 @@\n ocidade \n-float64\n+int\n %0A    var\n@@ -70,23 +70,19 @@\n r tempo \n-float64\n+int\n %0A    var\n@@ -98,15 +98,11 @@\n vel \n-float64\n+int\n %0A%0A  \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-31_17-03-15",
+            "content": "@@ -282,11 +282,20 @@\n rint\n-ln(\n+f(%22%25.2f%5Cn%22, \n dese\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-31_17-03-45",
+            "content": "@@ -282,19 +282,11 @@\n rint\n-f(%22%252d%5Cn%22, \n+ln(\n dese\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-31_17-06-45",
+            "content": "@@ -286,11 +286,10 @@\n f(%22%25\n+2\n d\n-00\n %5Cn%22,\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-31_17-06-58",
+            "content": "@@ -282,10 +282,9 @@\n rint\n-ln\n+f\n (%22%25d\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-31_17-07-13",
+            "content": "@@ -262,16 +262,19 @@\n stivel%0A%0A\n+%0A%0A%0A\n     fmt.\n@@ -281,16 +281,26 @@\n Println(\n+%22%25d00%5Cn%22, \n desempen\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-31_17-08-15",
+            "content": "@@ -124,17 +124,16 @@\n mt.Scan(\n-&\n velocida\n@@ -140,17 +140,15 @@\n de, \n-&\n tempo, \n-&\n comb\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-15-21",
+            "content": "@@ -282,20 +282,11 @@\n rint\n-f(%22%25d00%5Cn%22, \n+ln(\n dese\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-15-54",
+            "content": "@@ -286,11 +286,11 @@\n f(%22%25\n-.2f\n+d00\n %5Cn%22,\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-16-38",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var velocidade float64\n    var tempo float64\n    var combustivel float64\n\n    fmt.Scan(&velocidade, &tempo, &combustivel)\n\n    tempoh := tempo / 60\n    distancia := velocidade * tempoh\n    desempenho := distancia / combustivel\n\n    fmt.Printf(\"%.2f\\n\", desempenho)\n}\n",
+            "lines": "15"
         }
     ]
 }

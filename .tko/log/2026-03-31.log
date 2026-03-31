@@ -29,3 +29,54 @@
 2026-03-31 16:51:21, MOVE, v:1, k:fub@opala, mode:DOWN
 2026-03-31 16:51:22, MOVE, v:1, k:fub@opala, mode:PICK
 2026-03-31 16:51:24, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:5
+2026-03-31 16:55:54, MOVE, v:1, k:fub@opala, mode:BACK
+2026-03-31 16:56:14, MOVE, v:1, k:fub@opala, mode:PICK
+2026-03-31 16:56:15, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:8
+2026-03-31 16:58:01, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:14
+2026-03-31 16:58:05, EXEC, v:1, k:fub@opala, mode:FULL, rate:0
+2026-03-31 17:02:09, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:18
+2026-03-31 17:02:19, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:18
+2026-03-31 17:03:15, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:18
+2026-03-31 17:03:24, EXEC, v:1, k:fub@opala, mode:FULL, rate:0
+2026-03-31 17:03:45, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:18
+2026-03-31 17:06:45, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:18
+2026-03-31 17:06:58, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:18
+2026-03-31 17:07:13, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:18
+2026-03-31 17:08:15, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:15
+2026-03-31 17:15:22, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:15
+2026-03-31 17:15:54, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:15
+2026-03-31 17:16:38, EXEC, v:1, k:fub@opala, mode:FULL, rate:100, size:15
+2026-03-31 17:16:48, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:49, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:50, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:50, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:51, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:51, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:51, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:52, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:52, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:52, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:53, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:53, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:53, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:53, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:54, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:54, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:54, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:54, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:55, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:55, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:55, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:56, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:56, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:56, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:56, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:57, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:57, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:57, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:57, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:58, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:58, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:16:58, EXEC, v:1, k:fub@opala, mode:FULL, rate:100
+2026-03-31 17:17:07, MOVE, v:1, k:fub@opala, mode:BACK
+2026-03-31 17:17:21, SELF, v:1, k:fub@opala, self:1, rate:100, debug:1
