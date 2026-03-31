@@ -13,8 +13,8 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fub@base
 - fub@if1
+- fub@base
 tasks:
   sandbox@user_001: '{self:1, guided:1}'
   sandbox@user_002: '{self:1, rate:100, guided:1}'
@@ -28,11 +28,12 @@ tasks:
   fub@bala: '{self:1, rate:100, debug:1}'
   fub@quebrada: '{self:1, rate:100, debug:1}'
   fub@operacoes: '{self:1, rate:100}'
+  fub@data: '{self:1, rate:100, debug:1}'
 flags:
-  panel: 2
+  panel: 3
   inbox: 1
-  show_panel: 0
+  show_panel: 1
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fub@operacoes
+selected: fub@opala

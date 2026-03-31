@@ -116,3 +116,34 @@
 2026-03-30 17:57:31, EXEC, v:1, k:fub@operacoes, mode:FULL, rate:100, size:18
 2026-03-30 17:57:45, MOVE, v:1, k:fub@operacoes, mode:BACK
 2026-03-30 17:57:52, SELF, v:1, k:fub@operacoes, self:1, rate:100
+2026-03-30 17:58:52, MOVE, v:1, k:fub@data, mode:DOWN
+2026-03-30 17:58:54, MOVE, v:1, k:fub@data, mode:PICK
+2026-03-30 17:58:55, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:5
+2026-03-30 18:02:57, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:07:58, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:10
+2026-03-30 18:08:53, EXEC, v:1, k:fub@data, mode:FULL, size:9, fail:COMP
+2026-03-30 18:09:06, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:09:29, MOVE, v:1, k:fub@data, mode:PICK
+2026-03-30 18:09:31, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:09:36, EXEC, v:1, k:fub@data, mode:FULL, rate:0
+2026-03-30 18:10:19, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:10:30, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:10:43, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:11:05, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:11:48, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:11:58, EXEC, v:1, k:fub@data, mode:FULL, rate:0
+2026-03-30 18:12:01, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:12:20, EXEC, v:1, k:fub@data, mode:FULL, rate:0
+2026-03-30 18:13:02, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:13:27, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:10
+2026-03-30 18:13:46, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:14:08, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:9
+2026-03-30 18:16:20, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-30 18:16:25, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-30 18:16:28, EXEC, v:1, k:fub@data, mode:FULL, rate:0
+2026-03-30 18:16:51, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-30 18:17:31, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-30 18:18:07, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-30 18:18:32, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-30 18:19:20, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-30 18:20:53, MOVE, v:1, k:fub@data, mode:BACK

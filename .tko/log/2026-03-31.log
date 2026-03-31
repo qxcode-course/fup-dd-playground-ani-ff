@@ -1,0 +1,31 @@
+2026-03-31 16:43:08, MOVE, v:1, k:fub@data, mode:PICK
+2026-03-31 16:43:11, EXEC, v:1, k:fub@data, mode:FULL, rate:0
+2026-03-31 16:43:34, EXEC, v:1, k:fub@data, mode:FULL, rate:0
+2026-03-31 16:43:55, EXEC, v:1, k:fub@data, mode:FULL, rate:0
+2026-03-31 16:44:03, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:44:14, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:44:23, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:44:29, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:44:36, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:44:44, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:44:49, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:47:23, EXEC, v:1, k:fub@data, mode:FULL, rate:0
+2026-03-31 16:47:40, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:48:10, EXEC, v:1, k:fub@data, mode:FULL, size:13, fail:COMP
+2026-03-31 16:48:13, EXEC, v:1, k:fub@data, mode:FULL, fail:COMP
+2026-03-31 16:48:15, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:48:26, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:48:39, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:48:46, EXEC, v:1, k:fub@data, mode:FULL, rate:16, size:13
+2026-03-31 16:48:54, EXEC, v:1, k:fub@data, mode:FULL, rate:66, size:13
+2026-03-31 16:49:05, EXEC, v:1, k:fub@data, mode:FULL, rate:66, size:13
+2026-03-31 16:49:12, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:49:19, EXEC, v:1, k:fub@data, mode:FULL, rate:0, size:13
+2026-03-31 16:49:37, EXEC, v:1, k:fub@data, mode:FULL, rate:66, size:13
+2026-03-31 16:49:42, EXEC, v:1, k:fub@data, mode:FULL, rate:66
+2026-03-31 16:49:52, EXEC, v:1, k:fub@data, mode:FULL, rate:100, size:13
+2026-03-31 16:50:25, MOVE, v:1, k:fub@data, mode:BACK
+2026-03-31 16:50:52, SELF, v:1, k:fub@data, self:1, rate:100, debug:1
+2026-03-31 16:51:21, MOVE, v:1, k:fub@opala, mode:DOWN
+2026-03-31 16:51:22, MOVE, v:1, k:fub@opala, mode:PICK
+2026-03-31 16:51:24, EXEC, v:1, k:fub@opala, mode:FULL, rate:0, size:5
