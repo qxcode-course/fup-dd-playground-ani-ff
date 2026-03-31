@@ -1,0 +1,114 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_17-18-09",
+            "content": "@@ -41,137 +41,35 @@\n     \n-var valor float64%0A    var qparcela int%0A%0A    fmt.Scan(&valor, &qparcela)%0A%0A    vez1 := qparcela * int(valor)%0A%0A%0A    fmt.Println(vez1\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-31_17-27-03",
+            "content": "@@ -166,18 +166,8 @@\n tln(\n-%22%25.2f%5Cn%22, \n vez1\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-28-21",
+            "content": "@@ -159,17 +159,18 @@\n mt.Print\n-f\n+ln\n (%22%25.2f%5Cn\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-28-29",
+            "content": "@@ -72,23 +72,19 @@\n parcela \n-float64\n+int\n %0A%0A    fm\n@@ -133,21 +133,26 @@\n rcela * \n+int(\n valor\n+)\n %0A%0A%0A    f\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-28-48",
+            "content": "@@ -169,13 +169,8 @@\n %25.2f\n- %25.2f\n %5Cn%22,\n@@ -178,15 +178,8 @@\n vez1\n-, valor\n )%0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-30-36",
+            "content": "@@ -161,24 +161,29 @@\n Printf(%22%25.2f\n+ %25.2f\n %5Cn%22, vez1)%0A \n@@ -183,33 +183,8 @@\n vez1\n-)%0A    fmt.Printf(%22%25.2f%5Cn%22\n , va\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-31-10",
+            "content": "@@ -121,11 +121,8 @@\n %0A   \n- //\n  vez\n@@ -147,30 +147,8 @@\n lor%0A\n-    vez2 := 5 * valor%0A\n %0A%0A  \n@@ -173,17 +173,17 @@\n %5Cn%22, vez\n-2\n+1\n )%0A    fm\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-31_17-32-57",
+            "content": "@@ -160,17 +160,17 @@\n z2 := 5 \n-/\n+*\n  valor%0A%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-33-09",
+            "content": "@@ -162,15 +162,11 @@\n  := \n-(0,5) *\n+5 /\n  val\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-33-26",
+            "content": "@@ -162,11 +162,13 @@\n  := \n-0.5\n+(0,5)\n  * v\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-33-35",
+            "content": "@@ -173,16 +173,8 @@\n alor\n- + valor\n %0A%0A%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-33-58",
+            "content": "@@ -173,26 +173,8 @@\n alor\n-%0A    final := vez2\n  + v\n@@ -209,13 +209,12 @@\n n%22, \n-final\n+vez2\n )%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-34-30",
+            "content": "@@ -113,24 +113,27 @@\n arcela)%0A%0A   \n+ //\n  vez1 := 1 *\n@@ -129,17 +129,24 @@\n vez1 := \n-1\n+qparcela\n  * valor\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-03-31_17-34-59",
+            "content": "@@ -139,19 +139,16 @@\n alor%0A   \n- //\n  vez2 :=\n@@ -173,39 +173,8 @@\n inal\n-1 := vez1 + valor%0A    // final2\n  := \n@@ -218,17 +218,16 @@\n %22, final\n-1\n )%0A    fm\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-03-31_17-35-40",
+            "content": "@@ -126,17 +126,17 @@\n vez1 := \n-0\n+1\n  * valor\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-31_17-35-50",
+            "content": "@@ -117,19 +117,16 @@\n la)%0A%0A   \n- //\n  vez1 :=\n@@ -135,24 +135,27 @@\n  * valor%0A   \n+ //\n  vez2 := 0.5\n@@ -166,19 +166,16 @@\n alor%0A   \n- //\n  final1 \n@@ -189,24 +189,27 @@\n  + valor%0A   \n+ //\n  final2 := v\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-31_17-40-21",
+            "content": "@@ -252,17 +252,17 @@\n %22, final\n-2\n+1\n )%0A    fm\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-31_17-40-26",
+            "content": "@@ -153,17 +153,16 @@\n z2 := 0.\n-0\n 5 * valo\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-31_17-40-46",
+            "content": "@@ -154,16 +154,17 @@\n 2 := 0.0\n+5\n  * valor\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-31_17-41-00",
+            "content": "@@ -67,20 +67,25 @@\n var \n+q\n parcela\n-s int\n+ float64%0A\n %0A   \n@@ -107,220 +107,159 @@\n r, &\n+q\n parcela\n-s\n )%0A%0A    \n-var juros float64%0A%0A    if parcelas == 1 %7B%0A        juros = 0%0A    %7D else %7B%0A        juros = float64(parcelas-1) * 0.05%0A    %7D%0A%0A    tot\n+// vez1 := 0 * valor%0A    vez2 := 0.0 * valor%0A    // fin\n al\n+1\n  := v\n-alor * (1 + juros)%0A    parcela := total / float64(parcelas)%0A\n+ez1 + valor%0A    final2 := vez2 + valor%0A%0A%0A    fmt.Printf(%22%25.2f%5Cn%22, final2)\n %0A   \n@@ -280,21 +280,17 @@\n .2f%5Cn%22, \n-parcela)%0A%0A\n+valor)\n %0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-31_17-51-52",
+            "content": "@@ -349,40 +349,8 @@\n la)%0A\n-    fmt.Printf(%22%25.2f%5Cn%22, total)%0A\n %0A%0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-03-31_17-52-09",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var valor float64\n    var parcelas int\n    fmt.Scan(&valor, &parcelas)\n\n    var juros float64\n\n    if parcelas == 1 {\n        juros = 0\n    } else {\n        juros = float64(parcelas-1) * 0.05\n    }\n\n    total := valor * (1 + juros)\n    parcela := total / float64(parcelas)\n\n    fmt.Printf(\"%.2f\\n\", parcela)\n    fmt.Printf(\"%.2f\\n\", total)\n\n\n}\n",
+            "lines": "23"
+        }
+    ]
+}
