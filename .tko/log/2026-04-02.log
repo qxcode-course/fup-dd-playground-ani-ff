@@ -1,0 +1,10 @@
+2026-04-02 23:19:04, MOVE, v:1, k:sandbox@user_001, mode:PICK
+2026-04-02 23:19:06, MOVE, v:1, k:sandbox@user_001, mode:BACK
+2026-04-02 23:20:29, MOVE, v:1, k:fub@opala, mode:PICK
+2026-04-02 23:20:32, EXEC, v:1, k:fub@opala, mode:FULL, rate:100, size:16
+2026-04-02 23:21:07, EXEC, v:1, k:fub@opala, mode:FULL, size:16, fail:COMP
+2026-04-02 23:21:20, EXEC, v:1, k:fub@opala, mode:FULL, size:16, fail:COMP
+2026-04-02 23:21:23, EXEC, v:1, k:fub@opala, mode:FULL, rate:100, size:16
+2026-04-02 23:23:16, MOVE, v:1, k:fub@opala, mode:BACK
+2026-04-02 23:31:44, MOVE, v:1, k:fub@maximo, mode:DOWN
+2026-04-02 23:31:44, MOVE, v:1, k:fub@maximo, mode:PICK

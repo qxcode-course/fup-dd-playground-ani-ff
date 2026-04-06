@@ -6,6 +6,7 @@ func main() {
     var combustivel float64
 
     fmt.Scan(&velocidade, &tempo, &combustivel)
+    
 
     tempoh := tempo / 60
     distancia := velocidade * tempoh

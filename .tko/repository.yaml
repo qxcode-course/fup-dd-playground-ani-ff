@@ -2,39 +2,25 @@ version: '0.2'
 sources:
 - name: sandbox
   target: sandbox
+  index: README.md
   type: local
   writeable: true
   quests: null
   tasks: null
 - name: fub
   target: https://github.com/qxcodefup/arcade.git
+  index: README.md
   type: git
   writeable: false
   quests: null
   tasks: null
 expanded:
 - fub@if1
-tasks:
-  sandbox@user_001: '{self:1, guided:1}'
-  sandbox@user_002: '{self:1, rate:100, guided:1}'
-  fub@tres: '{self:1, rate:100, guided:1}'
-  fub@resto: '{self:1, rate:100, guided:1, code:1, debug:1}'
-  fub@media: '{self:1, rate:100, study:5, code:1, debug:1}'
-  fub@sobrou: '{self:1, rate:100, concept:1, code:1}'
-  fub@segundos: '{self:1, rate:100, debug:1}'
-  fub@celsius: '{self:1, rate:100}'
-  fub@pintando: '{self:1, rate:100, code:1}'
-  fub@bala: '{self:1, rate:100, debug:1}'
-  fub@quebrada: '{self:1, rate:100, debug:1}'
-  fub@operacoes: '{self:1, rate:100}'
-  fub@data: '{self:1, rate:100, debug:1}'
-  fub@opala: '{self:1, rate:100, debug:1}'
-  fub@tv: '{self:1, rate:100, debug:1}'
 flags:
-  panel: 3
-  inbox: 1
-  show_panel: 0
-  task_graph_mode: 0
-  show_time: 0
+  inbox: all
+  panel: help
+  show_panel: 'true'
+  task_graph_mode: executions
+  show_time: 'true'
 lang: go
-selected: fub@abs
+selected: fub@ou

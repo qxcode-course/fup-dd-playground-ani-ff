@@ -20,5 +20,4 @@ func main() {
     } else {
         fmt.Println("Jog2 ganhou")
     }
-    
 }

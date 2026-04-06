@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_18-04-57",
+            "content": "@@ -41,551 +41,35 @@\n     \n-const PEDRA int = 0%0A    const PAPEL int = 1%0A    const TESOURA int = 2%0A%0A    var jog1, jog2 int%0A    fmt.Println(%22Jog1: Digite 0(pedra), 1(papel), 2(tesoura):%22)%0A    fmt.Scan(&jog1)%0A    fmt.Println(%22Jog2: Digite 0(pedra), 1(papel), 2(tesoura):%22)%0A    fmt.Scan(&jog2)%0A%0A    if jog1 == jog2 %7B%0A        fmt.Println(%22Empate%22)%0A    %7D else if (jog1 == PEDRA && jog2 == TESOURA) %7C%7C%0A        (jog1 == PAPEL && jog2 == PEDRA) %7C%7C%0A        (jog1 == TESOURA && jog2 == PAPEL) %7B%0A        fmt.Println(%22Jog1 ganhou%22)%0A    %7D else %7B%0A        fmt.Println(%22Jog2 ganhou%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-31_18-17-33",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    const PEDRA int = 0\n    const PAPEL int = 1\n    const TESOURA int = 2\n\n    var jog1, jog2 int\n    fmt.Println(\"Jog1: Digite 0(pedra), 1(papel), 2(tesoura):\")\n    fmt.Scan(&jog1)\n    fmt.Println(\"Jog2: Digite 0(pedra), 1(papel), 2(tesoura):\")\n    fmt.Scan(&jog2)\n\n    if jog1 == jog2 {\n        fmt.Println(\"Empate\")\n    } else if (jog1 == PEDRA && jog2 == TESOURA) ||\n        (jog1 == PAPEL && jog2 == PEDRA) ||\n        (jog1 == TESOURA && jog2 == PAPEL) {\n        fmt.Println(\"Jog1 ganhou\")\n    } else {\n        fmt.Println(\"Jog2 ganhou\")\n    }\n}\n",
+            "lines": "23"
+        }
+    ]
+}

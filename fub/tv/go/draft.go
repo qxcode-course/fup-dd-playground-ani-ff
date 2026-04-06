@@ -19,5 +19,4 @@ func main() {
     fmt.Printf("%.2f\n", parcela)
     fmt.Printf("%.2f\n", total)
 
-
 }

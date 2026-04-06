@@ -116,3 +116,22 @@
 2026-03-31 17:52:48, SELF, v:1, k:fub@tv, self:1, rate:100, debug:1
 2026-03-31 17:53:17, MOVE, v:1, k:fub@abs, mode:PICK
 2026-03-31 17:53:19, EXEC, v:1, k:fub@abs, mode:FULL, rate:0
+2026-03-31 17:53:55, MOVE, v:1, k:fub@abs, mode:BACK
+2026-03-31 18:04:52, MOVE, v:1, k:fub@jokenpo, mode:DOWN
+2026-03-31 18:04:55, MOVE, v:1, k:fub@jokenpo, mode:PICK
+2026-03-31 18:04:57, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0, size:5
+2026-03-31 18:04:59, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:05:48, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:01, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:04, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:06, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:07, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:08, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:08, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:08, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:09, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:09, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:09, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0
+2026-03-31 18:09:12, EXEC, v:1, k:fub@jokenpo, mode:FREE
+2026-03-31 18:17:33, EXEC, v:1, k:fub@jokenpo, mode:FULL, rate:0, size:23
+2026-03-31 18:17:38, EXEC, v:1, k:fub@jokenpo, mode:FREE

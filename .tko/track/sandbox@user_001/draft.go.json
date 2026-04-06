@@ -2,8 +2,23 @@
     "patches": [
         {
             "label": "2026-03-09_18-25-13",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"qxcode\")\n}\n",
+            "content": "@@ -54,21 +54,14 @@\n ln(%22\n-Hello, World!\n+qxcode\n %22)%0A%7D\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-04-06_17-10-41",
+            "content": "@@ -23,22 +23,17 @@\n mt%22%0A\n-%0A%0A\n func \n-diga_oi\n+main\n () %7B\n@@ -54,79 +54,22 @@\n ln(%22\n-oi%22)%0A%7D%0A%0A// sempre vai come%C3%A7ar o main primeiro%0Afunc main() %7B%0A    diga_oi(\n+Hello, World!%22\n )%0A%7D\n+%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-06_17-23-57",
+            "content": "@@ -123,57 +123,15 @@\n     \n-fmt.Println(%22a%22)%0A    diga_oi()%0A    fmt.Println(%22b%22\n+diga_oi(\n )%0A%7D\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-06_17-24-24",
+            "content": "package main\nimport \"fmt\"\n\n\nfunc diga_oi() {\n    fmt.Println(\"oi\")\n}\n\n// sempre vai come\u00e7ar o main primeiro\nfunc main() {\n    fmt.Println(\"a\")\n    diga_oi()\n    fmt.Println(\"b\")\n}",
+            "lines": "14"
         }
     ]
 }
