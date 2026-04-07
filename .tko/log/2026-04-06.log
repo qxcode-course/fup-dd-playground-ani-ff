@@ -53,3 +53,24 @@
 2026-04-06 18:07:01, EXEC, v:1, k:fub@positivo, mode:FULL, rate:100, size:12
 2026-04-06 18:07:05, MOVE, v:1, k:fub@positivo, mode:BACK
 2026-04-06 18:07:11, SELF, v:1, k:fub@positivo, self:1, rate:100
+2026-04-06 18:07:37, MOVE, v:1, k:fub@multiplo, mode:DOWN
+2026-04-06 18:07:37, MOVE, v:1, k:fub@multiplo, mode:PICK
+2026-04-06 18:07:41, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:0, size:5
+2026-04-06 18:11:48, EXEC, v:1, k:fub@multiplo, mode:FULL, size:12, fail:COMP
+2026-04-06 18:12:04, EXEC, v:1, k:fub@multiplo, mode:FULL, size:12, fail:COMP
+2026-04-06 18:12:30, EXEC, v:1, k:fub@multiplo, mode:FULL, size:12, fail:COMP
+2026-04-06 18:14:17, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:42, size:12
+2026-04-06 18:14:39, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:57, size:12
+2026-04-06 18:15:13, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:57, size:12
+2026-04-06 18:15:19, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:57, size:12
+2026-04-06 18:16:31, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:42, size:12
+2026-04-06 18:16:42, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:42, size:12
+2026-04-06 18:16:48, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:57, size:12
+2026-04-06 18:16:55, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:42, size:12
+2026-04-06 18:17:00, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:57, size:12
+2026-04-06 18:18:06, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:57, size:12
+2026-04-06 18:18:36, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:57, size:12
+2026-04-06 18:18:46, MOVE, v:1, k:fub@multiplo, mode:BACK
+2026-04-06 18:18:53, MOVE, v:1, k:fub@calc, mode:DOWN
+2026-04-06 18:18:54, MOVE, v:1, k:fub@calc, mode:PICK
+2026-04-06 18:18:56, EXEC, v:1, k:fub@calc, mode:FULL, rate:0, size:5
