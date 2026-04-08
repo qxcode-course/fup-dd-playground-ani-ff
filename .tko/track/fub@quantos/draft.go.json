@@ -1,0 +1,69 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-07_18-14-44",
+            "content": "@@ -41,113 +41,35 @@\n     \n-var j1, j2, j3 int%0A    fmt.Scan(&j1, &j2, &j3)%0A%0A    quantidade := j1, j2, j3%0A%0A    fmt.Println(quantidade)%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-08_11-51-32",
+            "content": "@@ -109,15 +109,13 @@\n = j1\n- + j2 +\n+, j2,\n  j3%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-08_11-51-51",
+            "content": "@@ -93,121 +93,62 @@\n     \n-if\n+quantidade :=\n  j1 \n-== j2, j1 == j3 %7B%0A        fmt.Println(%22oi%22)%0A    %7D else %7B%0A        fmt.Println(%22nao%22)%0A    %7D%0A%0A    fmt.Println(\n++ j2 + j3%0A%0A    fmt.Println(quantidade\n )%0A%0A%7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-08_11-54-23",
+            "content": "@@ -104,11 +104,9 @@\n = j2\n- &&\n+,\n  j1 \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-08_11-54-36",
+            "content": "@@ -187,10 +187,30 @@\n )%0A    %7D%0A\n+%0A    fmt.Println()%0A%0A\n %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-08_11-55-59",
+            "content": "@@ -94,49 +94,29 @@\n    i\n-guais := 0%0A%0A    switch %7B%0A    case\n+f j1 == j2 &&\n  j1 == j\n 2:%0A \n@@ -115,10 +115,11 @@\n == j\n-2:\n+3 %7B\n %0A   \n@@ -127,18 +127,38 @@\n     \n-iguais = 2\n+fmt.Println(%22oi%22)%0A    %7D else %7B\n %0A   \n@@ -178,14 +178,13 @@\n tln(\n-iguais\n+%22nao%22\n )%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-08_11-59-35",
+            "content": "@@ -185,140 +185,8 @@\n is)%0A\n-    case j1 == j3:%0A        iguais = 2%0A        fmt.Println(iguais)%0A    case j2 == j3:%0A        iguais = 2%0A        fmt.Println(iguais)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-08_12-00-56",
+            "content": "@@ -317,98 +317,8 @@\n is)%0A\n-    case j1 != j2 && j1 != j3 && j2 != j3:%0A        iguais = 0%0A        fmt.Println(iguais)%0A\n     \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-08_12-02-12",
+            "content": "@@ -317,98 +317,8 @@\n is)%0A\n-    case j1 == j2 && j1 == j3 && j2 == j3:%0A        iguais = 3%0A        fmt.Println(iguais)%0A\n     \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-04-08_12-04-40",
+            "content": "@@ -94,54 +94,409 @@\n    i\n-f j1 == j2 && j2 == j3 %7B%0A        fmt.Println(3\n+guais := 0%0A%0A    switch %7B%0A    case j1 == j2:%0A        iguais = 2%0A        fmt.Println(iguais)%0A    case j1 == j3:%0A        iguais = 2%0A        fmt.Println(iguais)%0A    case j2 == j3:%0A        iguais = 2%0A        fmt.Println(iguais)%0A    case j1 == j2 && j1 == j3 && j2 == j3:%0A        iguais = 3%0A        fmt.Println(iguais)%0A    case j1 != j2 && j1 != j3 && j2 != j3:%0A        iguais = 0%0A        fmt.Println(iguais\n )%0A  \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-04-08_12-06-52",
+            "content": "@@ -142,80 +142,8 @@\n (3)%0A\n-    %7D else if j1 == j2 %7C%7C j1 == j3 %7C%7C j2 == j3 %7B%0A        fmt.Println(2)%0A\n     \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-08_12-07-48",
+            "content": "@@ -214,44 +214,8 @@\n (2)%0A\n-    %7D else %7B%0A        fmt.Println(0)%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-08_12-08-09",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var j1, j2, j3 int\n    fmt.Scan(&j1, &j2, &j3)\n\n    if j1 == j2 && j2 == j3 {\n        fmt.Println(3)\n    } else if j1 == j2 || j1 == j3 || j2 == j3 {\n        fmt.Println(2)\n    } else {\n        fmt.Println(0)\n    }\n}\n",
+            "lines": "14"
+        }
+    ]
+}
