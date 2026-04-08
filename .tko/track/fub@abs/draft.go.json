@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2026-03-30_16-13-06",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -1,9 +1,8 @@\n- \n package \n@@ -23,236 +23,53 @@\n mt%22%0A\n-%0Afunc abs (x int) int %7B%0A    if x %3C 0 %7B%0A        return -x%0A    %7D%0A    return x%0A%7D%0A%0Afunc main() %7B%0A    var n1, n2 int%0A    fmt.Scan(&n1, &n2)%0A%0A    diferenca := n1 - n2%0A    %0A    reseultado := abs(diferenca)%0A%0A    fmt.Println(reseultado)%0A%0A\n+func main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-04-08_12-26-41",
+            "content": " package main\nimport \"fmt\"\n\nfunc abs (x int) int {\n    if x < 0 {\n        return -x\n    }\n    return x\n}\n\nfunc main() {\n    var n1, n2 int\n    fmt.Scan(&n1, &n2)\n\n    diferenca := n1 - n2\n    \n    reseultado := abs(diferenca)\n\n    fmt.Println(reseultado)\n\n\n}\n",
+            "lines": "22"
         }
     ]
 }
