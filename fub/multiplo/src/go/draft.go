@@ -4,7 +4,9 @@ func main() {
     var n int
     fmt.Scan(&n)
 
-    if n == 0 {
+    mult := n % 7
+
+    if mult == 0 {
         fmt.Println("SIM")
     } else {
         fmt.Println("NAO")

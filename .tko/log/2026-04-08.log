@@ -35,3 +35,16 @@
 2026-04-08 12:26:41, EXEC, v:1, k:fub@abs, mode:FULL, rate:100, size:22
 2026-04-08 12:27:57, MOVE, v:1, k:fub@abs, mode:BACK
 2026-04-08 12:28:46, SELF, v:1, k:fub@abs, self:1, rate:100, study:20, code:1
+2026-04-08 12:30:02, MOVE, v:1, k:fub@multiplo, mode:PICK
+2026-04-08 12:30:03, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:57
+2026-04-08 12:26:39, MOVE, v:1, k:fub@abs, mode:EDIT
+2026-04-08 12:26:41, MOVE, v:1, k:fub@abs, mode:EDIT
+2026-04-08 12:30:03, MOVE, v:1, k:fub@multiplo, mode:EDIT
+2026-04-08 12:36:27, MOVE, v:1, k:fub@multiplo, mode:EDIT
+2026-04-08 12:39:24, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:100, size:14
+2026-04-08 12:39:38, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:42, size:14
+2026-04-08 12:39:45, EXEC, v:1, k:fub@multiplo, mode:FULL, rate:100, size:14
+2026-04-08 12:39:59, MOVE, v:1, k:fub@multiplo, mode:BACK
+2026-04-08 12:40:04, SELF, v:1, k:fub@multiplo, self:1, rate:100
+2026-04-08 12:40:04, MOVE, v:1, k:fub@multiplo, mode:PICK
+2026-04-08 12:40:07, MOVE, v:1, k:fub@multiplo, mode:BACK
