@@ -48,3 +48,28 @@
 2026-04-08 12:40:04, SELF, v:1, k:fub@multiplo, self:1, rate:100
 2026-04-08 12:40:04, MOVE, v:1, k:fub@multiplo, mode:PICK
 2026-04-08 12:40:07, MOVE, v:1, k:fub@multiplo, mode:BACK
+2026-04-08 12:41:21, MOVE, v:1, k:fub@guarda, mode:DOWN
+2026-04-08 12:41:21, MOVE, v:1, k:fub@guarda, mode:PICK
+2026-04-08 12:41:23, EXEC, v:1, k:fub@guarda, mode:FULL, rate:0, size:5
+2026-04-08 12:39:45, MOVE, v:1, k:fub@multiplo, mode:EDIT
+2026-04-08 12:39:45, MOVE, v:1, k:fub@multiplo, mode:EDIT
+2026-04-08 12:41:26, MOVE, v:1, k:fub@guarda, mode:EDIT
+2026-04-08 12:41:23, MOVE, v:1, k:fub@guarda, mode:EDIT
+2026-04-08 13:16:06, EXEC, v:1, k:fub@guarda, mode:FULL, rate:0, size:14
+2026-04-08 13:16:20, EXEC, v:1, k:fub@guarda, mode:FULL, rate:0, size:14
+2026-04-08 13:16:29, MOVE, v:1, k:fub@guarda, mode:EDIT
+2026-04-08 13:16:20, MOVE, v:1, k:fub@guarda, mode:EDIT
+2026-04-08 13:16:49, EXEC, v:1, k:fub@guarda, mode:FULL, rate:42, size:14
+2026-04-08 13:18:11, EXEC, v:1, k:fub@guarda, mode:FULL, rate:71, size:15
+2026-04-08 13:18:41, EXEC, v:1, k:fub@guarda, mode:FULL, rate:71, size:17
+2026-04-08 13:19:03, EXEC, v:1, k:fub@guarda, mode:FULL, rate:85, size:19
+2026-04-08 13:19:17, EXEC, v:1, k:fub@guarda, mode:FULL, rate:85
+2026-04-08 13:21:14, MOVE, v:1, k:fub@guarda, mode:EDIT
+2026-04-08 13:19:17, MOVE, v:1, k:fub@guarda, mode:EDIT
+2026-04-08 13:23:39, EXEC, v:1, k:fub@guarda, mode:FULL, rate:85, size:21
+2026-04-08 13:24:02, EXEC, v:1, k:fub@guarda, mode:FULL, rate:85, size:21
+2026-04-08 13:25:26, EXEC, v:1, k:fub@guarda, mode:FULL, rate:100, size:21
+2026-04-08 13:26:26, MOVE, v:1, k:fub@guarda, mode:BACK
+2026-04-08 13:26:18, MOVE, v:1, k:fub@guarda, mode:EDIT
+2026-04-08 13:25:26, MOVE, v:1, k:fub@guarda, mode:EDIT
+2026-04-08 13:26:54, SELF, v:1, k:fub@guarda, self:1, rate:100, study:30, debug:1
