@@ -3,15 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	// x := 0
-	// for { // loop infinito
-	// 	x += 1
-	// 	fmt.Println(x)
-	// 	if x > 10 {
-	// 		x += 1
-	// 		fmt.Println(x)
-	// 	}
-	// }
+	x := 0
+	for { // loop infinito
+		x += 1
+		fmt.Println(x)
+		if x > 10 {
+			x += 1
+			fmt.Println(x)
+		}
+	}
 
 
 	// for x := 0; x < 10; x += 1 { // do 0 ao 9

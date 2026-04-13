@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_16-02-02",
+            "content": "@@ -23,381 +23,53 @@\n mt%22%0A\n-import %22math%22%0A%0Afunc round(x float64) int %7B%0A    return int(math.Round(x))%0A%7D%0A%0Afunc floor(x float64) int %7B%0A    return int(math.Floor(x))%0A%7D%0A%0Afunc ceil(x float64) int %7B%0A    return int(math.Ceil(x))%0A%7D%0A%0Afunc main() %7B%0A    var operacao string%0A    var num float64%0A    fmt.Scan(&operacao)%0A    fmt.Scan(&num)%0A%0A    switch %7B%0A    case operacao == %22r%22:%0A        fmt.Println(round(num))%0A    %7D\n+func main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_16-19-27",
+            "content": "@@ -392,123 +392,8 @@\n m))%0A\n-    case operacao == %22f%22:%0A        fmt.Println(floor(num))%0A    case operacao == %22c%22:%0A        fmt.Println(ceil(num))%0A\n     \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-04-13_16-20-20",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\n\nfunc round(x float64) int {\n    return int(math.Round(x))\n}\n\nfunc floor(x float64) int {\n    return int(math.Floor(x))\n}\n\nfunc ceil(x float64) int {\n    return int(math.Ceil(x))\n}\n\nfunc main() {\n    var operacao string\n    var num float64\n    fmt.Scan(&operacao)\n    fmt.Scan(&num)\n\n    switch {\n    case operacao == \"r\":\n        fmt.Println(round(num))\n    case operacao == \"f\":\n        fmt.Println(floor(num))\n    case operacao == \"c\":\n        fmt.Println(ceil(num))\n    }\n}\n",
+            "lines": "31"
+        }
+    ]
+}

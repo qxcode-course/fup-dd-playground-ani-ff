@@ -73,3 +73,10 @@
 2026-04-08 13:26:18, MOVE, v:1, k:fub@guarda, mode:EDIT
 2026-04-08 13:25:26, MOVE, v:1, k:fub@guarda, mode:EDIT
 2026-04-08 13:26:54, SELF, v:1, k:fub@guarda, self:1, rate:100, study:30, debug:1
+2026-04-08 13:27:27, MOVE, v:1, k:fub@impar, mode:DOWN
+2026-04-08 13:27:28, MOVE, v:1, k:fub@impar, mode:PICK
+2026-04-08 13:27:29, EXEC, v:1, k:fub@impar, mode:FULL, rate:0, size:5
+2026-04-08 13:27:27, MOVE, v:1, k:fub@impar, mode:EDIT
+2026-04-08 13:27:27, MOVE, v:1, k:fub@impar, mode:EDIT
+2026-04-08 13:27:29, MOVE, v:1, k:fub@impar, mode:EDIT
+2026-04-08 13:29:55, MOVE, v:1, k:fub@impar, mode:EDIT
