@@ -1,0 +1,99 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-26-21",
+            "content": "@@ -1,9 +1,8 @@\n- \n package \n@@ -41,109 +41,35 @@\n     \n-var M, A, B int%0A    fmt.Scan(&M, &A, &B)%0A%0A    resultado := A + B == M%0A%0A    fmt.Println(resultado)%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_17-39-40",
+            "content": "@@ -125,16 +125,25 @@\n Println(\n+resultado\n )%0A    %0A%7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-41-50",
+            "content": "@@ -84,17 +84,25 @@\n B)%0A%0A    \n-C\n+resultado\n  := A + \n@@ -129,9 +129,8 @@\n tln(\n-C\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-44-44",
+            "content": "@@ -99,9 +99,10 @@\n + B \n--\n+==\n  M%0A%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-45-12",
+            "content": "@@ -116,17 +116,16 @@\n Println(\n-+\n C)%0A    %0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-45-30",
+            "content": "@@ -116,16 +116,18 @@\n Println(\n++C\n )%0A    %0A%7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-45-38",
+            "content": "@@ -116,17 +116,16 @@\n Println(\n-C\n )%0A    %0A%7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-45-40",
+            "content": "@@ -93,13 +93,13 @@\n  := \n-B + A\n+A + B\n  - M\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-46-16",
+            "content": "@@ -93,13 +93,13 @@\n  := \n-A + B\n+B + A\n  - M\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-46-51",
+            "content": "@@ -116,17 +116,16 @@\n Println(\n--\n C)%0A    %0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-47-13",
+            "content": "@@ -116,16 +116,17 @@\n Println(\n+-\n C)%0A    %0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-50-25",
+            "content": "@@ -120,13 +120,9 @@\n tln(\n-(+C()\n+C\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-51-03",
+            "content": "@@ -120,10 +120,13 @@\n tln(\n+(\n +C\n+()\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-51-21",
+            "content": "@@ -120,12 +120,9 @@\n tln(\n-%22+%22,\n++\n C)%0A \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-51-36",
+            "content": "@@ -116,16 +116,20 @@\n Println(\n+%22+%22,\n C)%0A    %0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-53-55",
+            "content": "@@ -92,18 +92,18 @@\n C :=\n- M -\n  A + B\n+ - M\n %0A%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-54-32",
+            "content": "@@ -92,18 +92,18 @@\n C :=\n+ M -\n  A + B\n- - M\n %0A%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_17-55-04",
+            "content": "@@ -119,16 +119,15 @@\n ntln(C)%0A\n-%0A\n     %0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-13_18-14-56",
+            "content": " package main\nimport \"fmt\"\nfunc main() {\n    var M, A, B int\n    fmt.Scan(&M, &A, &B)\n\n    C := A + B - M\n\n    fmt.Println(C)\n\n    \n}\n",
+            "lines": "12"
+        }
+    ]
+}

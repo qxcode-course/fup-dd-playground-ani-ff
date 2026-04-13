@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_16-36-47",
+            "content": "@@ -41,188 +41,35 @@\n     \n-var nome string%0A    var idade int%0A    fmt.Scan(&nome, &idade)%0A%0A    classificacao := idade %3C 12 == crianca%0A%0A    if idade %3C 12 %7B%0A        fmt.Println(%22%3Cnome%3E eh %3Cclassificacao%3E%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_16-44-03",
+            "content": "@@ -139,17 +139,15 @@\n  == \n-%22\n crianca\n-%22\n %0A%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_16-44-21",
+            "content": "@@ -190,19 +190,18 @@\n tln(\n+%22\n %3Cnome%3E \n-%22\n eh\n-%22\n  %3Ccl\n@@ -212,16 +212,17 @@\n ficacao%3E\n+%22\n )%0A    %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_16-44-42",
+            "content": "@@ -186,17 +186,16 @@\n Println(\n-%22\n %3Cnome%3E %22\n@@ -213,17 +213,16 @@\n ficacao%3E\n-%22\n )%0A    %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_16-45-09",
+            "content": "@@ -106,16 +106,26 @@\n %0A%0A    cl\n+assificaca\n o := ida\n@@ -187,16 +187,28 @@\n rintln(%22\n+%3Cnome%3E %22eh%22 \n %3Cclassif\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_16-49-20",
+            "content": "@@ -107,11 +107,8 @@\n %0A   \n- //\n  clo\n@@ -176,20 +176,33 @@\n Println(\n-nome\n+%22%3Cclassificacao%3E%22\n )%0A    %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_16-50-02",
+            "content": "@@ -187,22 +187,8 @@\n nome\n-, %22eh crian%C3%A7a%22\n )%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_16-51-28",
+            "content": "@@ -194,17 +194,17 @@\n eh crian\n-c\n+%C3%A7\n a%22)%0A    \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_16-51-36",
+            "content": "@@ -104,23 +104,22 @@\n e)%0A%0A    \n-crianca\n+// clo\n  := idad\n@@ -124,16 +124,29 @@\n ade %3C 12\n+ == %22crianca%22\n %0A%0A    if\n@@ -192,18 +192,16 @@\n  %22eh\n-%22,\n  crianca\n )%0A  \n@@ -196,16 +196,17 @@\n  crianca\n+%22\n )%0A    %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_16-53-19",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nome string\n    var idade int\n    fmt.Scan(&nome, &idade)\n\n    crianca := idade < 12\n\n    if idade < 12 {\n        fmt.Println(nome, \"eh\", crianca)\n    }\n}\n",
+            "lines": "13"
+        }
+    ]
+}

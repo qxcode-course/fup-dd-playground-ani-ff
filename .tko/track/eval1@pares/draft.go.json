@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-01-28",
+            "content": "@@ -1,9 +1,8 @@\n- \n package \n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_17-56-50",
+            "content": "@@ -42,111 +42,35 @@\n     \n-var A, B int%0A    fmt.Scan(&A, &B)%0A%0A    if %7B%0A%0A    %7D else if A %3E B %7B%0A        fmt.Println(%22invalido%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_18-02-38",
+            "content": "@@ -84,14 +84,8 @@\n  if \n-A == B\n %7B%0A%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_18-02-57",
+            "content": "@@ -92,33 +92,8 @@\n  B%7B%0A\n-        fmt.Println(%22oi%22)\n %0A   \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_18-03-18",
+            "content": " package main\nimport \"fmt\"\nfunc main() {\n    var A, B int\n    fmt.Scan(&A, &B)\n\n    if A == B{\n        fmt.Println(\"oi\")\n    } else if A > B {\n        fmt.Println(\"invalido\")\n    }\n}\n",
+            "lines": "12"
+        }
+    ]
+}

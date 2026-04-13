@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-06-03",
+            "content": "@@ -41,130 +41,35 @@\n     \n-var nome string%0A    var idade int%0A    fmt.Scan(&nome, &idade)%0A%0A    if idade %3C 12 %7B%0A        fmt.Println(nome, %22eh%22 )%0A    %7D%0A%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_17-16-49",
+            "content": "@@ -103,19 +103,16 @@\n de)%0A%0A   \n- //\n  if idad\n@@ -123,19 +123,16 @@\n 12 %7B%0A   \n- //\n      fmt\n@@ -157,92 +157,8 @@\n %22 )%0A\n-    // %7D%0A%0A    switch %7B%0A    case idade %3C 12:%0A        fmt.Println(nome, %22eh crianca%22)%0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_17-18-12",
+            "content": "@@ -247,67 +247,8 @@\n a%22)%0A\n-    case idade %3C 18:%0A        fmt.Println(nome, %22eh jovem%22)%0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-13_17-18-48",
+            "content": "@@ -306,100 +306,8 @@\n m%22)%0A\n-    case idade %3C 65:%0A        fmt.Println(nome, %22eh adulto%22)%0A    case idade %3C 1000:%0A        %0A\n     \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-13_17-20-46",
+            "content": "@@ -397,37 +397,8 @@\n     \n-fmt.Println(nome, %22eh idoso%22)\n %0A   \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-04-13_17-21-18",
+            "content": "@@ -103,16 +103,19 @@\n de)%0A%0A   \n+ //\n  if idad\n@@ -123,16 +123,96 @@\n  %3C 12 %7B%0A\n+    //     fmt.Println(nome, %22eh%22 )%0A    // %7D%0A%0A    switch %7B%0A    case idade %3C 12:%0A\n         \n@@ -243,33 +243,28 @@\n ianca%22)%0A    \n-%7D else if\n+case\n  idade %3C 18 \n@@ -262,18 +262,17 @@\n ade %3C 18\n- %7B\n+:\n %0A       \n@@ -302,33 +302,28 @@\n jovem%22)%0A    \n-%7D else if\n+case\n  idade %3C 65 \n@@ -321,18 +321,17 @@\n ade %3C 65\n- %7B\n+:\n %0A       \n@@ -370,17 +370,12 @@\n     \n-%7D else if\n+case\n  ida\n@@ -383,18 +383,17 @@\n e %3C 1000\n- %7B\n+:\n %0A       \n@@ -432,59 +432,9 @@\n    %7D\n- else %7B%0A        fmt.Println(nome, %22eh mumia%22)%0A    %7D\n+%0A\n %0A%0A%7D%0A\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-04-13_17-24-47",
+            "content": "@@ -405,17 +405,17 @@\n %22eh mumi\n-e\n+a\n %22)%0A    %7D\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-13_17-24-55",
+            "content": "@@ -405,17 +405,17 @@\n %22eh mumi\n-a\n+e\n %22)%0A    %7D\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-13_17-25-03",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nome string\n    var idade int\n    fmt.Scan(&nome, &idade)\n\n    if idade < 12 {\n        fmt.Println(nome, \"eh crianca\")\n    } else if idade < 18 {\n        fmt.Println(nome, \"eh jovem\")\n    } else if idade < 65 {\n        fmt.Println(nome, \"eh adulto\")\n    } else if idade < 1000 {\n        fmt.Println(nome, \"eh idoso\")\n    } else {\n        fmt.Println(nome, \"eh mumia\")\n    }\n\n}\n",
+            "lines": "20"
+        }
+    ]
+}
