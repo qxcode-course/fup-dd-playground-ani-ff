@@ -5,9 +5,15 @@ func main() {
     var idade int
     fmt.Scan(&nome, &idade)
 
-    crianca := idade < 12
-
-    if idade < 12 {
-        fmt.Println(nome, "eh", crianca)
+    if idade > 0 && idade < 12 {
+        fmt.Println(nome, "eh crianca")
+    } else if idade >= 12 && idade < 18 {
+        fmt.Println(nome, "eh jovem")
+    } else if idade >= 18 && idade < 65 {
+        fmt.Println(nome, "eh adulto")
+    } else if idade >= 65 && idade < 1000 {
+        fmt.Println(nome, "eh idoso")
+    } else {
+        fmt.Println(nome, "eh mumia")
     }
 }

@@ -47,8 +47,38 @@
         },
         {
             "label": "2026-04-13_16-53-19",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nome string\n    var idade int\n    fmt.Scan(&nome, &idade)\n\n    crianca := idade < 12\n\n    if idade < 12 {\n        fmt.Println(nome, \"eh\", crianca)\n    }\n}\n",
+            "content": "@@ -100,16 +100,43 @@\n idade)%0A%0A\n+    crianca := idade %3C 12%0A%0A\n     if i\n@@ -176,24 +176,26 @@\n ome, %22eh\n+%22,\n  crianca\n %22)%0A    %7D\n@@ -186,17 +186,16 @@\n  crianca\n-%22\n )%0A    %7D%0A\n",
             "lines": "13"
+        },
+        {
+            "label": "2026-04-21_18-25-36",
+            "content": "@@ -117,23 +117,9 @@\n ade \n-%3E 0 && idade %3C=\n+%3C\n  12 \n@@ -164,88 +164,8 @@\n a%22)%0A\n-    %7D else if idade %3E 12 && idade %3C= 18 %7B%0A        fmt.Println(nome, %22eh jovem%22)%0A\n     \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-21_18-28-31",
+            "content": "@@ -258,89 +258,8 @@\n m%22)%0A\n-    %7D else if idade %3E 18 && idade %3C= 65 %7B%0A        fmt.Println(nome, %22eh adulto%22)%0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-21_18-29-12",
+            "content": "@@ -209,16 +209,17 @@\n  idade %3C\n+=\n  18 %7B%0A  \n@@ -289,16 +289,17 @@\n  idade %3C\n+=\n  65 %7B%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-21_18-29-33",
+            "content": "@@ -127,16 +127,17 @@\n  idade %3C\n+=\n  12 %7B%0A  \n@@ -337,140 +337,8 @@\n o%22)%0A\n-    %7D else if idade %3E 65 && idade %3C 1000 %7B%0A        fmt.Println(nome, %22eh idoso%22)%0A    %7D else %7B%0A        fmt.Println(nome, %22eh mumia%22)%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-21_18-31-03",
+            "content": "@@ -194,17 +194,16 @@\n  idade %3E\n-=\n  12 && i\n@@ -214,16 +214,16 @@\n  %3C 18 %7B%0A\n+\n         \n@@ -273,17 +273,16 @@\n  idade %3E\n-=\n  18 && i\n@@ -328,24 +328,24 @@\n eh adulto%22)%0A\n+\n     %7D else i\n@@ -357,9 +357,8 @@\n de %3E\n-=\n  65 \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-21_18-32-26",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nome string\n    var idade int\n    fmt.Scan(&nome, &idade)\n\n    if idade > 0 && idade < 12 {\n        fmt.Println(nome, \"eh crianca\")\n    } else if idade >= 12 && idade < 18 {\n        fmt.Println(nome, \"eh jovem\")\n    } else if idade >= 18 && idade < 65 {\n        fmt.Println(nome, \"eh adulto\")\n    } else if idade >= 65 && idade < 1000 {\n        fmt.Println(nome, \"eh idoso\")\n    } else {\n        fmt.Println(nome, \"eh mumia\")\n    }\n}\n",
+            "lines": "19"
         }
     ]
 }

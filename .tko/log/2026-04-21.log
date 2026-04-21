@@ -50,3 +50,18 @@
 2026-04-21 18:21:59, EXEC, v:1, k:fub@impar, mode:FULL, rate:100, size:19
 2026-04-21 18:22:14, MOVE, v:1, k:fub@impar, mode:BACK
 2026-04-21 18:22:38, SELF, v:1, k:fub@impar, self:1, rate:100, study:15
+2026-04-21 18:21:58, MOVE, v:1, k:fub@impar, mode:EDIT
+2026-04-21 18:21:59, MOVE, v:1, k:fub@impar, mode:EDIT
+2026-04-21 18:23:42, MOVE, v:1, k:fub@mumia, mode:PICK
+2026-04-21 18:23:44, EXEC, v:1, k:fub@mumia, mode:FULL, rate:0
+2026-04-21 18:25:36, EXEC, v:1, k:fub@mumia, mode:FULL, rate:22, size:11
+2026-04-21 18:28:31, EXEC, v:1, k:fub@mumia, mode:FULL, rate:33, size:13
+2026-04-21 18:28:36, EXEC, v:1, k:fub@mumia, mode:FULL, rate:33
+2026-04-21 18:28:36, MOVE, v:1, k:fub@mumia, mode:EDIT
+2026-04-21 18:28:27, MOVE, v:1, k:fub@mumia, mode:EDIT
+2026-04-21 18:29:12, EXEC, v:1, k:fub@mumia, mode:FULL, rate:44, size:15
+2026-04-21 18:29:33, EXEC, v:1, k:fub@mumia, mode:FULL, rate:44, size:15
+2026-04-21 18:31:03, EXEC, v:1, k:fub@mumia, mode:FULL, rate:55, size:19
+2026-04-21 18:32:26, EXEC, v:1, k:fub@mumia, mode:FULL, rate:100, size:19
+2026-04-21 18:32:42, MOVE, v:1, k:fub@mumia, mode:BACK
+2026-04-21 18:32:56, SELF, v:1, k:fub@mumia, self:1, rate:100, study:10
