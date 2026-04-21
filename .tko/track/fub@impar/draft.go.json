@@ -12,8 +12,68 @@
         },
         {
             "label": "2026-04-13_15-59-47",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println()\n}\n",
+            "content": "@@ -37,40 +37,8 @@\n ) %7B%0A\n-    var P int%0A    fmt.Scan(&P)%0A%0A\n     \n@@ -49,13 +49,12 @@\n Println(\n-P\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-04-21_18-04-45",
+            "content": "@@ -73,103 +73,21 @@\n     \n-if P == 0 %7B%0A        fmt.Println(%22Par%22)%0A    %7D else if P != 0 %7B%0A        fmt.Println(%22Impar%22)%0A    %7D\n+fmt.Println(P)\n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-21_18-06-30",
+            "content": "@@ -46,16 +46,8 @@\n ar P\n-, D1, D2\n  int\n@@ -66,18 +66,8 @@\n n(&P\n-, &D1, &D2\n )%0A%0A \n@@ -81,10 +81,9 @@\n  == \n-D1\n+0\n  %7B%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-21_18-07-58",
+            "content": "@@ -94,19 +94,15 @@\n  if \n-D1 %25 2\n+P\n  == \n-0\n+D1\n  %7B%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-21_18-08-40",
+            "content": "@@ -103,18 +103,8 @@\n 2 ==\n- 0 && P ==\n  0 %7B\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-21_18-09-03",
+            "content": "@@ -134,17 +134,21 @@\n Println(\n-1\n+%22Par%22\n )%0A    %7D \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-21_18-09-24",
+            "content": "@@ -134,17 +134,17 @@\n Println(\n-0\n+1\n )%0A    %7D \n@@ -155,29 +155,14 @@\n  if \n-D2 %25 2 != 0 && P == 1\n+P != 0\n  %7B%0A \n@@ -184,16 +184,19 @@\n tln(%22Imp\n+ar%22\n )%0A    %7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-21_18-10-13",
+            "content": "@@ -195,17 +195,20 @@\n Println(\n-1\n+%22Imp\n )%0A    %7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-21_18-10-16",
+            "content": "@@ -207,32 +207,7 @@\n    %7D\n-%0A%0A    fmt.Println(D1, D2)\n %0A%7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-21_18-11-04",
+            "content": "@@ -91,36 +91,13 @@\n     \n-soma := D1 + D2%0A%0A    if soma\n+if D1\n  %25 2\n@@ -155,12 +155,10 @@\n  if \n-soma\n+D2\n  %25 2\n@@ -205,10 +205,34 @@\n %0A    %7D%0A%0A\n+    fmt.Println(D1, D2)%0A\n %7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-21_18-17-41",
+            "content": "@@ -187,172 +187,46 @@\n %25 2 \n-== 0 && P == 1 %7B%0A        fmt.Println(1)%0A    %7D else if soma %25 2 != 0 && P == 1 %7B%0A        fmt.Println(1)%0A    %7D else if soma %25 2 != 0 && P == 0 %7B%0A        fmt.Println(0\n+!= 0 && P == 1 %7B%0A        fmt.Println(1\n )%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-21_18-21-23",
+            "content": "@@ -251,33 +251,33 @@\n  2 != 0 && P == \n-0\n+1\n  %7B%0A        fmt.P\n@@ -297,16 +297,43 @@\n  %7D else \n+if soma %25 2 != 0 && P == 0 \n %7B%0A      \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-21_18-21-59",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var P, D1, D2 int\n    fmt.Scan(&P, &D1, &D2)\n\n    soma := D1 + D2\n\n    if soma % 2 == 0 && P == 0 {\n        fmt.Println(0)\n    } else if soma % 2 == 0 && P == 1 {\n        fmt.Println(1)\n    } else if soma % 2 != 0 && P == 0 {\n        fmt.Println(1)\n    } else {\n        fmt.Println(0)\n    }\n\n}\n",
+            "lines": "19"
         }
     ]
 }

@@ -87,7 +87,12 @@
         },
         {
             "label": "2026-04-07_18-13-19",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n1, n2 int\n    var c string\n    fmt.Scan(&n1, &n2, &c)\n\n    resultado := 0\n\n    // if c == \"+\" {\n    //     resultado = n1 + n2\n    //     fmt.Println(resultado)\n    // } else if c == \"-\" {\n    //     resultado = n1 - n2\n    //     fmt.Println(resultado)\n    // } else if c == \"*\" {\n    //     resultado = n1 * n2\n    //     fmt.Println(resultado)\n    // } else if c == \"/\" {\n    //     resultado = n1 / n2\n    //     fmt.Println(resultado)\n    // }\n\n    switch {\n    case c == \"+\":\n        resultado = n1 + n2\n        fmt.Println(resultado)\n    case c == \"-\":\n        resultado = n1 - n2\n        fmt.Println(resultado)\n    case c == \"*\":\n        resultado = n1 * n2\n        fmt.Println(resultado)\n    case c == \"/\":\n        resultado = n1 / n2\n        fmt.Println(resultado)\n    }\n}",
+            "content": "@@ -824,9 +824,8 @@\n %0A    %7D%0A%7D\n-%0A\n",
+            "lines": "38"
+        },
+        {
+            "label": "2026-04-21_17-58-46",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n1, n2 int\n    var c string\n    fmt.Scan(&n1, &n2, &c)\n\n    resultado := 0\n\n    // if c == \"+\" {\n    //     resultado = n1 + n2\n    //     fmt.Println(resultado)\n    // } else if c == \"-\" {\n    //     resultado = n1 - n2\n    //     fmt.Println(resultado)\n    // } else if c == \"*\" {\n    //     resultado = n1 * n2\n    //     fmt.Println(resultado)\n    // } else if c == \"/\" {\n    //     resultado = n1 / n2\n    //     fmt.Println(resultado)\n    // }\n\n    switch {\n    case c == \"+\":\n        resultado = n1 + n2\n        fmt.Println(resultado)\n    case c == \"-\":\n        resultado = n1 - n2\n        fmt.Println(resultado)\n    case c == \"*\":\n        resultado = n1 * n2\n        fmt.Println(resultado)\n    case c == \"/\":\n        resultado = n1 / n2\n        fmt.Println(resultado)\n    }\n}\n",
             "lines": "38"
         }
     ]

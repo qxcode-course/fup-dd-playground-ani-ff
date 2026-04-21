@@ -1,0 +1,104 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-14_17-33-06",
+            "content": "@@ -41,78 +41,35 @@\n     \n-var n %5B%5Dint%0A    fmt.Scan(&n)%0A    n = %5B%5Dint%7B1, 2, 3%7D%0A    fmt.Print(n%5B0%5D\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-14_17-52-38",
+            "content": "@@ -113,26 +113,6 @@\n 0%5D)%0A\n-    fmt.Print(n%5B1%5D)%0A\n %7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-14_17-52-53",
+            "content": "@@ -102,18 +102,16 @@\n mt.Print\n-ln\n (n%5B0%5D)%0A \n@@ -126,10 +126,8 @@\n rint\n-ln\n (n%5B1\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-14_17-53-02",
+            "content": "@@ -137,28 +137,6 @@\n 1%5D)%0A\n-    fmt.Println(n%5B2%5D)%0A\n %7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-14_17-53-11",
+            "content": "@@ -133,11 +133,32 @@\n n(n%5B1%5D)%0A\n+    fmt.Println(n%5B2%5D)\n %0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_17-53-37",
+            "content": "@@ -93,27 +93,8 @@\n  3%7D%0A\n-    fmt.Println(n)%0A\n     \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_17-54-30",
+            "content": "@@ -106,18 +106,16 @@\n rintln(n\n-%5B%5D\n )%0A    fm\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-54-47",
+            "content": "@@ -107,17 +107,16 @@\n intln(n%5B\n-2\n %5D)%0A    f\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-54-50",
+            "content": "@@ -154,34 +154,12 @@\n ln(n%5B1%5D)\n-%0A    fmt.Println(n%5B2%5D)\n %0A%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-55-03",
+            "content": "@@ -89,16 +89,38 @@\n , 2, 3%7D%0A\n+    fmt.Println(n%5B2%5D)%0A\n     fmt.\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-14_17-55-31",
+            "content": "@@ -43,16 +43,18 @@\n   var n \n+%5B%5D\n int%0A    \n@@ -70,54 +70,96 @@\n &n)%0A\n-%0A\n     \n-arr := make(%5B%5Dint, n)%0A    fmt.Println(arr)\n+n = %5B%5Dint%7B1, 2, 3%7D%0A    fmt.Println(n%5B0%5D)%0A    fmt.Println(n%5B1%5D)%0A    fmt.Println(n%5B2%5D)%0A\n %0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_18-03-00",
+            "content": "@@ -67,19 +67,8 @@\n (&n)\n-%0A    fmt.pr\n %0A%0A  \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-14_18-03-12",
+            "content": "@@ -76,18 +76,10 @@\n fmt.\n-Println(n)\n+pr\n %0A%0A  \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_18-03-14",
+            "content": "@@ -99,43 +99,21 @@\n  := \n-%5B%5Dint %7B1, 2, 3%7D%0A    fmt.Println(arr\n+make(%5B%5Dint, n\n )%0A  \n@@ -129,14 +129,12 @@\n ntln(arr\n-%5B%5D\n )%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_18-05-56",
+            "content": "@@ -134,10 +134,30 @@\n (arr\n+)%0A    fmt.Println(arr\n %5B\n-0\n %5D)%0A%7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_18-06-07",
+            "content": "@@ -63,16 +63,35 @@\n Scan(&n)\n+%0A    fmt.Println(n)\n %0A%0A    ar\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_18-06-16",
+            "content": "@@ -120,30 +120,6 @@\n 0%5D)%0A\n-    fmt.Println(arr%5B1%5D)%0A\n %7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-14_18-06-29",
+            "content": "@@ -144,30 +144,6 @@\n 1%5D)%0A\n-    fmt.Println(arr%5B2%5D)%0A\n %7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-14_18-06-43",
+            "content": "@@ -69,63 +69,35 @@\n n)%0A%0A\n-%0A\n     \n-if n == 0%7B%0A        fmt.Println()%0A    %7D else %7B%0A    \n+arr := %5B%5Dint %7B1, 2, 3%7D%0A\n     \n@@ -116,28 +116,24 @@\n arr%5B0%5D)%0A    \n- \n-   \n fmt.Println(\n@@ -144,20 +144,16 @@\n 1%5D)%0A    \n-   \n- \n fmt.Prin\n@@ -168,40 +168,6 @@\n 2%5D)%0A\n-    %7D%0A    arr := %5B%5Dint %7B1, 2, 3%7D%0A%0A\n %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_18-13-12",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n\n\n    if n == 0{\n        fmt.Println()\n    } else {\n        fmt.Println(arr[0])\n        fmt.Println(arr[1])\n        fmt.Println(arr[2])\n    }\n    arr := []int {1, 2, 3}\n\n}\n",
+            "lines": "17"
+        }
+    ]
+}

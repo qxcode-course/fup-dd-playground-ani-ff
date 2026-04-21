@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-14_16-40-25",
+            "content": "@@ -54,13 +54,21 @@\n ln(%22\n-cuida\n+Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-14_16-40-33",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"cuida\")\n}\n",
+            "lines": "5"
+        }
+    ]
+}

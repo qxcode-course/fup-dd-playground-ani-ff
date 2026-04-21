@@ -181,3 +181,5 @@
 2026-04-13 18:14:55, MOVE, v:1, k:eval1@monica, mode:PICK
 2026-04-13 18:14:56, EXEC, v:1, k:eval1@monica, mode:FULL, rate:0, size:12
 2026-04-13 18:17:14, MOVE, v:1, k:eval1@monica, mode:BACK
+2026-04-13 18:14:55, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-04-13 18:14:56, MOVE, v:1, k:eval1@monica, mode:EDIT

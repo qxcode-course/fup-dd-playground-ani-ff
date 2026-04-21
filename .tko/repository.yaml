@@ -23,7 +23,6 @@ sources:
   tasks: null
 expanded:
 - fub@if1
-- eval1@teste-1
 flags:
   inbox: all
   panel: graph
@@ -31,4 +30,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: eval1@monica
+selected: fub@mumia
+selected_index: 13
