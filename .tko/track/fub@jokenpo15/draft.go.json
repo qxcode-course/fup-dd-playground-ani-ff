@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-27_12-07-57",
+            "content": "@@ -41,106 +41,35 @@\n     \n-x := 0 // criou antes para n zerar o 0 sempre%0A    for %7B%0A        fmt.Println(x)%0A        x += 1%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-27_12-38-27",
+            "content": "@@ -90,43 +90,18 @@\n %0A   \n- //\n  for %7B\n- // loop infinitob \n %0A   \n- //\n     \n@@ -119,19 +119,16 @@\n n(x)%0A   \n- //\n      x +\n@@ -135,114 +135,8 @@\n = 1%0A\n-    // %7D%0A%0A    for %7B%0A        x += 1%0A        fmt.Println(x)%0A        if x %3E 10 %7B%0A            break%0A        %7D%0A\n     \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-27_12-45-13",
+            "content": "@@ -36,19 +36,16 @@\n () %7B%0A   \n- //\n  x := 0 \n@@ -83,17 +83,16 @@\n  sempre%0A\n-%0A\n     // f\n@@ -176,69 +176,18 @@\n %0A   \n- //\n  for %7B\n- // so sai quando o n%C3%BAmero ficar maior que 10\n %0A   \n- //\n     \n@@ -193,27 +193,24 @@\n   x += 1%0A   \n- //\n      fmt.Pri\n@@ -212,35 +212,32 @@\n t.Println(x)%0A   \n- //\n      if x %3E 10 %7B\n@@ -232,35 +232,32 @@\n  if x %3E 10 %7B%0A   \n- //\n          break%0A \n@@ -262,343 +262,15 @@\n %0A   \n- //\n      %7D%0A\n-    // %7D%0A%0A    // for %7B // so os n%C3%BAmeros %C3%ADmpares%0A    //     x += 1%0A    //     if x %25 2 == 0 %7B%0A    //         continue // volta pro come%C3%A7o%0A    //     %7D%0A    //     fmt.Println(x)%0A    //     if x %3E 10 %7B%0A    //         break%0A    //     %7D%0A    // %7D%0A%0A    for x := 0; x %3C 10; x += 1 %7B // o que faz antes de come%C3%A7ar o la%C3%A7o, o que faz%0A%0A\n     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-27_13-00-00",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    // x := 0 // criou antes para n zerar o 0 sempre\n\n    // for { // loop infinitob \n    //     fmt.Println(x)\n    //     x += 1\n    // }\n\n    // for { // so sai quando o n\u00famero ficar maior que 10\n    //     x += 1\n    //     fmt.Println(x)\n    //     if x > 10 {\n    //         break\n    //     }\n    // }\n\n    // for { // so os n\u00fameros \u00edmpares\n    //     x += 1\n    //     if x % 2 == 0 {\n    //         continue // volta pro come\u00e7o\n    //     }\n    //     fmt.Println(x)\n    //     if x > 10 {\n    //         break\n    //     }\n    // }\n\n    for x := 0; x < 10; x += 1 { // o que faz antes de come\u00e7ar o la\u00e7o, o que faz\n\n    }\n}\n",
+            "lines": "33"
+        }
+    ]
+}

@@ -22,6 +22,7 @@ sources:
   quests: null
   tasks: null
 expanded:
+- fub@if_extra
 - fub@if1
 flags:
   inbox: all
@@ -30,5 +31,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fub@mumia
-selected_index: 13
+selected: fub@jokenpo15
+selected_index: 30

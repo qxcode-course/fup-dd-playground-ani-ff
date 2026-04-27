@@ -65,3 +65,15 @@
 2026-04-21 18:32:26, EXEC, v:1, k:fub@mumia, mode:FULL, rate:100, size:19
 2026-04-21 18:32:42, MOVE, v:1, k:fub@mumia, mode:BACK
 2026-04-21 18:32:56, SELF, v:1, k:fub@mumia, self:1, rate:100, study:10
+2026-04-21 18:32:25, MOVE, v:1, k:fub@mumia, mode:EDIT
+2026-04-21 18:32:26, MOVE, v:1, k:fub@mumia, mode:EDIT
+2026-04-21 18:34:11, MOVE, v:1, k:fub@meio, mode:DOWN
+2026-04-21 18:34:15, MOVE, v:1, k:fub@meio, mode:PICK
+2026-04-21 18:34:16, EXEC, v:1, k:fub@meio, mode:FULL, rate:0, size:5
+2026-04-21 18:34:20, MOVE, v:1, k:fub@meio, mode:BACK
+2026-04-21 18:34:24, MOVE, v:1, k:fub@meio, mode:PICK
+2026-04-21 18:34:25, EXEC, v:1, k:fub@meio, mode:FULL, rate:0
+2026-04-21 18:34:11, MOVE, v:1, k:fub@meio, mode:EDIT
+2026-04-21 18:34:11, MOVE, v:1, k:fub@meio, mode:EDIT
+2026-04-21 18:34:33, MOVE, v:1, k:fub@meio, mode:EDIT
+2026-04-21 18:34:25, MOVE, v:1, k:fub@meio, mode:EDIT
