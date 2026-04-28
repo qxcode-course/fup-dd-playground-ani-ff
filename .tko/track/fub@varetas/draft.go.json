@@ -1,0 +1,74 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-28_15-28-01",
+            "content": "@@ -41,81 +41,35 @@\n     \n-var v1, v2, v3 int%0A    fmt.Scan(&v1, &v2, &v3)%0A    fmt.Println(v1, v2, v3\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-28_15-38-45",
+            "content": "@@ -115,65 +115,7 @@\n  v3)\n-%0A%0A    if v1 %3E v2 + v3 %7B%0A        fmt.Println(%22False%22)%0A    %7D\n %0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-04-28_15-41-26",
+            "content": "@@ -83,16 +83,44 @@\n v2, &v3)\n+%0A    fmt.Println(v1, v2, v3)\n %0A%0A    if\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_15-41-33",
+            "content": "@@ -105,98 +105,8 @@\n v2 +\n- v3 %7C%7C v1 %3C v2 + v3 %7B%0A        fmt.Println(%22False%22)%0A    %7D else if v2 %3E v1 + v3 %7C%7C v2 %3C v1 +\n  v3 \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-28_15-42-56",
+            "content": "@@ -230,82 +230,8 @@\n e%22)%0A\n-    %7D else if v3 %3E v1 + v2 %7C%7C v3 %3C v1 + v2 %7B%0A        fmt.Println(%22False%22)%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-28_15-43-39",
+            "content": "@@ -304,49 +304,8 @@\n e%22)%0A\n-    %7D else %7B%0A        fmt.Println(%22True%22)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-28_15-43-58",
+            "content": "@@ -101,16 +101,32 @@\n 1 %3E v2 +\n+ v3 %7C%7C v1 %3C v2 +\n  v3 %7B%0A  \n@@ -175,16 +175,32 @@\n 2 %3E v1 +\n+ v3 %7C%7C v2 %3C v1 +\n  v3 %7B%0A  \n@@ -249,16 +249,32 @@\n 3 %3E v1 +\n+ v2 %7C%7C v3 %3C v1 +\n  v2 %7B%0A  \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_15-45-23",
+            "content": "@@ -267,31 +267,8 @@\n lse \n-if v1 == v2 && v2 == v3\n %7B%0A  \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_15-46-38",
+            "content": "@@ -263,16 +263,39 @@\n  %7D else \n+if v1 == v2 && v2 == v3\n %7B%0A      \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_15-47-19",
+            "content": "@@ -47,92 +47,44 @@\n r v1\n- int%0A    var v2 int%0A    var v3 int%0A    fmt.Scan(&v1)%0A    fmt.Scan(&v2)%0A    fmt.Scan(\n+, v2, v3 int%0A    fmt.Scan(&v1, &v2, \n &v3)\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_15-49-07",
+            "content": "@@ -47,13 +47,35 @@\n r v1\n-, v2,\n+ int%0A    var v2 int%0A    var\n  v3 \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-28_15-50-04",
+            "content": "@@ -114,19 +114,16 @@\n v3)%0A%0A   \n- //\n  if v1 %3E\n@@ -129,39 +129,36 @@\n %3E v2 + v3 %7B%0A    \n-//\n     \n- \n fmt.Println(%22Fal\n@@ -157,35 +157,32 @@\n tln(%22False%22)%0A   \n- //\n  %7D else if v2 %3E \n@@ -190,27 +190,24 @@\n 1 + v3 %7B%0A   \n- //\n      fmt.Pri\n@@ -215,35 +215,32 @@\n tln(%22False%22)%0A   \n- //\n  %7D else if v3 %3E \n@@ -248,27 +248,24 @@\n 1 + v2 %7B%0A   \n- //\n      fmt.Pri\n@@ -281,19 +281,16 @@\n se%22)%0A   \n- //\n  %7D else \n@@ -294,19 +294,16 @@\n se %7B%0A   \n- //\n      fmt\n@@ -323,136 +323,8 @@\n e%22)%0A\n-    // %7D%0A%0A    if v1 %3C v2+v3 && v2 %3C v1+v3 && v3 %3C v1+v2 %7B%0A        fmt.Println(%22True%22)%0A    %7D else %7B%0A        fmt.Println(%22False%22)%0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-28_15-51-23",
+            "content": "@@ -118,22 +118,262 @@\n %0A   \n+ //\n  if v1 \n-%3C v2 + \n+%3E v2 + v3 %7B%0A    //     fmt.Println(%22False%22)%0A    // %7D else if v2 %3E v1 + v3 %7B%0A    //     fmt.Println(%22False%22)%0A    // %7D else if v3 %3E v1 + v2 %7B%0A    //     fmt.Println(%22False%22)%0A    // %7D else %7B%0A    //     fmt.Println(%22True%22)%0A    // %7D%0A%0A    if v1 %3C v2+\n v3 &\n@@ -381,19 +381,17 @@\n  v2 %3C v1\n- + \n++\n v3 && v3\n@@ -395,19 +395,17 @@\n  v3 %3C v1\n- + \n++\n v2 %7B%0A   \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-04-28_15-52-33",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var v1, v2, v3 int\n    fmt.Scan(&v1)\n    fmt.Scan(&v2)\n    fmt.Scan(&v3)\n\n    if v1 < v2 + v3 && v2 < v1 + v3 && v3 < v1 + v2 {\n        fmt.Println(\"True\")\n    } else {\n        fmt.Println(\"False\")\n    }\n}\n",
+            "lines": "14"
+        }
+    ]
+}

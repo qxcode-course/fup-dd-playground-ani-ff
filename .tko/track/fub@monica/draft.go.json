@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-28_17-17-19",
+            "content": "@@ -41,72 +41,35 @@\n     \n-var M, A, B int%0A    fmt.Scan(&M, &A, &B)%0A    fmt.Println(M, A, B\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-28_17-21-18",
+            "content": "@@ -81,28 +81,8 @@\n  &B)\n-%0A%0A    C := A + B - M\n %0A   \n@@ -105,11 +105,8 @@\n A, B\n-, C\n )%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-04-28_17-23-03",
+            "content": "@@ -92,17 +92,17 @@\n  := \n-M - A - B\n+A + B - M\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-28_17-23-58",
+            "content": "@@ -114,13 +114,22 @@\n Println(\n+M, A, B, \n C)%0A%7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-28_17-24-05",
+            "content": "@@ -101,112 +101,8 @@\n  - B\n-%0A%0A    maior := A%0A%0A    if B %3E maior %7B%0A        maior = B%0A    %7D else if C %3E maior %7B%0A        maior = C%0A    %7D\n %0A   \n@@ -118,13 +118,9 @@\n tln(\n-maior\n+C\n )%0A%7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-28_17-26-36",
+            "content": "@@ -157,20 +157,21 @@\n  B%0A    %7D\n-%0A   \n+ else\n  if C %3E \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-28_17-27-12",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var M, A, B int\n    fmt.Scan(&M, &A, &B)\n\n    C := M - A - B\n\n    maior := A\n\n    if B > maior {\n        maior = B\n    }\n    if C > maior {\n        maior = C\n    }\n    fmt.Println(maior)\n}\n",
+            "lines": "18"
+        }
+    ]
+}

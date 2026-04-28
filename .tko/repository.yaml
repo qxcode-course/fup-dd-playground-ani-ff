@@ -22,7 +22,7 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fub@if1
+- fub@if2
 flags:
   inbox: all
   panel: graph
@@ -30,5 +30,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fub@base
-selected_index: 1
+selected: fub@bhaskara
+selected_index: 7

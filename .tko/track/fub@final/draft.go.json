@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-28_13-27-40",
+            "content": "@@ -41,174 +41,35 @@\n     \n-var nota1, nota2, nota_final int%0A    fmt.Scan(&nota1, &nota2, &nota_final)%0A%0A    media := (nota1 + nota2) / 2%0A%0A    if media %3E= 7 %7B%0A        fmt.Println(%22aprovado%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-28_13-35-07",
+            "content": "@@ -203,67 +203,8 @@\n o%22)%0A\n-    %7D else if media %3C 4 %7B%0A        fmt.Println(%22reprovado%22)%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-28_13-36-20",
+            "content": "@@ -262,220 +262,8 @@\n o%22)%0A\n-    %7D else if media %3E 4 && media %3C 7 %7B%0A        media = (nota1 + nota2 + nota_final) / 3%0A        if media %3E= 5 %7B%0A            fmt.Println(%22aprovado%22)%0A        %7D else %7B%0A            fmt.Println(%22reprovado%22)%0A        %7D%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-28_13-40-48",
+            "content": "@@ -407,17 +407,8 @@\n vado\n- na final\n %22)%0A \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-04-28_13-40-57",
+            "content": "@@ -462,33 +462,24 @@\n n(%22reprovado\n- na final\n %22)%0A        %7D\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-04-28_13-41-06",
+            "content": "@@ -314,11 +314,9 @@\n edia\n-2 :\n+ \n = (n\n@@ -362,17 +362,16 @@\n if media\n-2\n  %3E= 5 %7B%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-04-28_13-42-58",
+            "content": "@@ -314,23 +314,27 @@\n edia\n-final := (media\n+2 := (nota1 + nota2\n  + n\n@@ -346,17 +346,17 @@\n inal) / \n-2\n+3\n %0A       \n@@ -364,21 +364,17 @@\n if media\n-final\n+2\n  %3E= 5 %7B%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-04-28_13-44-38",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nota1, nota2, nota_final int\n    fmt.Scan(&nota1, &nota2, &nota_final)\n\n    media := (nota1 + nota2) / 2\n\n    if media >= 7 {\n        fmt.Println(\"aprovado\")\n    } else if media < 4 {\n        fmt.Println(\"reprovado\")\n    } else if media > 4 && media < 7 {\n        mediafinal := (media + nota_final) / 2\n        if mediafinal >= 5 {\n            fmt.Println(\"aprovado na final\")\n        } else {\n            fmt.Println(\"reprovado na final\")\n        }\n    }\n}\n",
+            "lines": "21"
+        }
+    ]
+}

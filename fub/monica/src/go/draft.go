@@ -1,4 +1,4 @@
- package main
+package main
 import "fmt"
 func main() {
     var M, A, B int
@@ -15,5 +15,4 @@ func main() {
         maior = C
     }
     fmt.Println(maior)
-    
 }
