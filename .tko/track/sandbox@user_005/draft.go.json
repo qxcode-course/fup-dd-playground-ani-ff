@@ -2,8 +2,48 @@
     "patches": [
         {
             "label": "2026-03-24_17-31-26",
-            "content": "",
+            "content": "@@ -1,75 +0,0 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)%0A%7D%0A\n",
             "lines": "0"
+        },
+        {
+            "label": "2026-04-27_16-56-14",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -23,1396 +23,53 @@\n mt%22%0A\n-import %22slices%22%0Aimport %22strconv%22%0A%0Afunc filtrar_impares(nums %5B%5Dint) %5B%5Dint %7B%0A%09impares := make(%5B%5Dint, 0, len(nums))%0A%09for _, elem := range nums %7B%0A%09%09if elem%252 == 1 %7B%0A%09%09%09impares = append(impares, elem)%0A%09%09%7D%0A%09%7D%0A%09return impares%0A%7D%0A%0Afunc index(nums %5B%5Dint, valor int) int %7B%0A%09for i, elem := range nums %7B%0A%09%09if elem == valor %7B%0A%09%09%09return i%0A%09%09%7D%0A%09%7D%0A%09return -1%0A%7D%0A%0Afunc contains(nums %5B%5Dint, valor int) bool %7B%0A%09for _, elem := range nums %7B%0A%09%09if elem == valor %7B%0A%09%09%09return true%0A%09%09%7D%0A%09%7D%0A%09return false%0A%7D%0A%0Afunc count(nums %5B%5Dint, valor int) int %7B%0A%09contador := 0%0A%09for _, elem := range nums %7B%0A%09%09if elem == valor %7B%0A%09%09%09contador += 1%0A%09%09%7D%0A%09%7D%0A%09return contador%0A%7D%0A%0Afunc separar_figurinhas(montante %5B%5Dint) (%5B%5Dint, %5B%5Dint) %7B //tupla%0A%09album := make(%5B%5Dint, 0, len(montante))%0A%09repet := make(%5B%5Dint, 0, len(montante))%0A%09for _, fig := range montante %7B%0A%09%09if !contains(album, fig) %7B%0A%09%09%09album = append(album, fig)%0A%09%09%7D else %7B%0A%09%09%09repet = append(repet, fig)%0A%09%09%7D%0A%09%7D%0A%09return album, repet%0A%7D%0A%0Afunc main() %7B%0A%09var montante %5B%5Dint = make(%5B%5Dint, 0, 1)%0A%09fmt.Println(montante, len(montante), cap(montante))%0A%09montante = append(montante, 7, 3, 2, 1, 9, 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 5, 7)%0A%09// album: 1, 2, 3, 4, 5, 7%0A%09// trocar: 4, 3, 2, 1, 2, 5%0A%09num, err := strconv.Atoi(%2232432%22)%0A%09if err == nil %7B%0A%09%09fmt.Println(num)%0A%09%7D else %7B%0A%09%09fmt.Println(err)%0A%09%7D%0A%09album, repet := separar_figurinhas(montante)%0A%0A%09slices.Sort(repet)%0A%09fmt.Println(album)%0A%09fmt.Println(repet)%0A\n+func main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-27_17-54-41",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -66,17 +66,17 @@\n  filtrar\n- \n+_\n impares(\n@@ -95,20 +95,17 @@\n %5B%5Dint %7B%0A\n-    \n+%09\n impares \n@@ -133,20 +133,17 @@\n (nums))%0A\n-    \n+%09\n for _, e\n@@ -158,32 +158,26 @@\n ange nums %7B%0A\n-        \n+%09%09\n if elem%252 ==\n@@ -178,29 +178,22 @@\n m%252 == 1\n-%0A            \n+ %7B%0A%09%09%09\n impares \n@@ -216,26 +216,24 @@\n , elem)%0A\n-    %7D%0A    \n+%09%09%7D%0A%09%7D%0A%09\n return i\n@@ -282,20 +282,17 @@\n ) int %7B%0A\n-    \n+%09\n for i, e\n@@ -307,32 +307,26 @@\n ange nums %7B%0A\n-        \n+%09%09\n if elem == v\n@@ -336,49 +336,28 @@\n r %7B%0A\n-            return i%0A        %7D%0A    %7D%0A    \n+%09%09%09return i%0A%09%09%7D%0A%09%7D%0A%09\n retu\n@@ -409,20 +409,17 @@\n  bool %7B%0A\n-    \n+%09\n for _, e\n@@ -423,17 +423,17 @@\n , elem :\n-+\n+=\n  range n\n@@ -434,32 +434,26 @@\n ange nums %7B%0A\n-        \n+%09%09\n if elem == v\n@@ -463,52 +463,31 @@\n r %7B%0A\n-            return true%0A        %7D%0A    %7D%0A    \n+%09%09%09return true%0A%09%09%7D%0A%09%7D%0A%09\n retu\n@@ -538,20 +538,17 @@\n ) int %7B%0A\n-    \n+%09\n contador\n@@ -553,20 +553,17 @@\n or := 0%0A\n-    \n+%09\n for _, e\n@@ -582,24 +582,18 @@\n  nums %7B%0A\n-        \n+%09%09\n if elem \n@@ -603,28 +603,19 @@\n valor %7B%0A\n-            \n+%09%09%09\n contador\n@@ -620,36 +620,24 @@\n or += 1%0A\n-        %7D%0A    %7D%0A    \n+%09%09%7D%0A%09%7D%0A%09\n return c\n@@ -659,17 +659,17 @@\n  separar\n- \n+_\n figurinh\n@@ -710,19 +710,15 @@\n %7B //\n- \n tupla%0A\n-    \n+%09\n albu\n@@ -752,20 +752,17 @@\n tante))%0A\n-    \n+%09\n repet :=\n@@ -792,20 +792,17 @@\n tante))%0A\n-    \n+%09\n for _, f\n@@ -824,24 +824,18 @@\n tante %7B%0A\n-        \n+%09%09\n if !cont\n@@ -853,28 +853,19 @@\n  fig) %7B%0A\n-            \n+%09%09%09\n album = \n@@ -883,24 +883,18 @@\n m, fig)%0A\n-        \n+%09%09\n %7D else %7B\n@@ -898,20 +898,11 @@\n e %7B%0A\n-            \n+%09%09%09\n repe\n@@ -928,28 +928,16 @@\n ig)%0A\n-        %7D%0A    %7D%0A    \n+%09%09%7D%0A%09%7D%0A%09\n retu\n@@ -969,20 +969,17 @@\n ain() %7B%0A\n-    \n+%09\n var mont\n@@ -1009,20 +1009,17 @@\n , 0, 1)%0A\n-    \n+%09\n fmt.Prin\n@@ -1062,20 +1062,17 @@\n tante))%0A\n-    \n+%09\n montante\n@@ -1142,20 +1142,17 @@\n , 5, 7)%0A\n-    \n+%09\n // album\n@@ -1170,20 +1170,17 @@\n 4, 5, 7%0A\n-    \n+%09\n // troca\n@@ -1199,20 +1199,17 @@\n 1, 2, 5%0A\n-    \n+%09\n num, err\n@@ -1234,20 +1234,17 @@\n 32432%22)%0A\n-    \n+%09\n if err =\n@@ -1248,26 +1248,21 @@\n r == nil\n+ \n %7B%0A\n-        \n+%09%09\n fmt.Prin\n@@ -1270,20 +1270,17 @@\n ln(num)%0A\n-    \n+%09\n %7D else %7B\n@@ -1284,16 +1284,10 @@\n e %7B%0A\n-        \n+%09%09\n fmt.\n@@ -1303,18 +1303,12 @@\n rr)%0A\n-    %7D%0A    \n+%09%7D%0A%09\n albu\n@@ -1349,20 +1349,17 @@\n tante)%0A%0A\n-    \n+%09\n slices.S\n@@ -1369,20 +1369,17 @@\n (repet)%0A\n-    \n+%09\n fmt.Prin\n@@ -1389,20 +1389,17 @@\n (album)%0A\n-    \n+%09\n fmt.Prin\n@@ -1413,11 +1413,7 @@\n et)%0A\n-    \n %0A%7D%0A\n",
+            "lines": "76"
+        },
+        {
+            "label": "2026-04-27_18-12-40",
+            "content": "@@ -1635,26 +1635,4 @@\n  %0A%7D%0A\n-%0Afunc main() %7B%0A    %0A%7D%0A\n",
+            "lines": "74"
+        },
+        {
+            "label": "2026-04-27_18-13-01",
+            "content": "@@ -65,17 +65,17 @@\n  filtrar\n-_\n+ \n impares(\n@@ -189,18 +189,16 @@\n m%252 == 1\n- %7B\n %0A       \n@@ -234,26 +234,16 @@\n , elem)%0A\n-        %7D%0A\n     %7D%0A  \n@@ -1646,11 +1646,15 @@\n ain() %7B%0A\n+    \n %0A%7D%0A\n",
+            "lines": "78"
+        },
+        {
+            "label": "2026-04-27_18-13-34",
+            "content": "@@ -480,33 +480,33 @@\n    for _, elem :\n-=\n++\n  range nums %7B%0A  \n",
+            "lines": "79"
+        },
+        {
+            "label": "2026-04-27_18-15-00",
+            "content": "@@ -776,33 +776,33 @@\n %0A%7D%0A%0Afunc separar\n-_\n+ \n figurinhas(monta\n",
+            "lines": "79"
+        },
+        {
+            "label": "2026-04-27_18-15-29",
+            "content": "@@ -1640,12 +1640,29 @@\n et)%0A    %0A%7D%0A%0A\n+func main() %7B%0A%0A%7D%0A\n",
+            "lines": "79"
+        },
+        {
+            "label": "2026-04-27_18-15-56",
+            "content": "package main\nimport \"fmt\"\nimport \"slices\"\nimport \"strconv\"\n\nfunc filtrar_impares(nums []int) []int {\n    impares := make([]int, 0, len(nums))\n    for _, elem := range nums {\n        if elem%2 == 1 {\n            impares = append(impares, elem)\n        }\n    }\n    return impares\n}\n\nfunc index(nums []int, valor int) int {\n    for i, elem := range nums {\n        if elem == valor {\n            return i\n        }\n    }\n    return -1\n}\n\nfunc contains(nums []int, valor int) bool {\n    for _, elem := range nums {\n        if elem == valor {\n            return true\n        }\n    }\n    return false\n}\n\nfunc count(nums []int, valor int) int {\n    contador := 0\n    for _, elem := range nums {\n        if elem == valor {\n            contador += 1\n        }\n    }\n    return contador\n}\n\nfunc separar_figurinhas(montante []int) ([]int, []int) { // tupla\n    album := make([]int, 0, len(montante))\n    repet := make([]int, 0, len(montante))\n    for _, fig := range montante {\n        if !contains(album, fig) {\n            album = append(album, fig)\n        } else {\n            repet = append(repet, fig)\n        }\n    }\n    return album, repet\n}\n\nfunc main() {\n    var montante []int = make([]int, 0, 1)\n    fmt.Println(montante, len(montante), cap(montante))\n    montante = append(montante, 7, 3, 2, 1, 9, 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 5, 7)\n    // album: 1, 2, 3, 4, 5, 7\n    // trocar: 4, 3, 2, 1, 2, 5\n    num, err := strconv.Atoi(\"32432\")\n    if err == nil{\n        fmt.Println(num)\n    } else {\n        fmt.Println(err)\n    }\n    album, repet := separar_figurinhas(montante)\n\n    slices.Sort(repet)\n    fmt.Println(album)\n    fmt.Println(repet)\n    \n}\n\n",
+            "lines": "76"
         }
     ]
 }

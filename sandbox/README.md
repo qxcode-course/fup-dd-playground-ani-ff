@@ -12,4 +12,5 @@ Sinta-se à vontade para organizar seus rascunhos em subpastas dentro do sandbox
 - [ ]`@user_002 `[pares](user_002/README.md)
 - [ ]`@user_003 `[aula 12/04](user_003/README.md)
 - [ ]`@user_004 `[vetores](user_004/README.md)
+- [ ]`@user_005 `[vetores 2.0](user_005/README.md)
 
