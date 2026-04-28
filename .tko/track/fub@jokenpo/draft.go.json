@@ -7,8 +7,78 @@
         },
         {
             "label": "2026-03-31_18-17-33",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    const PEDRA int = 0\n    const PAPEL int = 1\n    const TESOURA int = 2\n\n    var jog1, jog2 int\n    fmt.Println(\"Jog1: Digite 0(pedra), 1(papel), 2(tesoura):\")\n    fmt.Scan(&jog1)\n    fmt.Println(\"Jog2: Digite 0(pedra), 1(papel), 2(tesoura):\")\n    fmt.Scan(&jog2)\n\n    if jog1 == jog2 {\n        fmt.Println(\"Empate\")\n    } else if (jog1 == PEDRA && jog2 == TESOURA) ||\n        (jog1 == PAPEL && jog2 == PEDRA) ||\n        (jog1 == TESOURA && jog2 == PAPEL) {\n        fmt.Println(\"Jog1 ganhou\")\n    } else {\n        fmt.Println(\"Jog2 ganhou\")\n    }\n}\n",
+            "content": "@@ -112,121 +112,8 @@\n  2%0A%0A\n-    var pedra, papel, tesoura int%0A    fmt.Scan(&pedra, &papel, &tesoura)%0A    fmt.Println(pedra, papel, tesoura)%0A%0A\n     \n",
             "lines": "23"
+        },
+        {
+            "label": "2026-04-28_12-40-44",
+            "content": "@@ -142,14 +142,11 @@\n ura \n-str\n in\n-g\n+t\n %0A   \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-04-28_12-41-17",
+            "content": "@@ -41,302 +41,198 @@\n     \n-var pedra, papel, tesoura string%0A    var jog1, jog2 string%0A    fmt.Scan(&jog1, &jog2)%0A    fmt.Scan(&pedra, &papel, &tesoura)%0A    fmt.Println(pedra, papel, tesoura)%0A    fmt.Println(jog1, jog2)%0A%0A    if %0A%0A%0A%0A    // const PEDRA int = 0%0A    // const PAPEL int = 1%0A    // const TESOURA int = 2%0A%0A    //\n+const PEDRA int = 0%0A    const PAPEL int = 1%0A    const TESOURA int = 2%0A%0A    var pedra, papel, tesoura string%0A    fmt.Scan(&pedra, &papel, &tesoura)%0A    fmt.Println(pedra, papel, tesoura)%0A%0A   \n  var\n@@ -246,27 +246,24 @@\n jog2 int%0A   \n- //\n  fmt.Println\n@@ -306,35 +306,32 @@\n (tesoura):%22)%0A   \n- //\n  fmt.Scan(&jog1)\n@@ -330,27 +330,24 @@\n n(&jog1)%0A   \n- //\n  fmt.Println\n@@ -398,19 +398,16 @@\n ):%22)%0A   \n- //\n  fmt.Sca\n@@ -419,19 +419,16 @@\n g2)%0A%0A   \n- //\n  if jog1\n@@ -437,27 +437,24 @@\n = jog2 %7B%0A   \n- //\n      fmt.Pri\n@@ -467,27 +467,24 @@\n Empate%22)%0A   \n- //\n  %7D else if (\n@@ -515,35 +515,32 @@\n  TESOURA) %7C%7C%0A   \n- //\n      (jog1 == PA\n@@ -568,23 +568,20 @@\n  %7C%7C%0A    \n-//\n     \n- \n (jog1 ==\n@@ -608,27 +608,24 @@\n PAPEL) %7B%0A   \n- //\n      fmt.Pri\n@@ -647,19 +647,16 @@\n ou%22)%0A   \n- //\n  %7D else \n@@ -660,19 +660,16 @@\n se %7B%0A   \n- //\n      fmt\n@@ -699,11 +699,8 @@\n %0A   \n- //\n  %7D%0A%7D\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-04-28_12-44-10",
+            "content": "@@ -85,27 +85,30 @@\n  jog1, jog2 \n+str\n in\n-t\n+g\n %0A    fmt.Sca\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-04-28_12-44-16",
+            "content": "@@ -70,16 +70,66 @@\n  string%0A\n+    var jog1, jog2 int%0A    fmt.Scan(&jog1, &jog2)%0A\n     fmt.\n@@ -197,16 +197,44 @@\n tesoura)\n+%0A    fmt.Println(jog1, jog2)\n %0A%0A    if\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-04-28_12-45-58",
+            "content": "@@ -157,90 +157,11 @@\n     \n-jog1 := 0%0A    jog2 := 0%0A%0A    if jog1 == jog2 %7B%0A        fmt.Println(%22empate%22)%0A    %7D\n+if \n %0A%0A%0A%0A\n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-04-28_12-54-10",
+            "content": "@@ -161,16 +161,17 @@\n jog1 := \n+0\n %0A    jog\n@@ -175,16 +175,17 @@\n jog2 := \n+0\n %0A%0A    if\n@@ -239,515 +239,10 @@\n    %7D\n- else if (jog1 == pedra && jog2 == tesoura) %7C%7C%0A            (jog1 == papel && jog2 == pedra) %7C%7C%0A            (jog1 == tesoura && jog2 == papel) %7B%0A                fmt.Println(%22jog1%22)%0A            %7D%0A%0A        // if jog1 == jog2 %7B%0A    //     fmt.Println(%22Empate%22)%0A    // %7D else if (jog1 == PEDRA && jog2 == TESOURA) %7C%7C%0A    //     (jog1 == PAPEL && jog2 == PEDRA) %7C%7C%0A    //     (jog1 == TESOURA && jog2 == PAPEL) %7B%0A    //     fmt.Println(%22Jog1 ganhou%22)%0A    // %7D else %7B%0A    //     fmt.Println(%22Jog2 ganhou%22)%0A    // %7D\n+%0A%0A\n %0A%0A  \n",
+            "lines": "36"
+        },
+        {
+            "label": "2026-04-28_12-58-02",
+            "content": "@@ -149,23 +149,46 @@\n soura)%0A%0A\n+    jog1 := %0A    jog2 := %0A\n %0A   \n- //\n  if jog1\n@@ -194,39 +194,36 @@\n 1 == jog2 %7B%0A    \n-//\n     \n- \n fmt.Println(%22emp\n@@ -223,35 +223,32 @@\n ln(%22empate%22)%0A   \n- //\n  %7D else if (jog1\n@@ -275,35 +275,32 @@\n  tesoura) %7C%7C%0A   \n- //\n          (jog1 =\n@@ -327,27 +327,24 @@\n edra) %7C%7C%0A   \n- //\n          (jo\n@@ -376,27 +376,24 @@\n papel) %7B%0A   \n- //\n             \n@@ -412,27 +412,24 @@\n (%22jog1%22)%0A   \n- //\n          %7D%0A%0A\n",
+            "lines": "48"
+        },
+        {
+            "label": "2026-04-28_13-00-02",
+            "content": "@@ -32,27 +32,24 @@\n main() %7B%0A   \n- //\n  var pedra, \n@@ -69,27 +69,24 @@\n a string%0A   \n- //\n  fmt.Scan(&p\n@@ -108,27 +108,24 @@\n tesoura)%0A   \n- //\n  fmt.Println\n@@ -153,87 +153,8 @@\n a)%0A%0A\n-    var jog1, jog2 int%0A    fmt.Scan(&jog1, &jog2)%0A    fmt.Println(jog1, jog2)%0A%0A\n %0A   \n",
+            "lines": "46"
+        },
+        {
+            "label": "2026-04-28_13-00-52",
+            "content": "@@ -177,22 +177,19 @@\n 1, jog2 \n-str\n in\n-g\n+t\n %0A    fmt\n",
+            "lines": "50"
+        },
+        {
+            "label": "2026-04-28_13-01-05",
+            "content": "@@ -244,312 +244,8 @@\n 2)%0A%0A\n-    if jog1 == jog2 %7B%0A        fmt.Println(%22empate%22)%0A    %7D else if jog1 == %22R%22 && jog2 == %22S%22 %7B%0A        fmt.Println(jog1)%0A    %7D else if jog1 == %22S%22 && jog2 == %22P%22 %7B%0A        fmt.Println(jog1)%0A    %7D else if jog1 == %22P%22 && jog2 == %22R%22 %7B%0A        fmt.Println(jog1)%0A    %7D else %7B%0A        fmt.Println(jo2)%0A    %7D%0A%0A\n %0A   \n",
+            "lines": "50"
+        },
+        {
+            "label": "2026-04-28_13-08-10",
+            "content": "@@ -534,17 +534,16 @@\n intln(jo\n-g\n 2)%0A    %7D\n",
+            "lines": "62"
+        },
+        {
+            "label": "2026-04-28_13-08-12",
+            "content": "@@ -206,24 +206,52 @@\n jog1, &jog2)\n+%0A    fmt.Println(jog1, jog2)\n %0A%0A    if jog\n",
+            "lines": "62"
+        },
+        {
+            "label": "2026-04-28_13-22-02",
+            "content": "@@ -319,38 +319,36 @@\n     fmt.Println(\n-%22\n jog1\n-%22\n )%0A    %7D else if \n@@ -388,38 +388,36 @@\n     fmt.Println(\n-%22\n jog1\n-%22\n )%0A    %7D else if \n@@ -461,30 +461,28 @@\n fmt.Println(\n-%22\n jog1\n-%22\n )%0A    %7D else\n@@ -508,14 +508,12 @@\n tln(\n-%22\n jog2\n-%22\n )%0A  \n",
+            "lines": "61"
+        },
+        {
+            "label": "2026-04-28_13-22-32",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    // var pedra, papel, tesoura string\n    // fmt.Scan(&pedra, &papel, &tesoura)\n    // fmt.Println(pedra, papel, tesoura)\n\n    var jog1, jog2 string\n    fmt.Scan(&jog1, &jog2)\n\n    if jog1 == jog2 {\n        fmt.Println(\"empate\")\n    } else if jog1 == \"R\" && jog2 == \"S\" {\n        fmt.Println(\"jog1\")\n    } else if jog1 == \"S\" && jog2 == \"P\" {\n        fmt.Println(\"jog1\")\n    } else if jog1 == \"P\" && jog2 == \"R\" {\n        fmt.Println(\"jog1\")\n    } else {\n        fmt.Println(\"jog2\")\n    }\n\n\n    // if jog1 == jog2 {\n    //     fmt.Println(\"empate\")\n    // } else if (jog1 == pedra && jog2 == tesoura) ||\n    //         (jog1 == papel && jog2 == pedra) ||\n    //         (jog1 == tesoura && jog2 == papel) {\n    //             fmt.Println(\"jog1\")\n    //         }\n\n        // if jog1 == jog2 {\n    //     fmt.Println(\"Empate\")\n    // } else if (jog1 == PEDRA && jog2 == TESOURA) ||\n    //     (jog1 == PAPEL && jog2 == PEDRA) ||\n    //     (jog1 == TESOURA && jog2 == PAPEL) {\n    //     fmt.Println(\"Jog1 ganhou\")\n    // } else {\n    //     fmt.Println(\"Jog2 ganhou\")\n    // }\n\n    // const PEDRA int = 0\n    // const PAPEL int = 1\n    // const TESOURA int = 2\n\n    // var jog1, jog2 int\n    // fmt.Println(\"Jog1: Digite 0(pedra), 1(papel), 2(tesoura):\")\n    // fmt.Scan(&jog1)\n    // fmt.Println(\"Jog2: Digite 0(pedra), 1(papel), 2(tesoura):\")\n    // fmt.Scan(&jog2)\n\n    // if jog1 == jog2 {\n    //     fmt.Println(\"Empate\")\n    // } else if (jog1 == PEDRA && jog2 == TESOURA) ||\n    //     (jog1 == PAPEL && jog2 == PEDRA) ||\n    //     (jog1 == TESOURA && jog2 == PAPEL) {\n    //     fmt.Println(\"Jog1 ganhou\")\n    // } else {\n    //     fmt.Println(\"Jog2 ganhou\")\n    // }\n}\n",
+            "lines": "61"
         }
     ]
 }

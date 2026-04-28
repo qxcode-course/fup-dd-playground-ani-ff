@@ -30,5 +30,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fub@jokenpo
-selected_index: 15
+selected: fub@base
+selected_index: 1
