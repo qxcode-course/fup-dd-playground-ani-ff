@@ -22,8 +22,7 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fub@games
-- sandbox@sandbox
+- fub@if1
 flags:
   inbox: all
   panel: graph
@@ -31,5 +30,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: sandbox@user_005
-selected_index: 0
+selected: fub@jokenpo
+selected_index: 15
