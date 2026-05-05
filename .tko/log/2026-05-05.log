@@ -20,3 +20,23 @@
 2026-05-05 15:51:05, EXEC, v:1, k:fub@goiabas, mode:FULL, rate:100, size:15
 2026-05-05 15:51:11, MOVE, v:1, k:fub@goiabas, mode:BACK
 2026-05-05 15:51:17, SELF, v:1, k:fub@goiabas, self:1, rate:100
+2026-05-05 15:51:04, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-05-05 15:51:05, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-05-05 15:54:58, MOVE, v:1, k:fub@bhaskara, mode:PICK
+2026-05-05 15:54:59, EXEC, v:1, k:fub@bhaskara, mode:FULL, rate:0
+2026-05-05 15:55:07, EXEC, v:1, k:fub@bhaskara, mode:FULL, rate:0
+2026-05-05 15:55:07, MOVE, v:1, k:fub@bhaskara, mode:EDIT
+2026-05-05 16:06:20, EXEC, v:1, k:fub@bhaskara, mode:FULL, rate:0, size:8
+2026-05-05 16:06:41, MOVE, v:1, k:fub@bhaskara, mode:EDIT
+2026-05-05 16:06:20, MOVE, v:1, k:fub@bhaskara, mode:EDIT
+2026-05-05 16:07:09, EXEC, v:1, k:fub@bhaskara, mode:FULL, rate:0, size:10
+2026-05-05 16:08:13, EXEC, v:1, k:fub@bhaskara, mode:FULL, rate:0, size:10
+2026-05-05 16:08:37, EXEC, v:1, k:fub@bhaskara, mode:FULL, rate:0, size:10
+2026-05-05 16:09:11, EXEC, v:1, k:fub@bhaskara, mode:FULL, rate:0, size:10
+2026-05-05 16:09:28, EXEC, v:1, k:fub@bhaskara, mode:FULL, size:10, fail:COMP
+2026-05-05 16:09:40, EXEC, v:1, k:fub@bhaskara, mode:FULL, rate:0, size:10
+2026-05-05 16:09:51, MOVE, v:1, k:fub@bhaskara, mode:EDIT
+2026-05-05 16:09:40, MOVE, v:1, k:fub@bhaskara, mode:EDIT
+2026-05-05 16:14:24, MOVE, v:1, k:fub@bhaskara, mode:BACK
+2026-05-05 17:15:36, MOVE, v:1, k:fub@bhaskara, mode:PICK
+2026-05-05 17:15:37, EXEC, v:1, k:fub@bhaskara, mode:FULL, size:13, fail:COMP
