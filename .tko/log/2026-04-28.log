@@ -233,3 +233,65 @@
 2026-04-28 17:28:27, SELF, v:1, k:eval1@monica, self:1, rate:100
 2026-04-28 17:28:27, MOVE, v:1, k:eval1@monica, mode:PICK
 2026-04-28 17:28:29, MOVE, v:1, k:eval1@monica, mode:BACK
+2026-04-28 17:30:22, SELF, v:1, k:fub@varetas, self:1, rate:100
+2026-04-28 17:30:30, SELF, v:1, k:fub@semana, self:1, rate:85
+2026-04-28 17:30:34, SELF, v:1, k:fub@semana, self:1, rate:85
+2026-04-28 17:30:34, MOVE, v:1, k:fub@semana, mode:PICK
+2026-04-28 17:30:35, EXEC, v:1, k:fub@semana, mode:FULL, rate:100
+2026-04-28 17:30:36, EXEC, v:1, k:fub@semana, mode:FULL, rate:100
+2026-04-28 17:30:37, EXEC, v:1, k:fub@semana, mode:FULL, rate:100
+2026-04-28 17:30:37, EXEC, v:1, k:fub@semana, mode:FULL, rate:100
+2026-04-28 17:30:38, EXEC, v:1, k:fub@semana, mode:FULL, rate:100
+2026-04-28 17:30:38, MOVE, v:1, k:fub@semana, mode:BACK
+2026-04-28 17:30:46, MOVE, v:1, k:fub@drone, mode:DOWN
+2026-04-28 17:30:46, MOVE, v:1, k:fub@drone, mode:PICK
+2026-04-28 17:30:47, EXEC, v:1, k:fub@drone, mode:FULL, rate:0, size:5
+2026-04-28 17:30:46, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:30:46, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:30:46, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:30:47, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:45:13, EXEC, v:1, k:fub@drone, mode:FULL, rate:0, size:7
+2026-04-28 17:45:12, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:45:13, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:46:33, EXEC, v:1, k:fub@drone, mode:FULL, rate:0, size:8
+2026-04-28 17:47:56, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:46:33, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:53:24, EXEC, v:1, k:fub@drone, mode:FULL, rate:0, size:12
+2026-04-28 17:53:30, EXEC, v:1, k:fub@drone, mode:FULL, rate:57, size:11
+2026-04-28 17:53:58, EXEC, v:1, k:fub@drone, mode:FULL, rate:57, size:13
+2026-04-28 17:54:26, EXEC, v:1, k:fub@drone, mode:FULL, rate:71, size:15
+2026-04-28 17:54:52, EXEC, v:1, k:fub@drone, mode:FULL, rate:100, size:17
+2026-04-28 17:55:06, MOVE, v:1, k:fub@drone, mode:BACK
+2026-04-28 17:55:11, SELF, v:1, k:fub@drone, self:1, rate:100
+2026-04-28 17:55:15, MOVE, v:1, k:fub@teleferico, mode:DOWN
+2026-04-28 17:55:15, MOVE, v:1, k:fub@teleferico, mode:PICK
+2026-04-28 17:55:16, EXEC, v:1, k:fub@teleferico, mode:FULL, rate:0, size:5
+2026-04-28 17:54:50, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:54:51, MOVE, v:1, k:fub@drone, mode:EDIT
+2026-04-28 17:55:15, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 17:55:15, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 17:55:15, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 17:55:16, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 18:00:31, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 18:07:22, EXEC, v:1, k:fub@teleferico, mode:FULL, rate:0, size:12
+2026-04-28 18:10:01, EXEC, v:1, k:fub@teleferico, mode:FULL, rate:0
+2026-04-28 18:07:21, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 18:10:01, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 18:11:20, EXEC, v:1, k:fub@teleferico, mode:FULL, size:12, fail:COMP
+2026-04-28 18:11:28, EXEC, v:1, k:fub@teleferico, mode:FULL, rate:0, size:12
+2026-04-28 18:15:43, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 18:11:27, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 18:20:42, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 18:21:09, EXEC, v:1, k:fub@teleferico, mode:FULL, rate:100, size:14
+2026-04-28 18:21:22, MOVE, v:1, k:fub@teleferico, mode:BACK
+2026-04-28 18:21:27, SELF, v:1, k:fub@teleferico, self:1, rate:100
+2026-04-28 18:21:37, MOVE, v:1, k:fub@goiabas, mode:DOWN
+2026-04-28 18:21:37, MOVE, v:1, k:fub@goiabas, mode:PICK
+2026-04-28 18:21:38, EXEC, v:1, k:fub@goiabas, mode:FULL, rate:0, size:5
+2026-04-28 18:21:01, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 18:21:09, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-04-28 18:21:37, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-04-28 18:21:37, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-04-28 18:21:37, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-04-28 18:21:38, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-04-28 18:29:19, MOVE, v:1, k:fub@goiabas, mode:EDIT

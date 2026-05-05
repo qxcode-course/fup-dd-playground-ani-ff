@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-28_17-30-47",
+            "content": "@@ -41,72 +41,35 @@\n     \n-var A, B, C int%0A    fmt.Scan(&A, &B, &C)%0A    fmt.Println(A, B, C\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-28_17-45-13",
+            "content": "@@ -48,22 +48,16 @@\n  A, B, C\n-, H, L\n  int%0A   \n@@ -80,16 +80,8 @@\n , &C\n-, &H, &L\n )%0A  \n@@ -105,15 +105,8 @@\n B, C\n-, H, L)%0A\n+)\n %0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-04-28_17-46-33",
+            "content": "@@ -128,65 +128,6 @@\n L)%0A%0A\n-    if A %3C= H && A %3C= L %7B%0A        fmt.Println(%22S%22)%0A    %7D %0A%0A\n %7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-28_17-53-24",
+            "content": "@@ -91,16 +91,47 @@\n  &H, &L)\n+%0A    fmt.Println(A, B, C, H, L)\n %0A%0A    if\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-28_17-53-30",
+            "content": "@@ -154,65 +154,8 @@\n   %7D \n-else if B %3C= H && B %3C= L %7B%0A        fmt.Println(%22S%22)%0A    %7D\n %0A%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-28_17-53-58",
+            "content": "@@ -211,66 +211,8 @@\n    %7D\n- else if C %3C= H && C %3C= L %7B%0A        fmt.Println(%22S%22)%0A    %7D\n %0A%0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-28_17-54-26",
+            "content": "@@ -269,46 +269,8 @@\n    %7D\n- else %7B%0A        fmt.Println(%22N%22)%0A    %7D\n %0A%0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_17-54-51",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var A, B, C, H, L int\n    fmt.Scan(&A, &B, &C, &H, &L)\n\n    if A <= H && A <= L {\n        fmt.Println(\"S\")\n    } else if B <= H && B <= L {\n        fmt.Println(\"S\")\n    } else if C <= H && C <= L {\n        fmt.Println(\"S\")\n    } else {\n        fmt.Println(\"N\")\n    }\n\n}\n",
+            "lines": "17"
+        }
+    ]
+}

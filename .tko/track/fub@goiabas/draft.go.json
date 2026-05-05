@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-28_18-21-38",
+            "content": "@@ -41,74 +41,35 @@\n     \n-var C, banana, goiaba, manga int%0A    fmt.Scan(&C, &banana, &goiaba\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-05_15-07-13",
+            "content": "@@ -107,16 +107,8 @@\n iaba\n-, &manga\n )%0A%7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-05-05_15-07-36",
+            "content": "@@ -116,69 +116,7 @@\n nga)\n-%0A%0A    total := banana + goiaba + manga%0A%0A    fmt.Println(total)\n %0A%7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-05-05_15-17-45",
+            "content": "@@ -154,80 +154,8 @@\n anga\n-%0A    min := C %25 total%0A%0A    if  min == 0 %7B%0A        fmt.Println(min)%0A    %7D\n %0A%0A  \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_15-19-53",
+            "content": "@@ -168,9 +168,9 @@\n = C \n-/\n+%25\n  tot\n@@ -185,22 +185,17 @@\n if  \n-C %25 total !\n+min =\n = 0\n+ \n %7B%0A  \n@@ -219,10 +219,8 @@\n (min\n-+2\n )%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-05_15-25-40",
+            "content": "@@ -225,47 +225,9 @@\n min+\n-1)%0A    %7D else %7B%0A        fmt.Println(min\n+2\n )%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-05_15-26-04",
+            "content": "@@ -267,11 +267,35 @@\n n)%0A    %7D\n+%0A%0A    fmt.Println(total)\n %0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_15-26-09",
+            "content": "@@ -165,18 +165,18 @@\n n :=\n+ C /\n  total\n- / C\n %0A%0A  \n@@ -184,19 +184,19 @@\n  if \n+ C %25\n  total \n-%25 C \n != 0\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-05_15-51-05",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var C, banana, goiaba, manga int\n    fmt.Scan(&C, &banana, &goiaba, &manga)\n\n    total := banana + goiaba + manga\n    min := total / C\n\n    if  total % C != 0{\n        fmt.Println(min+1)\n    } else {\n        fmt.Println(min)\n    }\n}\n",
+            "lines": "15"
+        }
+    ]
+}

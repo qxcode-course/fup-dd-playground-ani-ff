@@ -1,0 +1,22 @@
+2026-05-05 15:06:57, MOVE, v:1, k:fub@teleferico, mode:PICK
+2026-05-05 15:07:00, EXEC, v:1, k:fub@teleferico, mode:FULL, rate:100
+2026-05-05 15:07:07, MOVE, v:1, k:fub@teleferico, mode:BACK
+2026-05-05 15:07:11, MOVE, v:1, k:fub@goiabas, mode:PICK
+2026-05-05 15:07:13, EXEC, v:1, k:fub@goiabas, mode:FULL, size:6, fail:COMP
+2026-05-05 15:07:16, EXEC, v:1, k:fub@goiabas, mode:FULL, fail:COMP
+2026-05-05 15:07:36, EXEC, v:1, k:fub@goiabas, mode:FULL, rate:0, size:6
+2026-05-05 15:07:00, MOVE, v:1, k:fub@teleferico, mode:EDIT
+2026-05-05 15:07:34, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-05-05 15:07:36, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-05-05 15:17:45, EXEC, v:1, k:fub@goiabas, mode:FULL, rate:0, size:10
+2026-05-05 15:19:53, EXEC, v:1, k:fub@goiabas, mode:FULL, rate:0, size:15
+2026-05-05 15:19:50, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-05-05 15:19:53, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-05-05 15:25:40, EXEC, v:1, k:fub@goiabas, mode:FULL, rate:0, size:15
+2026-05-05 15:26:04, EXEC, v:1, k:fub@goiabas, mode:FULL, rate:0, size:17
+2026-05-05 15:26:09, EXEC, v:1, k:fub@goiabas, mode:FULL, rate:12, size:15
+2026-05-05 15:26:08, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-05-05 15:26:09, MOVE, v:1, k:fub@goiabas, mode:EDIT
+2026-05-05 15:51:05, EXEC, v:1, k:fub@goiabas, mode:FULL, rate:100, size:15
+2026-05-05 15:51:11, MOVE, v:1, k:fub@goiabas, mode:BACK
+2026-05-05 15:51:17, SELF, v:1, k:fub@goiabas, self:1, rate:100
