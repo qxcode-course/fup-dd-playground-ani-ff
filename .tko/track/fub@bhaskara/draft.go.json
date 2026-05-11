@@ -42,8 +42,78 @@
         },
         {
             "label": "2026-05-05_17-15-37",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var A, B, C int\n    fmt.Scan(&A, &B, &C)\n\n    delta := B * B - 4 * A *C\n\n    \n    if delta \n\n    fmt.Println(delta)\n}\n",
+            "content": "@@ -23,22 +23,8 @@\n mt%22%0A\n-import %22math%22%0A\n func\n@@ -53,15 +53,11 @@\n , C \n-float64\n+int\n %0A   \n@@ -118,128 +118,28 @@\n     \n-if delta %3E 0 %7B%0A        x1 := (-B + math.Sqrt(delta)) / (2 * A)%0A        x2 := (-B - math.Sqrt(delta)) / (2 * A)%0A%0A \n+%0A    if delta %0A%0A\n     \n-   \n fmt.\n@@ -147,61 +147,16 @@\n rint\n-f(%22%25.2f%5Cn%22, x1)%0A        fmt.Printf(%22%25.2f%5Cn%22, x2)%0A    %7D\n+ln(delta)\n %0A%7D%0A\n",
             "lines": "13"
+        },
+        {
+            "label": "2026-05-05_17-49-49",
+            "content": "@@ -314,154 +314,8 @@\n x2)%0A\n-    %7D else if delta == 0 %7B%0A        x := -B / (2 * A)%0A        %0A        fmt.Println(%22%25.2f%5Cn%22)%0A%0A    %7D else %7B%0A        fmt.Println(%22nao ha raiz real%22)%0A\n     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_17-51-48",
+            "content": "@@ -400,19 +400,16 @@\n %22%25.2f%5Cn%22\n-, x\n )%0A%0A    %7D\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-05_17-51-50",
+            "content": "@@ -381,33 +381,34 @@\n        fmt.Print\n-f\n+ln\n (%22%25.2f%5Cn%22, x)%0A%0A \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-05_17-51-56",
+            "content": "@@ -235,32 +235,33 @@\n lta)) / (2 * A)%0A\n+%0A\n         fmt.Prin\n@@ -355,32 +355,41 @@\n := -B / (2 * A)%0A\n+        %0A\n         fmt.Prin\n@@ -404,16 +404,17 @@\n %5Cn%22, x)%0A\n+%0A\n     %7D el\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-05_17-53-58",
+            "content": "@@ -101,86 +101,8 @@\n C)%0A%0A\n-    if A == 0 %7B%0A        fmt.Println(%22nao ha raiz real%22)%0A        return%0A    %7D%0A%0A\n     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-05_18-19-51",
+            "content": "@@ -405,30 +405,18 @@\n  if \n-math.Abs(delta) %3C 1e-9\n+delta == 0\n  %7B%0A \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-05_18-22-05",
+            "content": "@@ -405,18 +405,30 @@\n  if \n-delta == 0\n+math.Abs(delta) %3C 1e-9\n  %7B%0A \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-05_18-22-13",
+            "content": "@@ -10,36 +10,35 @@\n ain%0A\n-%0A\n import \n-(%0A%09\n %22fmt%22%0A\n-%09\n+import \n %22math%22%0A\n-)%0A%0A\n func\n@@ -47,17 +47,20 @@\n ain() %7B%0A\n-%09\n+    \n var A, B\n@@ -71,17 +71,20 @@\n float64%0A\n-%09\n+    \n fmt.Scan\n@@ -97,17 +97,20 @@\n B, &C)%0A%0A\n-%09\n+    \n if A == \n@@ -113,18 +113,24 @@\n  == 0 %7B%0A\n-%09%09\n+        \n fmt.Prin\n@@ -157,22 +157,34 @@\n l%22)%0A\n-%09%09return%0A%09%7D%0A%0A%09\n+        return%0A    %7D%0A%0A    \n delt\n@@ -193,21 +193,29 @@\n := B\n-*\n+ * \n B - 4\n-*A*C%0A%0A%09\n+ * A *C%0A%0A    \n if d\n@@ -225,18 +225,24 @@\n a %3E 0 %7B%0A\n-%09%09\n+        \n x1 := (-\n@@ -273,18 +273,24 @@\n (2 * A)%0A\n-%09%09\n+        \n x2 := (-\n@@ -313,34 +313,40 @@\n lta)) / (2 * A)%0A\n-%09%09\n+        \n fmt.Printf(%22%25.2f\n@@ -354,18 +354,24 @@\n n%22, x1)%0A\n-%09%09\n+        \n fmt.Prin\n@@ -387,17 +387,20 @@\n n%22, x2)%0A\n-%09\n+    \n %7D else i\n@@ -405,35 +405,29 @@\n  if \n-math.Abs(delta) %3C 1e-9 %7B%0A%09%09\n+delta == 0 %7B%0A        \n x :=\n@@ -440,18 +440,24 @@\n (2 * A)%0A\n-%09%09\n+        \n fmt.Prin\n@@ -472,17 +472,20 @@\n %5Cn%22, x)%0A\n-%09\n+    \n %7D else %7B\n@@ -489,10 +489,16 @@\n e %7B%0A\n-%09%09\n+        \n fmt.\n@@ -529,9 +529,12 @@\n l%22)%0A\n-%09\n+    \n %7D%0A%7D%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-05_18-22-31",
+            "content": "@@ -343,21 +343,8 @@\n e if\n- delta %3C 0 &&\n  mat\n@@ -369,26 +369,8 @@\n 9 %7B%0A\n-        delta = 0%0A\n %09%09x \n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-05-05_18-25-48",
+            "content": "@@ -395,17 +395,16 @@\n elta = 0\n- \n %0A%09%09x := \n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-05-08_17-12-28",
+            "content": "@@ -183,91 +183,8 @@\n %09if \n-math.Abs(delta) %3C 1e-9 %7B%0A%09%09x := -B / (2 * A)%0A%09%09fmt.Println(%22%25.2f%5Cn%22, x)%0A%09%7D else if \n delt\n@@ -278,34 +278,33 @@\n * A)%0A%09%09fmt.Print\n-ln\n+f\n (%22%25.2f%5Cn%22, x1)%0A%09\n@@ -313,18 +313,132 @@\n mt.Print\n-ln\n+f(%22%25.2f%5Cn%22, x2)%0A%09%7D else if delta %3C 0 && math.Abs(delta) %3C 1e-9 %7B%0A        delta = 0 %0A%09%09x := -B / (2 * A)%0A%09%09fmt.Printf\n (%22%25.2f%5Cn\n@@ -433,33 +433,32 @@\n intf(%22%25.2f%5Cn%22, x\n-2\n )%0A%09%7D else %7B%0A%09%09fm\n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-05-08_17-37-59",
+            "content": "@@ -227,33 +227,34 @@\n * A)%0A%09%09fmt.Print\n-f\n+ln\n (%22%25.2f%5Cn%22, x)%0A%09%7D\n@@ -361,33 +361,34 @@\n * A)%0A%09%09fmt.Print\n-f\n+ln\n (%22%25.2f%5Cn%22, x1)%0A%09\n@@ -397,17 +397,18 @@\n mt.Print\n-f\n+ln\n (%22%25.2f%5Cn\n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-05-08_17-38-09",
+            "content": "@@ -179,16 +179,98 @@\n *C%0A%0A%09if \n+math.Abs(delta) %3C 1e-9 %7B%0A%09%09x := -B / (2 * A)%0A%09%09fmt.Printf(%22%25.2f%5Cn%22, x)%0A%09%7D else if \n delta %3E \n@@ -361,258 +361,61 @@\n  A)%0A\n-%0A%09%09if math.Abs(x1) %3C 1e-9 %7B%0A%09%09%09x1 = 0%0A%09%09%7D%0A%09%09if math.Abs(x2) %3C 1e-9 %7B%0A%09%09%09x2 = 0%0A%09%09%7D%0A%0A%09%09fmt.Printf(%22%25.2f%5Cn%22, x1)%0A%09%09fmt.Printf(%22%25.2f%5Cn%22, x2)%0A%0A%09%7D else if delta == 0 %7B%0A%09%09x := -B / (2 * A)%0A%0A%09%09if math.Abs(x) %3C 1e-9 %7B%0A%09%09%09x = 0%0A%09%09%7D%0A%0A%09%09fmt.Printf(%22%25.2f%5Cn%22, x)%0A\n+%09%09fmt.Printf(%22%25.2f%5Cn%22, x1)%0A%09%09fmt.Printf(%22%25.2f%5Cn%22, x2)\n %0A%09%7D \n@@ -462,8 +462,6 @@\n %0A%09%7D%0A\n-%09%0A\n %7D%0A\n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-05-11_17-47-25",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n\t\"math\"\n)\n\nfunc main() {\n\tvar A, B, C float64\n\tfmt.Scan(&A, &B, &C)\n\n\tif A == 0 {\n\t\tfmt.Println(\"nao ha raiz real\")\n\t\treturn\n\t}\n\n\tdelta := B*B - 4*A*C\n\n\tif delta > 0 {\n\t\tx1 := (-B + math.Sqrt(delta)) / (2 * A)\n\t\tx2 := (-B - math.Sqrt(delta)) / (2 * A)\n\n\t\tif math.Abs(x1) < 1e-9 {\n\t\t\tx1 = 0\n\t\t}\n\t\tif math.Abs(x2) < 1e-9 {\n\t\t\tx2 = 0\n\t\t}\n\n\t\tfmt.Printf(\"%.2f\\n\", x1)\n\t\tfmt.Printf(\"%.2f\\n\", x2)\n\n\t} else if delta == 0 {\n\t\tx := -B / (2 * A)\n\n\t\tif math.Abs(x) < 1e-9 {\n\t\t\tx = 0\n\t\t}\n\n\t\tfmt.Printf(\"%.2f\\n\", x)\n\n\t} else {\n\t\tfmt.Println(\"nao ha raiz real\")\n\t}\n\t\n}\n",
+            "lines": "46"
         }
     ]
 }
