@@ -2,8 +2,33 @@
     "patches": [
         {
             "label": "2026-04-28_17-11-48",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -53,9 +53,23 @@\n tln(\n-2\n+%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-11_17-49-37",
+            "content": "@@ -53,14 +53,9 @@\n tln(\n-%22:(0)%22\n+2\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-11_17-49-53",
+            "content": "@@ -52,13 +52,15 @@\n ntln(%22:(\n+0)\n %22)%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-11_17-50-02",
+            "content": "@@ -54,14 +54,10 @@\n ln(%22\n-cavalo\n+:(\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-11_17-50-12",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -41,208 +41,28 @@\n     \n-var B, T int%0A    fmt.Scan(&B)%0A    fmt.Scan(&T)%0A%0A    soma := B + T%0A%0A    if soma %3E 160 %7B%0A        fmt.Println(1)%0A    %7D else if soma %3C 160 %7B%0A        fmt.Println(2)%0A    %7D else %7B%0A        fmt.Println(0)%0A    %7D\n+fmt.Println(%22cavalo%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-14_02-31-53",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    var B, T int\n    fmt.Scan(&B)\n    fmt.Scan(&T)\n\n    soma := B + T\n\n    if soma > 160 {\n        fmt.Println(1)\n    } else if soma < 160 {\n        fmt.Println(2)\n    } else {\n        fmt.Println(0)\n    }\n}\n",
+            "lines": "19"
         }
     ]
 }

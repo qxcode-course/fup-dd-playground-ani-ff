@@ -8,3 +8,20 @@
 2026-05-11 17:48:04, SELF, v:1, k:fub@bhaskara, self:1, rate:100, debug:1
 2026-05-11 17:48:11, MOVE, v:1, k:fub@cortada, mode:PICK
 2026-05-11 17:48:14, EXEC, v:1, k:fub@cortada, mode:FULL, rate:0
+2026-05-11 17:47:19, MOVE, v:1, k:fub@bhaskara, mode:EDIT
+2026-05-11 17:47:39, MOVE, v:1, k:fub@bhaskara, mode:EDIT
+2026-05-11 17:48:13, MOVE, v:1, k:fub@cortada, mode:EDIT
+2026-05-11 17:49:37, EXEC, v:1, k:fub@cortada, mode:FULL, rate:45, size:5
+2026-05-11 17:49:53, EXEC, v:1, k:fub@cortada, mode:FULL, rate:0, size:5
+2026-05-11 17:50:02, EXEC, v:1, k:fub@cortada, mode:FULL, rate:0, size:5
+2026-05-11 17:50:12, EXEC, v:1, k:fub@cortada, mode:FULL, rate:0, size:5
+2026-05-11 17:50:11, MOVE, v:1, k:fub@cortada, mode:EDIT
+2026-05-11 17:50:12, MOVE, v:1, k:fub@cortada, mode:EDIT
+2026-05-11 18:04:58, MOVE, v:1, k:fub@cortada, mode:PICK
+2026-05-11 18:04:59, EXEC, v:1, k:fub@cortada, mode:FULL, rate:0
+2026-05-11 18:09:34, MOVE, v:1, k:fub@cortada, mode:BACK
+2026-05-11 18:04:59, MOVE, v:1, k:fub@cortada, mode:EDIT
+2026-05-11 18:10:12, MOVE, v:1, k:fub@cortada, mode:PICK
+2026-05-11 18:10:13, EXEC, v:1, k:fub@cortada, mode:FULL, rate:0
+2026-05-11 18:10:14, EXEC, v:1, k:fub@cortada, mode:FULL, rate:0
+2026-05-11 18:10:13, MOVE, v:1, k:fub@cortada, mode:EDIT
