@@ -2,3 +2,6 @@
 2026-05-18 17:05:16, EXEC, v:1, k:fub@cortada, mode:FULL, rate:100
 2026-05-18 17:05:18, MOVE, v:1, k:fub@cortada, mode:BACK
 2026-05-18 17:05:16, MOVE, v:1, k:fub@cortada, mode:EDIT
+2026-05-18 17:06:06, MOVE, v:1, k:fub@cobra, mode:PICK
+2026-05-18 17:06:07, EXEC, v:1, k:fub@cobra, mode:FULL, rate:0
+2026-05-18 17:06:06, MOVE, v:1, k:fub@cobra, mode:EDIT

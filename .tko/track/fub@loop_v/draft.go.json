@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-22_00-08-10",
+            "content": "@@ -41,254 +41,34 @@\n     \n-var a, b int%0A    fmt.Scan(%22&a, &b%22)%0A    fmt.Print(%22%5B %22)%0A    for %7B%0A        if a == b %7B%0A            break%0A        %7D%0A        if a%252 == 0 %7B%0A            a++%0A            continue%0A        %7D%0A        fmt.Print(a, %22 %22)%0A        a++%0A    %7D%0A    fmt.Println(%22 %5D\n+fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-22_00-11-31",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var a, b\n@@ -50,17 +50,20 @@\n , b int%0A\n-%09\n+    \n fmt.Scan\n@@ -67,18 +67,22 @@\n can(\n+%22\n &a, &b\n+%22\n )%0A\n-%0A%09\n+    \n fmt.\n@@ -93,21 +93,30 @@\n t(%22%5B\n+ \n %22)%0A\n-%0A%09\n+    \n for %7B%0A\n-%09%09\n+        \n if a\n@@ -127,93 +127,153 @@\n b %7B%0A\n-%09%09%09break%0A%09%09%7D%0A%0A%09%09if a%252 == 0 %7B%0A%09%09%09a++%0A%09%09%09continue%0A%09%09%7D%0A%0A%09%09fmt.Print(a, %22 %22)%0A%09%09a++%0A%09%7D%0A%0A%09\n+            break%0A        %7D%0A        if a%252 == 0 %7B%0A            a++%0A            continue%0A        %7D%0A        fmt.Print(a, %22 %22)%0A        a++%0A    %7D%0A    \n fmt.\n@@ -277,16 +277,19 @@\n mt.Print\n+ln\n (%22\n+ \n %5D%22)%0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-22_00-12-04",
+            "content": "@@ -81,17 +81,16 @@\n Print(%22%5B\n- \n %22)%0A%0A%09for\n@@ -204,13 +204,10 @@\n rint\n-ln\n (%22\n- \n %5D%22)%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-22_00-12-29",
+            "content": "@@ -205,14 +205,15 @@\n rintln(%22\n+ \n %5D%22)%0A%7D%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-22_00-12-40",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar a, b int\n\tfmt.Scan(&a, &b)\n\n\tfmt.Print(\"[ \")\n\n\tfor {\n\t\tif a == b {\n\t\t\tbreak\n\t\t}\n\n\t\tif a%2 == 0 {\n\t\t\ta++\n\t\t\tcontinue\n\t\t}\n\n\t\tfmt.Print(a, \" \")\n\t\ta++\n\t}\n\n\tfmt.Println(\"]\")\n}\n",
+            "lines": "26"
+        }
+    ]
+}

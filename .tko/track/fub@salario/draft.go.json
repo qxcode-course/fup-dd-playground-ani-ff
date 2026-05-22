@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-21_15-10-32",
+            "content": "@@ -41,360 +41,35 @@\n     \n-var salario, aumento float64%0A    fmt.Scan(&salario, &aumento)%0A    if salario %3C= 1000.00 %7B%0A        aumento = 0.20%0A    %7D else if salario %3C= 1500 %7B%0A        aumento = 0.25%0A    %7D else if salario %3C= 2000.00 %7B%0A        aumento = 0.20%0A    %7D else %7B%0A        aumento = 0.05%0A    %7D%0A    novosalario:= salario + ( salario * aumento)%0A    fmt.Printf(%22%252f%5Cn%22, novosalario\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-21_15-16-21",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var sala\n@@ -52,21 +52,9 @@\n ario\n- float64%0A%09var\n+,\n  aum\n@@ -66,18 +66,20 @@\n float64%0A\n-%0A%09\n+    \n fmt.Scan\n@@ -91,12 +91,24 @@\n ario\n-)%0A%0A%09\n+, &aumento)%0A    \n if s\n@@ -119,34 +119,40 @@\n io %3C= 1000.00 %7B%0A\n-%09%09\n+        \n aumento = 0.20%0A%09\n@@ -150,17 +150,20 @@\n  = 0.20%0A\n-%09\n+    \n %7D else i\n@@ -179,24 +179,27 @@\n  %3C= 1500\n-.00 %7B%0A%09%09\n+ %7B%0A        \n aumento \n@@ -206,12 +206,15 @@\n = 0.\n-15%0A%09\n+25%0A    \n %7D el\n@@ -240,18 +240,24 @@\n 00.00 %7B%0A\n-%09%09\n+        \n aumento \n@@ -264,12 +264,15 @@\n = 0.\n-10%0A%09\n+20%0A    \n %7D el\n@@ -280,10 +280,16 @@\n e %7B%0A\n-%09%09\n+        \n aume\n@@ -303,25 +303,29 @@\n .05%0A\n-%09%7D%0A%0A%09\n+    %7D%0A    \n novo\n-S\n+s\n alario\n- \n := s\n@@ -332,24 +332,26 @@\n alario +\n+ (\n  salario\n *aumento\n@@ -346,19 +346,24 @@\n ario\n-*\n+ * \n aumento\n-%0A%0A%09\n+)%0A    \n fmt.\n@@ -371,17 +371,16 @@\n rintf(%22%25\n-.\n 2f%5Cn%22, n\n@@ -382,17 +382,17 @@\n n%22, novo\n-S\n+s\n alario)%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-21_15-17-35",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar salario float64\n\tvar aumento float64\n\n\tfmt.Scan(&salario)\n\n\tif salario <= 1000.00 {\n\t\taumento = 0.20\n\t} else if salario <= 1500.00 {\n\t\taumento = 0.15\n\t} else if salario <= 2000.00 {\n\t\taumento = 0.10\n\t} else {\n\t\taumento = 0.05\n\t}\n\n\tnovoSalario := salario + salario*aumento\n\n\tfmt.Printf(\"%.2f\\n\", novoSalario)\n}\n",
+            "lines": "24"
+        }
+    ]
+}

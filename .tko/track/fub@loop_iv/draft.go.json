@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-21_15-35-43",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,163 +37,38 @@\n ) %7B%0A\n-%09var a, b, p int%0A%09fmt.Scan(&a, &b)%0A%0A%09if a %3C b %7B%0A%09%09p = 1%0A%09%7D else %7B%0A%09%09p = -1%0A%09%7D%0A%0A%09fmt.Print(%22%5B%22)%0A%09for ; a != b; a += p %7B%0A%09%09fmt.Print(a, %22 %22)%0A%09%7D%0A%09fmt.Print(%22%5D\n+    fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-21_15-52-13",
+            "content": "@@ -127,17 +127,16 @@\n Print(%22%5B\n- \n %22)%0A%09for \n@@ -189,15 +189,14 @@\n .Print(%22\n- \n %5D%22)%0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-21_15-52-27",
+            "content": "@@ -192,10 +192,8 @@\n rint\n-ln\n (%22 %5D\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-21_15-52-37",
+            "content": "@@ -192,14 +192,15 @@\n rintln(%22\n+ \n %5D%22)%0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-21_15-52-44",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar a, b, p int\n\tfmt.Scan(&a, &b)\n\n\tif a < b {\n\t\tp = 1\n\t} else {\n\t\tp = -1\n\t}\n\n\tfmt.Print(\"[ \")\n\tfor ; a != b; a += p {\n\t\tfmt.Print(a, \" \")\n\t}\n\tfmt.Println(\"]\")\n}\n",
+            "lines": "20"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-22_00-24-53",
+            "content": "@@ -41,228 +41,35 @@\n     \n-var n int%0A    fmt.Scan(&n)%0A    for i := 0; i %3C= 10 ; i++ %7B%0A        if i == n %7B%0A            continue%0A        %7D%0A        if i == 10 %7B%0A            fmt.Println(%22ceu%22)%0A        %7D else %7B%0A            fmt.Println(i)%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-22_00-28-40",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var n in\n@@ -47,17 +47,20 @@\n r n int%0A\n-%09\n+    \n fmt.Scan\n@@ -64,18 +64,20 @@\n can(&n)%0A\n-%0A%09\n+    \n for i :=\n@@ -91,16 +91,17 @@\n = 10\n+ \n ; i++ %7B%0A\n %09%09if\n@@ -96,18 +96,24 @@\n ; i++ %7B%0A\n-%09%09\n+        \n if i == \n@@ -120,27 +120,47 @@\n n %7B%0A\n-%09%09%09continue%0A%09%09%7D%0A%0A%09%09\n+            continue%0A        %7D%0A        \n if i\n@@ -168,19 +168,28 @@\n == 10 %7B%0A\n-%09%09%09\n+            \n fmt.Prin\n@@ -199,18 +199,24 @@\n (%22ceu%22)%0A\n-%09%09\n+        \n %7D else %7B\n@@ -220,11 +220,20 @@\n e %7B%0A\n-%09%09%09\n+            \n fmt.\n@@ -247,13 +247,22 @@\n (i)%0A\n-%09%09%7D%0A%09\n+        %7D%0A    \n %7D%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-22_00-29-00",
+            "content": "@@ -65,25 +65,8 @@\n n)%0A%0A\n-%09fmt.Print(%22%5B %22)%0A\n %09for\n@@ -151,14 +151,15 @@\n rint\n+ln\n (%22ceu\n- \n %22)%0A%09\n@@ -184,15 +184,12 @@\n rint\n+ln\n (i\n-, %22 %22\n )%0A%09%09\n@@ -197,22 +197,6 @@\n %0A%09%7D%0A\n-%09fmt.Print(%22%5D%22)%0A\n %7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-22_00-29-43",
+            "content": "@@ -226,10 +226,8 @@\n rint\n-ln\n (%22%5D%22\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-22_00-29-56",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar n int\n\tfmt.Scan(&n)\n\n\tfmt.Print(\"[ \")\n\tfor i := 0; i <= 10; i++ {\n\t\tif i == n {\n\t\t\tcontinue\n\t\t}\n\n\t\tif i == 10 {\n\t\t\tfmt.Print(\"ceu \")\n\t\t} else {\n\t\t\tfmt.Print(i, \" \")\n\t\t}\n\t}\n\tfmt.Println(\"]\")\n}\n",
+            "lines": "22"
+        }
+    ]
+}

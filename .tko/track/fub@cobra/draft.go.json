@@ -2,8 +2,43 @@
     "patches": [
         {
             "label": "2026-05-14_02-32-07",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,83 +41,35 @@\n     \n-var N, X, Y, S int%0A    fmt.Scan(&N, &X, &Y, &S)%0A%0A    fmt.Println(N, X, Y, S\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-19_17-36-53",
+            "content": "@@ -60,25 +60,8 @@\n int%0A\n-    var C string%0A\n     \n@@ -84,12 +84,8 @@\n  &Y,\n- &C,\n  &S)\n@@ -114,11 +114,8 @@\n , Y,\n- C,\n  S)%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-19_17-41-38",
+            "content": "@@ -107,17 +107,16 @@\n C, &S)%0A%0A\n-%0A\n     fmt.\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-21_13-23-01",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var N, X\n@@ -56,17 +56,20 @@\n , S int%0A\n-%09\n+    \n var C st\n@@ -73,18 +73,20 @@\n  string%0A\n-%0A%09\n+    \n fmt.Scan\n@@ -92,233 +92,32 @@\n n(&N\n-)%0A%09fmt.Scan(&X)%0A%09fmt.Scan(&Y)%0A%09fmt.Scan(&C)%0A%09fmt.Scan(&S)%0A%0A%09if C == %22R%22 %7B%0A%09%09X = (X + S) %25 N%0A%09%7D else if C == %22L%22 %7B%0A%09%09X = (X - S + N) %25 N%0A%09%7D else if C == %22D%22 %7B%0A%09%09Y = (Y + S) %25 N%0A%09%7D else if C == %22U%22 %7B%0A%09%09Y = (Y - S + N) %25 N%0A%09%7D%0A%0A%09\n+, &X, &Y, &C, &S)%0A%0A%0A    \n fmt.\n@@ -124,16 +124,25 @@\n Println(\n+N, \n X, Y\n+, C, S\n )%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-21_13-29-53",
+            "content": "@@ -206,20 +206,14 @@\n X = \n-(\n (X - S\n-) %25 N\n  + N\n@@ -290,20 +290,14 @@\n Y = \n-(\n (Y - S\n-) %25 N\n  + N\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-21_13-34-51",
+            "content": "@@ -86,22 +86,62 @@\n n(&N\n-, &X, &Y, &C, \n+)%0A%09fmt.Scan(&X)%0A%09fmt.Scan(&Y)%0A%09fmt.Scan(&C)%0A%09fmt.Scan(\n &S)%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-21_13-35-48",
+            "content": "@@ -69,16 +69,17 @@\n  string%0A\n+%0A\n %09fmt.Sca\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-21_13-35-56",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar N, X, Y, S int\n\tvar C string\n\tfmt.Scan(&N, &X, &Y, &C, &S)\n\n\tif C == \"R\" {\n\t\tX = (X + S) % N\n\t} else if C == \"L\" {\n\t\tX = ((X - S) % N + N) % N\n\t} else if C == \"D\" {\n\t\tY = (Y + S) % N\n\t} else if C == \"U\" {\n\t\tY = ((Y - S) % N + N) % N\n\t}\n\n\tfmt.Println(X, Y)\n}\n",
+            "lines": "21"
         }
     ]
 }
