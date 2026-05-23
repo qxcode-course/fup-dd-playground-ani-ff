@@ -99,3 +99,5 @@
 2026-05-22 00:45:28, EXEC, v:1, k:fub@colorido, mode:FULL, rate:100, size:32
 2026-05-22 00:45:30, MOVE, v:1, k:fub@colorido, mode:BACK
 2026-05-22 00:45:44, SELF, v:1, k:fub@colorido, self:1, rate:100, study:15, concept:1
+2026-05-22 00:45:26, MOVE, v:1, k:fub@colorido, mode:EDIT
+2026-05-22 00:45:28, MOVE, v:1, k:fub@colorido, mode:EDIT

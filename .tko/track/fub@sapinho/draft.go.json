@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-23_11-21-16",
+            "content": "@@ -41,234 +41,35 @@\n     \n-var p, s, e, x int%0A    fmt.Scan(&p, &s, &e)%0A    for %7B%0A        x +=s%0A%0A        if x %3E= p %7B%0A            fmt.Println(x, %22saiu%22)%0A            break%0A        %7D%0A        %0A        fmt.Println(x)%0A        x -= e%0A        fmt.Println(x)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-23_11-24-59",
+            "content": "@@ -102,18 +102,13 @@\n     \n- a :=\n  x +\n- \n+=\n s%0A%0A \n@@ -117,17 +117,17 @@\n      if \n-a\n+x\n  %3E= p %7B%0A\n@@ -156,11 +156,8 @@\n n(x,\n- a,\n  %22sa\n@@ -223,11 +223,8 @@\n ln(x\n-, a\n )%0A  \n@@ -235,13 +235,10 @@\n   x \n-= a \n -\n+=\n  e%0A \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-23_11-29-02",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var p, s\n@@ -56,17 +56,20 @@\n , x int%0A\n-%09\n+    \n fmt.Scan\n@@ -85,62 +85,58 @@\n &e)%0A\n-%0A%09\n+    \n for %7B%0A\n-%09%09fmt.Println(x, x+s)%0A%0A%09%09x += s%0A%09%09if x\n+        a := x + s%0A%0A        if a\n  %3E= p %7B%0A\n %09%09%09f\n@@ -131,19 +131,28 @@\n  %3E= p %7B%0A\n-%09%09%09\n+            \n fmt.Prin\n@@ -159,16 +159,22 @@\n tln(\n+x, a, \n %22saiu%22)%0A\n %09%09%09b\n@@ -173,32 +173,116 @@\n u%22)%0A\n-%09%09%09break%0A%09%09%7D%0A%0A%09%09x -= e%0A%09\n+            break%0A        %7D%0A        %0A        fmt.Println(x, a)%0A        x = a - e%0A        fmt.Println(x)%0A    \n %7D%0A%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-23_11-29-36",
+            "content": "@@ -91,14 +91,44 @@\n %7B%0A%09%09\n+fmt.Println(x, x+s)%0A%0A%09%09x += s%0A%09%09\n if x\n-+s\n  %3E= \n@@ -146,19 +146,16 @@\n Println(\n-p, \n %22saiu%22)%0A\n@@ -174,38 +174,12 @@\n %0A%0A%09%09\n-fmt.Println(x, x+s)%0A%09%09x += s -\n+x -=\n  e%0A%09\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-23_11-30-13",
+            "content": "@@ -87,18 +87,27 @@\n for \n+%7B%0A%09%09if \n x+s \n-%3C\n+%3E=\n  p %7B%0A\n+%09\n %09%09fm\n@@ -120,33 +120,34 @@\n tln(\n-x, x+s)%0A%09%09x += s - e%0A\n+p, %22saiu%22)%0A%09%09%09break%0A%09\n %09%7D%0A%0A\n+%09\n %09fmt\n@@ -158,18 +158,31 @@\n ntln(x, \n-%22saiu%22)\n+x+s)%0A%09%09x += s - e%0A%09%7D\n %0A%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-23_11-30-52",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar p, s, e, x int\n\tfmt.Scan(&p, &s, &e)\n\n\tfor x+s < p {\n\t\tfmt.Println(x, x+s)\n\t\tx += s - e\n\t}\n\n\tfmt.Println(x, \"saiu\")\n}\n",
+            "lines": "15"
+        }
+    ]
+}

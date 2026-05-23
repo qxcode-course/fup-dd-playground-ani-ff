@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-23_11-15-35",
+            "content": "@@ -28,180 +28,17 @@\n unc \n-inv(n int)int %7B%0A    r := 0%0A    for n %3E 0 %7B%0A        n = r*10 + n%2510%0A        n/=10%0A    %7D%0A    return r%0A%7D%0A%0Afunc main( %7B%0A    var n int%0A    fmt.Scan(&n)%0A    if n == inv(n\n+main(\n ) %7B%0A\n-    \n     \n@@ -53,52 +53,23 @@\n tln(\n-1)%0A    %7D else %7B%0A        fmt.Println(0)%0A    %7D%0A%7D)\n+%22Hello, World!%22)%0A%7D\n %0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-23_11-19-22",
+            "content": "@@ -258,9 +258,10 @@\n %0A    %7D%0A%7D\n+)\n %0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-23_11-19-43",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func inv\n@@ -38,24 +38,29 @@\n int)\n- \n int %7B%0A\n-%09\n+    \n r := 0%0A\n-%09\n+    \n for \n@@ -71,11 +71,17 @@\n 0 %7B%0A\n-%09%09r\n+        n\n  = r\n@@ -95,22 +95,32 @@\n %2510%0A\n-%09%09n \n+        n\n /=\n- \n 10%0A\n-%09%7D%0A%09\n+    %7D%0A    \n retu\n@@ -137,21 +137,23 @@\n nc main(\n-)\n  %7B%0A\n-%09\n+    \n var n in\n@@ -154,17 +154,20 @@\n r n int%0A\n-%09\n+    \n fmt.Scan\n@@ -171,18 +171,20 @@\n can(&n)%0A\n-%0A%09\n+    \n if n == \n@@ -192,18 +192,24 @@\n nv(n) %7B%0A\n-%09%09\n+        \n fmt.Prin\n@@ -215,17 +215,20 @@\n ntln(1)%0A\n-%09\n+    \n %7D else %7B\n@@ -232,10 +232,16 @@\n e %7B%0A\n-%09%09\n+        \n fmt.\n@@ -255,9 +255,12 @@\n (0)%0A\n-%09\n+    \n %7D%0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-23_11-19-56",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc inv(n int) int {\n\tr := 0\n\tfor n > 0 {\n\t\tr = r*10 + n%10\n\t\tn /= 10\n\t}\n\treturn r\n}\n\nfunc main() {\n\tvar n int\n\tfmt.Scan(&n)\n\n\tif n == inv(n) {\n\t\tfmt.Println(1)\n\t} else {\n\t\tfmt.Println(0)\n\t}\n}\n",
+            "lines": "23"
+        }
+    ]
+}

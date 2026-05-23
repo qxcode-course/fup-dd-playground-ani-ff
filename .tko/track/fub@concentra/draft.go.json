@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-23_02-29-23",
+            "content": "@@ -41,219 +41,34 @@\n     \n-var a, b int%0A    fmt.Scan(&a, &b)%0A    fmt.Print(%22%5B%22)%0A    for i; j := a, b; i %3C= b; i, j = i+1, j-1 %7B%0A        fmt.Print(i, %22 %22, j)%0A        if i != b %7B%0A            fmt.Print(%22 %22)%0A        %7D%0A    %7D%0A    fmt.Println(%22%5D\n+fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-23_02-33-44",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,24 +37,29 @@\n ) %7B%0A\n-%09\n+    \n var \n-A, B\n+a, b\n  int%0A\n-%0A%09\n+    \n fmt.\n@@ -68,17 +68,19 @@\n an(&\n-A, &B)%0A%0A%09\n+a, &b)%0A    \n fmt.\n@@ -94,34 +94,36 @@\n %5B%22)%0A\n-%0A%09\n+    \n for i\n-,\n+;\n  j := \n-A, B\n+a, b\n ; i %3C= \n-B\n+b\n ; i,\n@@ -138,18 +138,24 @@\n , j-1 %7B%0A\n-%09%09\n+        \n fmt.Prin\n@@ -171,19 +171,24 @@\n  j)%0A\n-%0A%09%09\n+        \n if i != \n B %7B%0A\n@@ -187,15 +187,24 @@\n  != \n-B %7B%0A%09%09%09\n+b %7B%0A            \n fmt.\n@@ -218,17 +218,28 @@\n  %22)%0A\n-%09%09%7D%0A%09%7D%0A%0A%09\n+        %7D%0A    %7D%0A    \n fmt.\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-23_02-34-01",
+            "content": "@@ -209,15 +209,14 @@\n rintln(%22\n- \n %5D%22)%0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-23_02-34-10",
+            "content": "@@ -82,17 +82,16 @@\n Print(%22%5B\n- \n %22)%0A%0A%09for\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-23_02-34-23",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar A, B int\n\n\tfmt.Scan(&A, &B)\n\n\tfmt.Print(\"[ \")\n\n\tfor i, j := A, B; i <= B; i, j = i+1, j-1 {\n\t\tfmt.Print(i, \" \", j)\n\n\t\tif i != B {\n\t\t\tfmt.Print(\" \")\n\t\t}\n\t}\n\n\tfmt.Println(\" ]\")\n}\n",
+            "lines": "21"
+        }
+    ]
+}
