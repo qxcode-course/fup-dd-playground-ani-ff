@@ -1,0 +1,5 @@
+2026-05-26 00:22:39, EXEC, v:1, k:fub@mario, mode:FULL, rate:100, size:29
+2026-05-26 00:22:41, MOVE, v:1, k:fub@mario, mode:BACK
+2026-05-26 00:22:48, SELF, v:1, k:fub@mario, self:1, rate:100, concept:1
+2026-05-26 00:22:38, MOVE, v:1, k:fub@mario, mode:EDIT
+2026-05-26 00:22:39, MOVE, v:1, k:fub@mario, mode:EDIT

@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-25_21-52-56",
+            "content": "@@ -17,432 +17,59 @@\n ort \n-(%0A    %22bufio%22%0A    %22fmt%22%0A    %22os%22%0A)%0Afunc main() %7B%0A    in := bufio.NewReader(os.Stdin)%0A    var s, vogais, consoantes string%0A    fmt.Scanln(&s)%0A    in.ReadString('%5Cn')%0A    for _, c := range s %7B%0A        if c == 'a' %7C%7C c == 'e' %7C%7C c == 'i' %7C%7C c == 'o' %7C%7C c == 'u' %7B%0A            vogais += string(c)%0A        %7D else if c != ' ' %7B%0A            consoantes += string(c)%0A        %7D%0A    %7D%0A    fmt.Println(vogais)%0A    fmt.Println(consoantes\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-25_21-59-45",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import (\n@@ -19,17 +19,20 @@\n t (%0A\n-%09\n+    \n %22bufio%22%0A\n %09%22fm\n@@ -31,24 +31,29 @@\n io%22%0A\n-%09\n+    \n %22fmt%22%0A\n-%09\n+    \n %22os%22%0A)%0A\n-%0A\n func\n@@ -62,17 +62,20 @@\n ain() %7B%0A\n-%09\n+    \n in := bu\n@@ -102,17 +102,67 @@\n in)%0A\n-%0A%09s, _ :=\n+    var s, vogais, consoantes string%0A    fmt.Scanln(&s)%0A   \n  in.\n@@ -182,35 +182,20 @@\n n')%0A\n-%0A%09v, c := %22%22, %22%22%0A%0A%09\n+    \n for _, \n-l\n+c\n  := \n@@ -208,14 +208,20 @@\n s %7B%0A\n-%09%09if l\n+        if c\n  == \n@@ -223,25 +223,25 @@\n c == 'a' %7C%7C \n-l\n+c\n  == 'e' %7C%7C l\n@@ -235,25 +235,25 @@\n c == 'e' %7C%7C \n-l\n+c\n  == 'i' %7C%7C l\n@@ -247,25 +247,25 @@\n c == 'i' %7C%7C \n-l\n+c\n  == 'o' %7C%7C l\n@@ -263,17 +263,17 @@\n  'o' %7C%7C \n-l\n+c\n  == 'u' \n@@ -278,12 +278,26 @@\n ' %7B%0A\n-%09%09%09v\n+            vogais\n  += \n@@ -303,21 +303,27 @@\n  string(\n-l)%0A%09%09\n+c)%0A        \n %7D else i\n@@ -328,35 +328,41 @@\n  if \n-l %3E= 'a' && l %3C= 'z' %7B%0A%09%09%09c\n+c != ' ' %7B%0A            consoantes\n  += \n@@ -372,20 +372,31 @@\n ing(\n-l)%0A%09%09%7D%0A%09%7D%0A%0A%09\n+c)%0A        %7D%0A    %7D%0A    \n fmt.\n@@ -408,11 +408,19 @@\n ln(v\n-)%0A%09\n+ogais)%0A    \n fmt.\n@@ -428,12 +428,21 @@\n rintln(c\n+onsoantes\n )%0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-25_22-00-28",
+            "content": "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n)\n\nfunc main() {\n\tin := bufio.NewReader(os.Stdin)\n\n\ts, _ := in.ReadString('\\n')\n\n\tv, c := \"\", \"\"\n\n\tfor _, l := range s {\n\t\tif l == 'a' || l == 'e' || l == 'i' || l == 'o' || l == 'u' {\n\t\t\tv += string(l)\n\t\t} else if l >= 'a' && l <= 'z' {\n\t\t\tc += string(l)\n\t\t}\n\t}\n\n\tfmt.Println(v)\n\tfmt.Println(c)\n}\n",
+            "lines": "26"
+        }
+    ]
+}

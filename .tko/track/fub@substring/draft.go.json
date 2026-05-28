@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-23_15-56-23",
+            "content": "@@ -17,347 +17,59 @@\n ort \n-(%0A    %22bufio%22%0A    %22fmt%22%0A    %22os%22%0A)%0Afunc main() %7B%0A    in := bufio.NewReader(os.Stdin)%0A    var s string%0A    var i, q int%0A    s, _ = in.ReadString('%5Cn')%0A    s = s%5B:len(s)-1%5D%0A    if i %3C 0 %7C%7C i %3E= len(s) %7C%7C q %3C= 0 %7B%0A        fmt.Println(%22%22)%0A        return%0A    %7D%0A    f := i + q %0A    if F %3E len(s) %7B%0A        f = len(s)%0A    %7D%0A    fmt.Println(s%5Bi:f%5D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-23_16-01-36",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import (\n@@ -19,17 +19,20 @@\n t (%0A\n-%09\n+    \n %22bufio%22%0A\n %09%22fm\n@@ -31,24 +31,29 @@\n io%22%0A\n-%09\n+    \n %22fmt%22%0A\n-%09\n+    \n %22os%22%0A)%0A\n-%0A\n func\n@@ -62,17 +62,20 @@\n ain() %7B%0A\n-%09\n+    \n in := bu\n@@ -98,18 +98,20 @@\n .Stdin)%0A\n-%0A%09\n+    \n var s st\n@@ -115,17 +115,20 @@\n  string%0A\n-%09\n+    \n var i, q\n@@ -132,18 +132,20 @@\n , q int%0A\n-%0A%09\n+    \n s, _ = i\n@@ -163,17 +163,20 @@\n g('%5Cn')%0A\n-%09\n+    \n s = s%5B:l\n@@ -188,29 +188,12 @@\n -1%5D%0A\n-%0A%09fmt.Scan(&i, &q)%0A%0A%09\n+    \n if i\n@@ -224,18 +224,24 @@\n  %3C= 0 %7B%0A\n-%09%09\n+        \n fmt.Prin\n@@ -252,22 +252,33 @@\n %22%22)%0A\n-%09%09return%0A%09%7D%0A%0A%09\n+        return%0A    %7D%0A    \n f :=\n@@ -287,14 +287,18 @@\n  + q\n-%0A%09if f\n+ %0A    if F\n  %3E l\n@@ -309,10 +309,16 @@\n ) %7B%0A\n-%09%09\n+        \n f = \n@@ -328,13 +328,18 @@\n (s)%0A\n-%09%7D%0A%0A%09\n+    %7D%0A    \n fmt.\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-23_16-01-51",
+            "content": "@@ -323,26 +323,6 @@\n f%5D)%0A\n-    fmt.Println(%22%22)%0A\n %7D%0A\n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-05-23_16-02-23",
+            "content": "@@ -106,121 +106,30 @@\n ring\n-package main%0A%0Aimport (%0A%09%22bufio%22%0A%09%22fmt%22%0A%09%22os%22%0A%09%22strings%22%0A)%0A%0Afunc main() %7B%0A%09in := bufio.NewReader(os.Stdin)\n+%0A%09var i, q int\n %0A%0A%09s, _ \n := i\n@@ -124,17 +124,16 @@\n %0A%0A%09s, _ \n-:\n = in.Rea\n@@ -156,58 +156,31 @@\n  = s\n-trings.TrimSpace(s)%0A%0A%09var i, q int\n+%5B:len(s)-1%5D%0A\n %0A%09fmt.\n-Fs\n+S\n can(\n-in, \n &i, \n@@ -319,10 +319,30 @@\n s%5Bi:f%5D)%0A\n+    fmt.Println(%22%22)%0A\n %7D%0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-05-23_16-03-04",
+            "content": "@@ -109,18 +109,22 @@\n gpackage\n+ main\n %0A\n-%7D\n %0Aimport \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-05-23_16-03-36",
+            "content": "@@ -7,16 +7,121 @@\n e main%0A%0A\n+import (%0A%09%22bufio%22%0A%09%22fmt%22%0A%09%22os%22%0A)%0A%0Afunc main() %7B%0A%09in := bufio.NewReader(os.Stdin)%0A%0A%09var s stringpackage%0A%7D%0A\n import (\n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-05-23_16-04-05",
+            "content": "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n\t\"strings\"\n)\n\nfunc main() {\n\tin := bufio.NewReader(os.Stdin)\n\n\ts, _ := in.ReadString('\\n')\n\ts = strings.TrimSpace(s)\n\n\tvar i, q int\n\tfmt.Fscan(in, &i, &q)\n\n\tif i < 0 || i >= len(s) || q <= 0 {\n\t\tfmt.Println(\"\")\n\t\treturn\n\t}\n\n\tf := i + q\n\tif f > len(s) {\n\t\tf = len(s)\n\t}\n\n\tfmt.Println(s[i:f])\n}\n",
+            "lines": "30"
+        }
+    ]
+}

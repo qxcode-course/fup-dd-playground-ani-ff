@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-28_11-34-51",
+            "content": "@@ -17,551 +17,59 @@\n ort \n-(%0A    %22bufio%22%0A    %22fmt%22%0A    %22os%22%0A    %22strings%22%0A    %22unicode%22%0A)%0Afunc main() %7B%0A    reader:= bufio.NewReader(os.Stdin)%0A    frase, _ := reader.ReadString(%22%5Cn%22)%0A    frase = strings.TrimRight(frase, %22%5Cn%22)%0A    for _, ch := range frase %7B%0A        if ch == ' ' %7B%0A            fmt.Print(%22 %22)%0A        %7D else %7B%0A            letra := unicode.ToLover(ch)%0A            if letra == 'a' %7C%7C letra == 'e' %7C%7C letra == 'i' %7C%7C letra == 'o' %7C%7C letra == 'u' %7B%0A                fmt.Print(%22v%22)%0A            %7D else %7B%0A                fmt.Print(%22c%22)%0A            %7D%0A        %7D%0A    %7D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-28_11-41-15",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import (\n@@ -19,17 +19,20 @@\n t (%0A\n-%09\n+    \n %22bufio%22%0A\n %09%22fm\n@@ -31,22 +31,31 @@\n io%22%0A\n-%09\n+    \n %22fmt%22%0A\n-%09\n+    \n %22os%22%0A\n-%09\n+    \n %22str\n@@ -60,17 +60,20 @@\n trings%22%0A\n-%09\n+    \n %22unicode\n@@ -76,17 +76,16 @@\n code%22%0A)%0A\n-%0A\n func mai\n@@ -94,16 +94,18 @@\n ) %7B%0A\n-%09\n+    \n reader\n- \n := b\n@@ -129,17 +129,20 @@\n .Stdin)%0A\n-%09\n+    \n frase, _\n@@ -167,16 +167,18 @@\n ing(\n-'%5Cn')%0A%0A%09\n+%22%5Cn%22)%0A    \n fras\n@@ -212,18 +212,20 @@\n , %22%5Cn%22)%0A\n-%0A%09\n+    \n for _, c\n@@ -243,19 +243,24 @@\n frase %7B%0A\n-%0A%09%09\n+        \n if ch ==\n@@ -266,19 +266,28 @@\n = ' ' %7B%0A\n-%09%09%09\n+            \n fmt.Prin\n@@ -293,18 +293,24 @@\n nt(%22 %22)%0A\n-%09%09\n+        \n %7D else %7B\n@@ -310,19 +310,28 @@\n  else %7B%0A\n-%09%09%09\n+            \n letra :=\n@@ -347,20 +347,28 @@\n ToLo\n-w\n+v\n er(ch)%0A\n-%0A%09%09%09\n+            \n if l\n@@ -449,68 +449,119 @@\n ' %7B%0A\n-%09%09%09%09fmt.Print(%22v%22)%0A%09%09%09%7D else %7B%0A%09%09%09%09fmt.Print(%22c%22)%0A%09%09%09%7D%0A%09%09%7D%0A%09\n+                fmt.Print(%22v%22)%0A            %7D else %7B%0A                fmt.Print(%22c%22)%0A            %7D%0A        %7D%0A    \n %7D%0A%7D%0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-28_11-41-29",
+            "content": "@@ -449,31 +449,8 @@\n %09%09%7D%0A\n-        fmt.Println( )%0A\n %09%7D%0A%7D\n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-05-28_11-41-43",
+            "content": "@@ -465,18 +465,16 @@\n Println(\n-%22 %22\n+ \n )%0A%09%7D%0A%7D%0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-05-28_11-42-07",
+            "content": "@@ -434,10 +434,8 @@\n rint\n-ln\n (%22c%22\n@@ -445,13 +445,38 @@\n %09%09%7D%0A%09%09%7D%0A\n+        fmt.Println(%22 %22)%0A\n %09%7D%0A%7D%0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-05-28_11-42-18",
+            "content": "@@ -430,16 +430,18 @@\n mt.Print\n+ln\n (%22c%22)%0A%09%09\n@@ -453,23 +453,7 @@\n %7D%0A%09%7D\n-%0A%0A%09fmt.Println()\n %0A%7D%0A\n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-05-28_11-43-10",
+            "content": "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n\t\"strings\"\n\t\"unicode\"\n)\n\nfunc main() {\n\treader := bufio.NewReader(os.Stdin)\n\tfrase, _ := reader.ReadString('\\n')\n\n\tfrase = strings.TrimRight(frase, \"\\n\")\n\n\tfor _, ch := range frase {\n\n\t\tif ch == ' ' {\n\t\t\tfmt.Print(\" \")\n\t\t} else {\n\t\t\tletra := unicode.ToLower(ch)\n\n\t\t\tif letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' {\n\t\t\t\tfmt.Print(\"v\")\n\t\t\t} else {\n\t\t\t\tfmt.Print(\"c\")\n\t\t\t}\n\t\t}\n\t}\n\n\tfmt.Println()\n}\n",
+            "lines": "33"
+        }
+    ]
+}
