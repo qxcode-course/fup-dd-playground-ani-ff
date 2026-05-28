@@ -92,3 +92,10 @@
 2026-05-28 12:24:56, MOVE, v:1, k:fub@krueguer, mode:DOWN
 2026-05-28 12:24:57, MOVE, v:1, k:fub@krueguer, mode:PICK
 2026-05-28 12:24:58, EXEC, v:1, k:fub@krueguer, mode:FULL, rate:0, size:5
+2026-05-28 12:26:06, MOVE, v:1, k:fub@krueguer, mode:BACK
+2026-05-28 12:24:24, MOVE, v:1, k:fub@calipso, mode:EDIT
+2026-05-28 12:24:25, MOVE, v:1, k:fub@calipso, mode:EDIT
+2026-05-28 12:24:56, MOVE, v:1, k:fub@krueguer, mode:EDIT
+2026-05-28 12:24:56, MOVE, v:1, k:fub@krueguer, mode:EDIT
+2026-05-28 12:24:56, MOVE, v:1, k:fub@krueguer, mode:EDIT
+2026-05-28 12:24:58, MOVE, v:1, k:fub@krueguer, mode:EDIT
