@@ -1,0 +1,59 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-28_17-09-07",
+            "content": "@@ -10,308 +10,66 @@\n ain%0A\n-%0A\n import \n-(%0A%09%22bufio%22%0A%09%22fmt%22%0A%09%22os%22%0A%09%22strings%22%0A)%0A%0Afunc main() %7B%0A%09scanner := bufio.NewScanner(os.Stdin)%0A%09scanner.Scan()%0A%0A%09frase := scanner.Text()%0A%0A%09palavras := strings.Split(frase, %22 %22)%0A%0A%09for i, palavra := range palavras %7B%0A%09%09fmt.Print(palavra, palavra)%0A%0A%09%09if i != len(palavras)-1 %7B%0A%09%09%09fmt.Print(%22 %22)%0A%09%09%7D%0A%09%7D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-28_17-14-24",
+            "content": "@@ -197,9 +197,9 @@\n for \n-_\n+i\n , pa\n@@ -249,26 +249,67 @@\n ra, \n-%22 %22, palavra, %22 %22)\n+palavra)%0A%0A%09%09if i != len(palavras)-1 %7B%0A%09%09%09fmt.Print(%22 %22)%0A%09%09%7D\n %0A%09%7D%0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-28_17-14-48",
+            "content": "@@ -271,24 +271,6 @@\n %0A%09%7D%0A\n-    fmt.Println()%0A\n %7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-28_17-15-05",
+            "content": "@@ -246,16 +246,17 @@\n lavra, %22\n+ \n %22, palav\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-28_17-15-18",
+            "content": "@@ -246,17 +246,16 @@\n lavra, %22\n- \n %22, palav\n@@ -259,16 +259,17 @@\n lavra, %22\n+ \n %22)%0A%09%7D%0A  \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-28_17-15-26",
+            "content": "@@ -260,17 +260,16 @@\n lavra, %22\n- \n %22)%0A%09%7D%0A  \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-28_17-15-30",
+            "content": "@@ -239,10 +239,8 @@\n rint\n-ln\n (pal\n@@ -271,11 +271,24 @@\n %0A%09%7D%0A    \n+fmt.Println()\n %0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-28_17-15-52",
+            "content": "@@ -235,16 +235,18 @@\n mt.Print\n+ln\n (palavra\n@@ -277,20 +277,7 @@\n     \n-fmt.Println()\n %0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-28_17-16-09",
+            "content": "@@ -267,18 +267,20 @@\n %22 %22)%0A%09%7D%0A\n-%7D%0A\n+    \n fmt.Prin\n@@ -281,12 +281,14 @@\n t.Println()%0A\n+%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-28_17-16-50",
+            "content": "@@ -193,17 +193,17 @@\n )%0A%0A%09for \n-i\n+_\n , palavr\n@@ -261,66 +261,20 @@\n avra\n-)%0A%0A%09%09if i != len(palavras)-1 %7B%0A%09%09%09fmt.Print(\n+, \n %22 %22)%0A\n-%09\n %09%7D%0A\n-%09\n %7D%0A\n-%0A%09\n fmt.\n@@ -283,10 +283,8 @@\n intln()%0A\n-%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-28_17-17-11",
+            "content": "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n\t\"strings\"\n)\n\nfunc main() {\n\tscanner := bufio.NewScanner(os.Stdin)\n\tscanner.Scan()\n\n\tfrase := scanner.Text()\n\n\tpalavras := strings.Split(frase, \" \")\n\n\tfor i, palavra := range palavras {\n\t\tfmt.Print(palavra, \" \", palavra)\n\n\t\tif i != len(palavras)-1 {\n\t\t\tfmt.Print(\" \")\n\t\t}\n\t}\n\n\tfmt.Println()\n}\n",
+            "lines": "27"
+        }
+    ]
+}

@@ -19,14 +19,14 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fub@mat
-- fub@games
-- fub@struct
-- fub@rec
 - sandbox@sandbox
-- fub@string
 - fub@dict
+- fub@string
+- fub@games
 - eval1@eval1
+- fub@rec
+- fub@struct
+- fub@mat
 flags:
   inbox: all
   panel: skills
@@ -34,5 +34,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fub@krueguer
-selected_index: 34
+selected: fub@for_extra
+selected_index: 13

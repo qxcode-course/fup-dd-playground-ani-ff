@@ -1,0 +1,5 @@
+2026-05-31 14:24:40, MOVE, v:1, k:fub@sapinho, mode:PICK
+2026-05-31 14:24:41, EXEC, v:1, k:fub@sapinho, mode:FULL, rate:100
+2026-05-31 14:26:27, MOVE, v:1, k:fub@fatores, mode:PICK
+2026-05-31 14:26:28, EXEC, v:1, k:fub@fatores, mode:FULL, rate:100, size:27
+2026-05-31 14:28:27, MOVE, v:1, k:fub@fatores, mode:BACK
