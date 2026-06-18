@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-18_01-47-06",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar ang int\n\n\tfmt.Scan(&ang)\n\n\tang = ((ang % 360) + 360) % 360\n\n\tfmt.Println(ang)\n}\n",
+            "lines": "13"
+        }
+    ]
+}

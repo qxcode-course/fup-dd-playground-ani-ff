@@ -7,8 +7,18 @@
         },
         {
             "label": "2026-04-06_17-22-51",
-            "content": "package main\nimport \"fmt\"\n\nfunc diga_oi() {\n    fmt.Println(\"oi\")\n}\n\nfunc main() {\n    diga_oi()\n}",
+            "content": "@@ -66,46 +66,8 @@\n %0A%7D%0A%0A\n-// sempre vai come%C3%A7ar o main primeiro%0A\n func\n@@ -91,9 +91,8 @@\n a_oi()%0A%7D\n-%0A\n",
             "lines": "10"
+        },
+        {
+            "label": "2026-06-18_00-44-51",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -29,114 +29,109 @@\n unc \n-main() %7B%0A%09var n int%0A%0A%09fmt.Scan(&n)%0A%0A%09if n%252 == 0 %7B%0A%09%09fmt.Println(%22PAR%22)%0A%09%7D else %7B%0A%09%09fmt.Println(%22IMPAR%22)%0A%09%7D\n+diga_oi() %7B%0A    fmt.Println(%22oi%22)%0A%7D%0A%0A// sempre vai come%C3%A7ar o main primeiro%0Afunc main() %7B%0A    diga_oi()\n %0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-18_00-45-18",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar n int\n\n\tfmt.Scan(&n)\n\n\tif n%2 == 0 {\n\t\tfmt.Println(\"PAR\")\n\t} else {\n\t\tfmt.Println(\"IMPAR\")\n\t}\n}\n",
+            "lines": "15"
         }
     ]
 }

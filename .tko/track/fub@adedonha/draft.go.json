@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-18_01-54-18",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n)\n\nfunc main() {\n\tvar soma int\n\t_, err := fmt.Scan(&soma)\n\tif err != nil {\n\t\treturn\n\t}\n\n\tif soma == 0 {\n\t\tfmt.Println(\"joguem de novo\")\n\t\treturn\n\t}\n\n\tindice := (soma - 1) % 26\n\tletra := rune(97 + indice)\n\n\tfmt.Printf(\"%c\\n\", letra)\n}\n",
+            "lines": "23"
+        }
+    ]
+}

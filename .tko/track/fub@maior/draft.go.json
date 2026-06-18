@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-18_00-40-45",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,229 +37,39 @@\n ) %7B%0A\n-%09var chute, valor float64%0A%09var op string%0A%0A%09fmt.Scan(&chute, &op, &valor)%0A%0A%09if chute == valor %7C%7C (op == %22m%22 && valor %3E chute) %7C%7C (op == %22M%22 && valor %3C chute) %7B%0A%09%09fmt.Println(%22primeiro%22)%0A%09%7D else %7B%0A%09%09fmt.Println(%22segundo%22)%0A%09%7D\n+    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-18_00-41-07",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar chute, valor float64\n\tvar op string\n\n\tfmt.Scan(&chute, &op, &valor)\n\n\tif chute == valor || (op == \"m\" && valor > chute) || (op == \"M\" && valor < chute) {\n\t\tfmt.Println(\"primeiro\")\n\t} else {\n\t\tfmt.Println(\"segundo\")\n\t}\n}\n",
+            "lines": "16"
+        }
+    ]
+}

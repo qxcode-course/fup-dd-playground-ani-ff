@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-18_01-48-11",
+            "content": "@@ -10,28 +10,21 @@\n ain%0A\n-%0A\n import \n-(%0A%09\n %22fmt%22%0A\n-)%0A%0A\n func\n@@ -37,528 +37,39 @@\n ) %7B%0A\n-%09var h, m, d int%0A%09var sentido string%0A%0A%09_, err := fmt.Scan(&h, &m, &sentido, &d)%0A%09if err != nil %7B%0A%09%09return%0A%09%7D%0A%0A%09minutosIniciais := h*60 + m%0A%09minutosCaminhados := d * 10%0A%0A%09var minutosFinais int%0A%09if sentido == %22H%22 %7B%0A%09%09minutosFinais = (minutosIniciais + minutosCaminhados) %25 720%0A%09%7D else if sentido == %22A%22 %7B%0A%09%09minutosFinais = (minutosIniciais - minutosCaminhados) %25 720%0A%09%09minutosFinais = (minutosFinais + 720000) %25 720%0A%09%7D%0A%0A%09hFinal := minutosFinais / 60%0A%09mFinal := minutosFinais %25 60%0A%0A%09fmt.Printf(%22%2502d %2502d%5Cn%22, hFinal, mFinal\n+    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-18_01-48-43",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n)\n\nfunc main() {\n\tvar h, m, d int\n\tvar sentido string\n\n\t_, err := fmt.Scan(&h, &m, &sentido, &d)\n\tif err != nil {\n\t\treturn\n\t}\n\n\tminutosIniciais := h*60 + m\n\tminutosCaminhados := d * 10\n\n\tvar minutosFinais int\n\tif sentido == \"H\" {\n\t\tminutosFinais = (minutosIniciais + minutosCaminhados) % 720\n\t} else if sentido == \"A\" {\n\t\tminutosFinais = (minutosIniciais - minutosCaminhados) % 720\n\t\tminutosFinais = (minutosFinais + 720000) % 720\n\t}\n\n\thFinal := minutosFinais / 60\n\tmFinal := minutosFinais % 60\n\n\tfmt.Printf(\"%02d %02d\\n\", hFinal, mFinal)\n}\n",
+            "lines": "31"
+        }
+    ]
+}

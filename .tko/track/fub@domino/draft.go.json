@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-18_01-47-58",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar n int\n\n\tfmt.Scan(&n)\n\n\tfmt.Println((n + 1) * (n + 2) / 2)\n}\n",
+            "lines": "11"
+        }
+    ]
+}

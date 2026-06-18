@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-18_01-52-35",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n)\n\nfunc main() {\n\tvar tipo string\n\tvar f int\n\t_, err := fmt.Scan(&tipo, &f)\n\tif err != nil {\n\t\treturn\n\t}\n\n\tvar t int\n\tif tipo == \"b\" {\n\t\tt = 20\n\t} else if tipo == \"c\" {\n\t\tt = 18\n\t}\n\n\tp := ((f * t) - 80) / 10\n\n\tif p < 150 {\n\t\tfmt.Println(\"Fraco, nem passou\")\n\t} else if p < 180 {\n\t\tfmt.Println(\"Perfeito\")\n\t} else if p <= 210 {\n\t\tfmt.Println(\"Satisfeito\")\n\t} else {\n\t\tfmt.Println(\"Muito forte, bola fora\")\n\t}\n}\n",
+            "lines": "33"
+        }
+    ]
+}

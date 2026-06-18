@@ -1,11 +1,15 @@
 package main
+
 import "fmt"
 
-func diga_oi() {
-    fmt.Println("oi")
-}
-
-// sempre vai começar o main primeiro
 func main() {
-    diga_oi()
+	var n int
+
+	fmt.Scan(&n)
+
+	if n%2 == 0 {
+		fmt.Println("PAR")
+	} else {
+		fmt.Println("IMPAR")
+	}
 }

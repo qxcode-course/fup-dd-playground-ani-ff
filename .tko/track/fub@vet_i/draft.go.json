@@ -97,8 +97,18 @@
         },
         {
             "label": "2026-04-14_18-13-12",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n\n\n    if n == 0{\n        fmt.Println()\n    } else {\n        fmt.Println(arr[0])\n        fmt.Println(arr[1])\n        fmt.Println(arr[2])\n    }\n    arr := []int {1, 2, 3}\n\n}\n",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var n in\n@@ -47,17 +47,20 @@\n r n int%0A\n-%09\n+    \n fmt.Scan\n@@ -69,125 +69,175 @@\n n)%0A%0A\n-%09v := make(%5B%5Dint, n)%0A%0A%09for i := 0; i %3C n; i++ %7B%0A%09%09fmt.Scan(&v%5Bi%5D)%0A%09%7D%0A%0A%09for i := 0; i %3C n; i++ %7B%0A%09%09fmt.Println(v%5Bi%5D)%0A%09%7D\n+%0A    if n == 0%7B%0A        fmt.Println()%0A    %7D else %7B%0A        fmt.Println(arr%5B0%5D)%0A        fmt.Println(arr%5B1%5D)%0A        fmt.Println(arr%5B2%5D)%0A    %7D%0A    arr := %5B%5Dint %7B1, 2, 3%7D%0A\n %0A%7D%0A\n",
             "lines": "17"
+        },
+        {
+            "label": "2026-06-18_02-12-48",
+            "content": "@@ -65,50 +65,8 @@\n n)%0A%0A\n-%09if n == 0 %7B%0A%09%09fmt.Println()%0A%09%09return%0A%09%7D%0A%0A\n %09v :\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-06-18_02-13-09",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar n int\n\tfmt.Scan(&n)\n\n\tif n == 0 {\n\t\tfmt.Println()\n\t\treturn\n\t}\n\n\tv := make([]int, n)\n\n\tfor i := 0; i < n; i++ {\n\t\tfmt.Scan(&v[i])\n\t}\n\n\tfor i := 0; i < n; i++ {\n\t\tfmt.Println(v[i])\n\t}\n}\n",
+            "lines": "23"
         }
     ]
 }

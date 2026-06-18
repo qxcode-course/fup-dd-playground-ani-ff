@@ -22,8 +22,13 @@
         },
         {
             "label": "2026-04-27_13-05-48",
-            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tx := 0 // criou antes para n zerar o 0 sempre\n\n\t// for { // loop infinitob\n\t//     fmt.Println(x)\n\t//     x += 1\n\t// }\n\n\t// for { // so sai quando o n\u00famero ficar maior que 10\n\t//     x += 1\n\t//     fmt.Println(x)\n\t//     if x > 10 {\n\t//         break\n\t//     }\n\t// }\n\n\tfor { // so os n\u00fameros \u00edmpares\n\t\tx += 1\n\t\tif x%2 == 0 {\n\t\t\tcontinue // volta pro come\u00e7o\n\t\t}\n\t\tfmt.Println(x)\n\t\tif x > 10 {\n\t\t\tbreak\n\t\t}\n\t}\n\n\t// for x := 0; x < 10; x += 1 { // o que faz antes de come\u00e7ar o la\u00e7o, o que faz pra saber se entra no la\u00e7o, e o que faz no final do la\u00e7o\n\t//     fmt.Println(x)\n\t// }\n}\n",
+            "content": "@@ -40,216 +40,582 @@\n  %7B%0A%09\n-var a, b int%0A%0A%09fmt.Scan(&a, &b)%0A%0A%09if a == b %7B%0A%09%09fmt.Println(%22Empate%22)%0A%09%7D else %7B%0A%09%09dif := (b - a + 15) %25 15%0A%0A%09%09if dif %3E= 1 && dif %3C= 7\n+x := 0 // criou antes para n zerar o 0 sempre%0A%0A%09// for %7B // loop infinitob%0A%09//     fmt.Println(x)%0A%09//     x += 1%0A%09// %7D%0A%0A%09// for %7B // so sai quando o n%C3%BAmero ficar maior que 10%0A%09//     x += 1%0A%09//     fmt.Println(x)%0A%09//     if x %3E 10 %7B%0A%09//         break%0A%09//     %7D%0A%09// %7D%0A%0A%09for %7B // so os n%C3%BAmeros %C3%ADmpares%0A%09%09x += 1%0A%09%09if x%252 == 0\n  %7B%0A%09%09%09\n-fmt.Println(%22Jogador 1%22)%0A%09%09%7D else %7B%0A%09%09%09fmt.Println(%22Jogador 2%22)%0A%09%09%7D%0A%09\n+continue // volta pro come%C3%A7o%0A%09%09%7D%0A%09%09fmt.Println(x)%0A%09%09if x %3E 10 %7B%0A%09%09%09break%0A%09%09%7D%0A%09%7D%0A%0A%09// for x := 0; x %3C 10; x += 1 %7B // o que faz antes de come%C3%A7ar o la%C3%A7o, o que faz pra saber se entra no la%C3%A7o, e o que faz no final do la%C3%A7o%0A%09//     fmt.Println(x)%0A%09// \n %7D%0A%7D%0A\n",
             "lines": "35"
+        },
+        {
+            "label": "2026-06-18_00-48-37",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar a, b int\n\n\tfmt.Scan(&a, &b)\n\n\tif a == b {\n\t\tfmt.Println(\"Empate\")\n\t} else {\n\t\tdif := (b - a + 15) % 15\n\n\t\tif dif >= 1 && dif <= 7 {\n\t\t\tfmt.Println(\"Jogador 1\")\n\t\t} else {\n\t\t\tfmt.Println(\"Jogador 2\")\n\t\t}\n\t}\n}\n",
+            "lines": "21"
         }
     ]
 }
