@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2026-06-30_16-45-17",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -37,467 +37,39 @@\n ) %7B%0A\n-%09cartela := %5B4%5D%5B4%5Dint%7B%0A%09%09%7B1, 9, 27, 23%7D,%0A%09%09%7B34, 20, 37, 47%7D,%0A%09%09%7B30, 87, 55, 69%7D,%0A%09%09%7B13, 60, 99, 66%7D,%0A%09%7D%0A%09numeros := make(%5B%5Dint, 6)%0A%09for i := 0; i %3C 6; i++ %7B%0A%09%09fmt.Scan(&numeros%5Bi%5D)%0A%09%7D%0A%09contador := 0%0A%09for _, num := range numeros %7B%0A%09%09encontrou := false%0A%0A%09%09for i := 0; i %3C 4; i++ %7B%0A%09%09%09for j := 0; j %3C 4; j++ %7B%0A%09%09%09%09if cartela%5Bi%5D%5Bj%5D == num %7B%0A%09%09%09%09%09contador++%0A%09%09%09%09%09encontrou = true%0A%09%09%09%09%09break%0A%09%09%09%09%7D%0A%09%09%09%7D%0A%09%09%09if encontrou %7B%0A%09%09%09%09break%0A%09%09%09%7D%0A%09%09%7D%0A%09%7D%0A%0A%09fmt.Println(contador\n+    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-06-30_16-47-34",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n\tcartela := [4][4]int{\n\t\t{1, 9, 27, 23},\n\t\t{34, 20, 37, 47},\n\t\t{30, 87, 55, 69},\n\t\t{13, 60, 99, 66},\n\t}\n\tnumeros := make([]int, 6)\n\tfor i := 0; i < 6; i++ {\n\t\tfmt.Scan(&numeros[i])\n\t}\n\tcontador := 0\n\tfor _, num := range numeros {\n\t\tencontrou := false\n\n\t\tfor i := 0; i < 4; i++ {\n\t\t\tfor j := 0; j < 4; j++ {\n\t\t\t\tif cartela[i][j] == num {\n\t\t\t\t\tcontador++\n\t\t\t\t\tencontrou = true\n\t\t\t\t\tbreak\n\t\t\t\t}\n\t\t\t}\n\t\t\tif encontrou {\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\t}\n\n\tfmt.Println(contador)\n}\n",
+            "lines": "33"
         }
     ]
 }

@@ -30,5 +30,5 @@ audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fub@bingo
-selected_index: 61
+selected: fub@coluna
+selected_index: 63
