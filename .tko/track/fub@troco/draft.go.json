@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-26_22-35-47",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,430 +37,39 @@\n ) %7B%0A\n-%09var valor float64%0A%09fmt.Scan(&valor)%0A%0A%09// Converte para centavos%0A%09total := int(valor*100 + 0.5)%0A%0A%09// Valores dispon%C3%ADveis em centavos%0A%09opcoes := %5B%5Dint%7B10000, 5000, 2000, 1000, 500, 200, 100, 50, 25, 10, 5%7D%0A%0A%09for _, moeda := range opcoes %7B%0A%09%09qtd := total / moeda%0A%09%09if qtd %3E 0 %7B%0A%09%09%09fmt.Printf(%22%25d de %25.2f%5Cn%22, qtd, float64(moeda)/100)%0A%09%09%7D%0A%09%09total %25= moeda%0A%09%7D%0A%0A%09if total %3E 0 %7B%0A%09%09fmt.Printf(%22Falta %25.2f%5Cn%22, float64(total)/100)%0A%09%7D\n+    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-26_22-52-45",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar valor float64\n\tfmt.Scan(&valor)\n\n\t// Converte para centavos\n\ttotal := int(valor*100 + 0.5)\n\n\t// Valores dispon\u00edveis em centavos\n\topcoes := []int{10000, 5000, 2000, 1000, 500, 200, 100, 50, 25, 10, 5}\n\n\tfor _, moeda := range opcoes {\n\t\tqtd := total / moeda\n\t\tif qtd > 0 {\n\t\t\tfmt.Printf(\"%d de %.2f\\n\", qtd, float64(moeda)/100)\n\t\t}\n\t\ttotal %= moeda\n\t}\n\n\tif total > 0 {\n\t\tfmt.Printf(\"Falta %.2f\\n\", float64(total)/100)\n\t}\n}\n",
+            "lines": "26"
+        }
+    ]
+}

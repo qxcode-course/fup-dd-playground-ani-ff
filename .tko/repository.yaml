@@ -19,13 +19,8 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fub@dict
-- fub@if2
-- fub@games
-- fub@struct
-- eval1@eval1
-- fub@rec
 - fub@list
+- fub@mat
 flags:
   inbox: all
   panel: skills
@@ -35,5 +30,5 @@ audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fub@vet_ii
-selected_index: 43
+selected: fub@bingo
+selected_index: 61
