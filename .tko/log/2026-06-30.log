@@ -24,3 +24,8 @@
 2026-06-30 17:01:41, EXEC, v:1, k:fub@coluna, mode:FULL, rate:100, size:36
 2026-06-30 17:01:44, MOVE, v:1, k:fub@coluna, mode:BACK
 2026-06-30 17:01:47, SELF, v:1, k:fub@coluna, self:1, rate:100
+2026-06-30 17:00:51, MOVE, v:1, k:fub@imperador, mode:EDIT
+2026-06-30 17:00:52, MOVE, v:1, k:fub@imperador, mode:EDIT
+2026-06-30 17:01:02, MOVE, v:1, k:fub@coluna, mode:EDIT
+2026-06-30 17:01:41, MOVE, v:1, k:fub@coluna, mode:EDIT
+2026-06-30 17:01:40, MOVE, v:1, k:fub@coluna, mode:EDIT

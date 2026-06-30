@@ -23,12 +23,12 @@ expanded:
 - fub@mat
 flags:
   inbox: all
-  panel: skills
+  panel: graph
   task_graph_mode: executions
   show_time: 'true'
 audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fub@coluna
-selected_index: 63
+selected: fub@base
+selected_index: 1
