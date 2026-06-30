@@ -30,5 +30,5 @@ audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fub@base
-selected_index: 1
+selected: fub@parkour
+selected_index: 25

@@ -29,3 +29,6 @@
 2026-06-30 17:01:02, MOVE, v:1, k:fub@coluna, mode:EDIT
 2026-06-30 17:01:41, MOVE, v:1, k:fub@coluna, mode:EDIT
 2026-06-30 17:01:40, MOVE, v:1, k:fub@coluna, mode:EDIT
+2026-06-30 17:10:27, MOVE, v:1, k:fub@parkour, mode:DOWN
+2026-06-30 17:10:28, MOVE, v:1, k:fub@parkour, mode:PICK
+2026-06-30 17:10:29, EXEC, v:1, k:fub@parkour, mode:FULL, rate:0, size:5
